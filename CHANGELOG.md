@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add the `logo` property in `Agent`:
+  - Add method `getLogo` in `IAgent`.
+  - Add method `setLogo` in `IAgent`.
+  - Add property `logo` in `Agent`.
+  - Add parameter `logo` in constructor of `Agent`.
+  - Add parameter `logo` in constructor of `Enterprise`.
+  - Add parameter `logo` in constructor of `Person`.
+
 ## [2.1.0] - 2023-11-06
 
 ### Added
@@ -197,7 +207,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - sale.uml
 - skos.uml
 
-[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v2.0.0...HEAD
+[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v2.1.0...HEAD
 [2.1.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/datafoodconsortium/data-model-uml/releases/tag/v1.0.0

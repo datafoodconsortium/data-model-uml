@@ -12,6 +12,7 @@ Here is a list of the DFC features that the model currently supports.
   - [x] hasAddress
   - [x] hasPhoneNumber
   - [x] hasSocialMedia
+  - [x] logo
   - [ ] orders
   - [ ] requests
   - [ ] owns
