@@ -7,6 +7,9 @@ Here is a list of the DFC features that the model currently supports.
   - [x] postalCode
   - [x] city
   - [x] country
+  - [x] latitude
+  - [x] longitude
+  - [x] region
   - [ ] addressOf
 - `Agent`
   - [x] hasAddress

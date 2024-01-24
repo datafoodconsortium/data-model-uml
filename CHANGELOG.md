@@ -16,6 +16,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Add parameter `logo` in constructor of `Agent`.
   - Add parameter `logo` in constructor of `Enterprise`.
   - Add parameter `logo` in constructor of `Person`.
+- Add the `latitude` property in `Address`:
+  - Add the `latitude` parameter in constructor.
+  - Add the `getLatitude` getter in `Localizable`.
+  - Add the `setLatitude` setter in `Localizable`.
+- Add the `longitude` property in `Address`:
+    - Add the `longitude` parameter in constructor.
+  - Add the `getLongitude` getter in `Localizable`.
+  - Add the `setLongitude` setter in `Localizable`.
+- Add the `region` property in `Address`:
+  - Add the `region` parameter in constructor.
+  - Add the `getRegion` getter in `Localizable`.
+  - Add the `setRegion` setter in `Localizable`.
 
 ## [2.1.0] - 2023-11-06
 
