@@ -28,6 +28,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Add the `region` parameter in constructor.
   - Add the `getRegion` getter in `Localizable`.
   - Add the `setRegion` setter in `Localizable`.
+- Add the `hasFulfilmentStatus` property in `Order`:
+  - Add the `fulfilmentStatus` parameter in constructor.
+  - Add the `getFulfilmentStatus` getter in `IOrder`.
+  - Add the `setFulfilmentStatus` setter in `IOrder`.
+- Add the `hasOrderStatus` property in `Order`:
+  - Add the `orderStatus` parameter in constructor.
+  - Add the `getOrderStatus` getter in `IOrder`.
+  - Add the `setOrderStatus` setter in `IOrder`.
+- Add the `hasPaymentStatus` property in `Order`:
+  - Add the `paymentStatus` parameter in constructor.
+  - Add the `getPaymentStatus` getter in `IOrder`.
+  - Add the `setPaymentStatus` setter in `IOrder`.
 
 ## [2.1.0] - 2023-11-06
 
