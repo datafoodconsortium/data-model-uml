@@ -1004,4 +1004,6 @@
   <datafoodconsortium_connector:setter xmi:id="_RlihsL72Ee6erYvfX3-Ltg" base_Operation="_Jfx7gL72Ee6erYvfX3-Ltg"/>
   <datafoodconsortium_connector:initializer xmi:id="_6X6IAL72Ee6erYvfX3-Ltg" property="_KUwRIL71Ee6erYvfX3-Ltg" base_Parameter="_03biAL72Ee6erYvfX3-Ltg"/>
   <datafoodconsortium_connector:semantic xmi:id="_d6_2QN1lEe64TOxAhJhbeA" base_Element="_hZ7Q8L0IEe6FVM3jDRf3Hg"/>
+  <datafoodconsortium_connector:semantic xmi:id="_NqkfQN1mEe64TOxAhJhbeA" base_Element="_DA6WAL0GEe6FVM3jDRf3Hg"/>
+  <datafoodconsortium_connector:semantic xmi:id="_OVj9AN1mEe64TOxAhJhbeA" base_Element="_TrmKoL0GEe6FVM3jDRf3Hg"/>
 </xmi:XMI>
