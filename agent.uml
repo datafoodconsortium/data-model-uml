@@ -808,4 +808,6 @@
   <datafoodconsortium_connector:initializer xmi:id="_hi0KoLn8Ee6BZsWClGUxSQ" property="_MlZ8kLn8Ee6BZsWClGUxSQ" base_Parameter="_dQnVoLn8Ee6BZsWClGUxSQ"/>
   <datafoodconsortium_connector:initializerParent xmi:id="_qzVTwLn8Ee6BZsWClGUxSQ" property="_MlZ8kLn8Ee6BZsWClGUxSQ" base_Parameter="_n52lMLn8Ee6BZsWClGUxSQ"/>
   <datafoodconsortium_connector:initializerParent xmi:id="_wSmY0rn8Ee6BZsWClGUxSQ" property="_MlZ8kLn8Ee6BZsWClGUxSQ" base_Parameter="_wSmY0Ln8Ee6BZsWClGUxSQ"/>
+  <datafoodconsortium_connector:semantic xmi:id="_f_huEN1KEe64TOxAhJhbeA" base_Element="_4S3d0Ga0Ee6BBZALe8Relw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_g7HMkN1KEe64TOxAhJhbeA" base_Element="_U1dyEGapEe6BBZALe8Relw"/>
 </xmi:XMI>
