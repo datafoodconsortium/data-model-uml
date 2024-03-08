@@ -340,6 +340,12 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
+      <ownedOperation xmi:id="_xuUGgGbGEe6BBZALe8Relw" name="setUrl">
+        <ownedParameter xmi:id="_xuUGgWbGEe6BBZALe8Relw" name="url">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xuUGgmbGEe6BBZALe8Relw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_U1dyEGapEe6BBZALe8Relw" name="IPhoneNumber">
       <elementImport xmi:id="_3tcaYGalEe6BBZALe8Relw" importedElement="_AXs2QNxMEeyr_asPBQgiSQ"/>
@@ -622,18 +628,6 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_sNBBIGbGEe6BBZALe8Relw" name="getUrl">
-        <ownedParameter xmi:id="_tXAIAGbGEe6BBZALe8Relw" name="url" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wZQ_IGbGEe6BBZALe8Relw"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_xuUGgGbGEe6BBZALe8Relw" name="setUrl">
-        <ownedParameter xmi:id="_xuUGgWbGEe6BBZALe8Relw" name="url">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xuUGgmbGEe6BBZALe8Relw" value="1"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <profileApplication xmi:id="_6B89cK73Ee2D9pavmCI82g">
       <eAnnotations xmi:id="_6B9kgK73Ee2D9pavmCI82g" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -793,12 +787,12 @@
     <setter href="common.uml#_UuoPcFUnEe2_KYs77o2hVQ"/>
   </datafoodconsortium_connector:property>
   <datafoodconsortium_connector:semantic xmi:id="_TZI30WbGEe6BBZALe8Relw" map="dfc-b:name" base_Element="_LwTeMGbGEe6BBZALe8Relw"/>
-  <datafoodconsortium_connector:property xmi:id="_UH2X8GbGEe6BBZALe8Relw" base_Property="_M2itgGbGEe6BBZALe8Relw" getter="_sNBBIGbGEe6BBZALe8Relw" setter="_xuUGgGbGEe6BBZALe8Relw"/>
+  <datafoodconsortium_connector:property xmi:id="_UH2X8GbGEe6BBZALe8Relw" base_Property="_M2itgGbGEe6BBZALe8Relw" getter="_4KMYEGa2Ee6BBZALe8Relw" setter="_xuUGgGbGEe6BBZALe8Relw"/>
   <datafoodconsortium_connector:semantic xmi:id="_UH2X8WbGEe6BBZALe8Relw" map="dfc-b:URL" base_Element="_M2itgGbGEe6BBZALe8Relw"/>
   <datafoodconsortium_connector:constructor xmi:id="_U7qagGbGEe6BBZALe8Relw" base_Operation="_OuBMgGbGEe6BBZALe8Relw"/>
   <datafoodconsortium_connector:initializer xmi:id="_a6Gu4GbGEe6BBZALe8Relw" property="_LwTeMGbGEe6BBZALe8Relw" base_Parameter="_VXKqwGbGEe6BBZALe8Relw"/>
   <datafoodconsortium_connector:initializer xmi:id="_bk4xQGbGEe6BBZALe8Relw" property="_M2itgGbGEe6BBZALe8Relw" base_Parameter="_W9_eoGbGEe6BBZALe8Relw"/>
-  <datafoodconsortium_connector:getter xmi:id="_2Hz2UGbGEe6BBZALe8Relw" base_Operation="_sNBBIGbGEe6BBZALe8Relw"/>
+  <datafoodconsortium_connector:getter xmi:id="_2Hz2UGbGEe6BBZALe8Relw"/>
   <datafoodconsortium_connector:setter xmi:id="_22-pcGbGEe6BBZALe8Relw" base_Operation="_xuUGgGbGEe6BBZALe8Relw"/>
   <datafoodconsortium_connector:property xmi:id="_kEaJIHF4Ee6fwJ_a8evYQw" base_Property="_gFHCAHF4Ee6fwJ_a8evYQw">
     <getter href="common.uml#_sUqPoNxUEeyr_asPBQgiSQ"/>
