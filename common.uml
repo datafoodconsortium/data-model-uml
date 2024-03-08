@@ -153,6 +153,36 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
+      <ownedOperation xmi:id="_K2jewLqkEe6LS7Wm0MEjpA" name="getLatitude">
+        <ownedParameter xmi:id="_NBz1YLqkEe6LS7Wm0MEjpA" name="latitude" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_SY8SILqkEe6LS7Wm0MEjpA" name="setLatitude">
+        <ownedParameter xmi:id="_SY85MLqkEe6LS7Wm0MEjpA" name="latitude">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UerPkLqkEe6LS7Wm0MEjpA" name="getLongitude">
+        <ownedParameter xmi:id="_UerPkbqkEe6LS7Wm0MEjpA" name="longitude" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UerPkrqkEe6LS7Wm0MEjpA" name="setLongitude">
+        <ownedParameter xmi:id="_UerPk7qkEe6LS7Wm0MEjpA" name="longitude">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aXQMgLqkEe6LS7Wm0MEjpA" name="getRegion">
+        <ownedParameter xmi:id="_aXQMgbqkEe6LS7Wm0MEjpA" name="region" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aXQMgrqkEe6LS7Wm0MEjpA" name="setRegion">
+        <ownedParameter xmi:id="_aXQMg7qkEe6LS7Wm0MEjpA" name="region">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_yhpLwNxTEeyr_asPBQgiSQ" name="Geolocalizable">
       <ownedOperation xmi:id="_eah-cNxREeyr_asPBQgiSQ" name="getLatitude">
@@ -204,15 +234,31 @@
       <elementImport xmi:id="_CZFSsNudEeyR38y4P6cy-Q" importedElement="_CPEsAMroEe24_rxb3O_v6Q"/>
       <ownedAttribute xmi:id="_R1_FkNudEeyR38y4P6cy-Q" name="street">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6n1X8LqkEe6LS7Wm0MEjpA"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_mzqckNuhEeyR38y4P6cy-Q" name="postalCode">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_66mi8LqkEe6LS7Wm0MEjpA"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_rJEWkNuhEeyR38y4P6cy-Q" name="city">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__KENALqkEe6LS7Wm0MEjpA"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_tgfg8NuhEeyR38y4P6cy-Q" name="country">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__hjf8LqkEe6LS7Wm0MEjpA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_3i7cgLqkEe6LS7Wm0MEjpA" name="latitude">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5k2Q8LqkEe6LS7Wm0MEjpA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_A0MzkLqlEe6LS7Wm0MEjpA" name="longitude">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A0MzkbqlEe6LS7Wm0MEjpA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Bzg7gLqlEe6LS7Wm0MEjpA" name="region">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Bzg7gbqlEe6LS7Wm0MEjpA"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_JhSEcNudEeyR38y4P6cy-Q" client="_i5ussNuYEeyR38y4P6cy-Q" contract="_CPEsAMroEe24_rxb3O_v6Q">
         <supplier xmi:type="uml:Interface" href="contract.uml#_osxSANxLEeyr_asPBQgiSQ"/>
@@ -222,15 +268,31 @@
       <ownedOperation xmi:id="_3W-kANxIEeyr_asPBQgiSQ" name="Address">
         <ownedParameter xmi:id="_6_pT0NxIEeyr_asPBQgiSQ" name="street">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gpslgLqlEe6LS7Wm0MEjpA"/>
         </ownedParameter>
         <ownedParameter xmi:id="_D1focNxwEeyr_asPBQgiSQ" name="postalCode">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g43p8LqlEe6LS7Wm0MEjpA"/>
         </ownedParameter>
         <ownedParameter xmi:id="_EgTgANxwEeyr_asPBQgiSQ" name="city">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hHhJ8LqlEe6LS7Wm0MEjpA"/>
         </ownedParameter>
         <ownedParameter xmi:id="_FLXPMNxwEeyr_asPBQgiSQ" name="country">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_haNccLqlEe6LS7Wm0MEjpA"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_deAFkLqlEe6LS7Wm0MEjpA" name="latitude">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_f4tNcLqlEe6LS7Wm0MEjpA"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_isF7ELqlEe6LS7Wm0MEjpA" name="longitude">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_isF7EbqlEe6LS7Wm0MEjpA"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_jttwILqlEe6LS7Wm0MEjpA" name="region">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jttwIbqlEe6LS7Wm0MEjpA"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -524,4 +586,19 @@
   <datafoodconsortium_connector:constructor xmi:id="_VYXMwDinEe6Bec_m8yNqyw" base_Operation="_VYXMtjinEe6Bec_m8yNqyw"/>
   <datafoodconsortium_connector:initializer xmi:id="_VYXMwTinEe6Bec_m8yNqyw" property="_VYXMszinEe6Bec_m8yNqyw" base_Parameter="_VYXMtzinEe6Bec_m8yNqyw"/>
   <datafoodconsortium_connector:initializer xmi:id="_VYXMwjinEe6Bec_m8yNqyw" property="_VYXMtDinEe6Bec_m8yNqyw" base_Parameter="_VYXMuDinEe6Bec_m8yNqyw"/>
+  <datafoodconsortium_connector:getter xmi:id="_wSiYELqkEe6LS7Wm0MEjpA" base_Operation="_K2jewLqkEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:setter xmi:id="_xT_1ELqkEe6LS7Wm0MEjpA" base_Operation="_SY8SILqkEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:getter xmi:id="_yD9SYLqkEe6LS7Wm0MEjpA" base_Operation="_UerPkLqkEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:setter xmi:id="_y8-lELqkEe6LS7Wm0MEjpA" base_Operation="_UerPkrqkEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:getter xmi:id="_zpwLgLqkEe6LS7Wm0MEjpA" base_Operation="_aXQMgLqkEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:setter xmi:id="_0bYcwLqkEe6LS7Wm0MEjpA" base_Operation="_aXQMgrqkEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:property xmi:id="_FEBC8LqlEe6LS7Wm0MEjpA" base_Property="_3i7cgLqkEe6LS7Wm0MEjpA" getter="_K2jewLqkEe6LS7Wm0MEjpA" setter="_SY8SILqkEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_FEBC8bqlEe6LS7Wm0MEjpA" map="dfc-b:latitude" base_Element="_3i7cgLqkEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:property xmi:id="_GBJZkLqlEe6LS7Wm0MEjpA" base_Property="_A0MzkLqlEe6LS7Wm0MEjpA" getter="_UerPkLqkEe6LS7Wm0MEjpA" setter="_UerPkrqkEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_GBJZkbqlEe6LS7Wm0MEjpA" map="dfc-b:longitude" base_Element="_A0MzkLqlEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:property xmi:id="_G3XP4LqlEe6LS7Wm0MEjpA" base_Property="_Bzg7gLqlEe6LS7Wm0MEjpA" getter="_aXQMgLqkEe6LS7Wm0MEjpA" setter="_aXQMgrqkEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_G3XP4bqlEe6LS7Wm0MEjpA" map="dfc-b:region" base_Element="_Bzg7gLqlEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:initializer xmi:id="_mTLWgLqlEe6LS7Wm0MEjpA" property="_3i7cgLqkEe6LS7Wm0MEjpA" base_Parameter="_deAFkLqlEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:initializer xmi:id="_nCbpMLqlEe6LS7Wm0MEjpA" property="_A0MzkLqlEe6LS7Wm0MEjpA" base_Parameter="_isF7ELqlEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:initializer xmi:id="_nt8rYLqlEe6LS7Wm0MEjpA" property="_Bzg7gLqlEe6LS7Wm0MEjpA" base_Parameter="_jttwILqlEe6LS7Wm0MEjpA"/>
 </xmi:XMI>

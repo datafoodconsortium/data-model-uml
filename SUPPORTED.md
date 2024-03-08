@@ -7,11 +7,15 @@ Here is a list of the DFC features that the model currently supports.
   - [x] postalCode
   - [x] city
   - [x] country
+  - [x] latitude
+  - [x] longitude
+  - [x] region
   - [ ] addressOf
 - `Agent`
   - [x] hasAddress
   - [x] hasPhoneNumber
   - [x] hasSocialMedia
+  - [x] logo
   - [ ] orders
   - [ ] requests
   - [ ] owns
@@ -135,12 +139,15 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] listedIn
   - [x] offers
 - `Order`
-  - [x] orderNumber
-  - [ ] discount
-  - [x] date
   - [x] belongsTo
+  - [x] date
+  - [ ] discount
+  - [x] hasFulfilmentStatus
+  - [x] hasOrderStatus
   - [x] hasPart
+  - [x] hasPaymentStatus
   - [x] orderedBy
+  - [x] orderNumber
   - [ ] selects
   - [ ] uses
 - `OrderLine`
