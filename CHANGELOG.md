@@ -12,6 +12,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix SocialMedia duplicated getUrl method (#12).
 - Fix missing "Semantic" stereotype on ISocialMedia and IPhoneNumber interfaces (#13).
 - Add `Semantic` stereotype to class `Flow`.
+- Add `Semantic` stereotype to interface `IPlannedTransformation`.
+- Add `Semantic` stereotype to interface `IFlow`.
 
 ### Added
 
