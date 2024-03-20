@@ -98,7 +98,7 @@ Here is a list of the DFC features that the model currently supports.
   - [x] hasPartOrigin
   - [ ] hasBrand
   - [ ] hasProcess
-  - [ ] image
+  - [x] image
   - [x] referencedBy
   - [ ] consumedBy
   - [ ] referenceOf

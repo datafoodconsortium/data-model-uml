@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add the planned transformation loop (`AsPlannedTransformation`).
+- Add image to `DefinedProduct`, see below.
 
 - Interfaces:
   - `IPlannedTransformation`.
@@ -41,7 +42,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Add the `getLatitude` getter in `Localizable`.
   - Add the `setLatitude` setter in `Localizable`.
 - Add the `longitude` property in `Address`:
-    - Add the `longitude` parameter in constructor.
+  - Add the `longitude` parameter in constructor.
   - Add the `getLongitude` getter in `Localizable`.
   - Add the `setLongitude` setter in `Localizable`.
 - Add the `region` property in `Address`:
@@ -60,6 +61,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Add the `paymentStatus` parameter in constructor.
   - Add the `getPaymentStatus` getter in `IOrder`.
   - Add the `setPaymentStatus` setter in `IOrder`.
+- In `DefinedProduct`:
+  - Add the `image` property.
+  - Add the `images` parameter in constructor.
+- In `SuppliedProduct`:
+  - Add the `images` parameter in constructor.
+- In the `IDefinedProduct` interface:
+  - Add the `addImage` method.
+  - Add the `removeImage` method.
+  - Add the `getImages` method.
 
 ## [2.1.0] - 2023-11-06
 
