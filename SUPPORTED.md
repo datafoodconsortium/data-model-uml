@@ -47,7 +47,7 @@ Here is a list of the DFC features that the model currently supports.
 - `AsPlannedTransformation`
   - [x] hasIncome
   - [x] hasOutcome
-  - [x] dfc-v:transformationType
+  - [x] hasTransformationType
 - `AsRealizedConsumptionFlow`
   - [ ] quantity
   - [ ] consumes
