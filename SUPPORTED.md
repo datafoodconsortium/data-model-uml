@@ -22,8 +22,8 @@ Here is a list of the DFC features that the model currently supports.
   - [x] email
   - [x] websitePage
 - `AsPlannedConsumptionFlow`
-  - [ ] quantity
-  - [ ] consumes
+  - [x] quantity
+  - [x] consumes
   - [ ] incomeOf
 - `AsPlannedLocalConsumptionFlow`
   - [ ] quantity
@@ -41,12 +41,13 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] hasOutcome
   - [ ] transformedBy
 - `AsPlannedProductionFlow`
-  - [ ] quantity
-  - [ ] produces
+  - [x] quantity
+  - [x] produces
   - [ ] outcomeOf
 - `AsPlannedTransformation`
-  - [ ] hasIncome
-  - [ ] hasOutcome
+  - [x] hasIncome
+  - [x] hasOutcome
+  - [x] dfc-v:transformationType
 - `AsRealizedConsumptionFlow`
   - [ ] quantity
   - [ ] consumes
