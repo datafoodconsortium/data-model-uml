@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datafoodconsortium_connector="http://static.datafoodconsortium.org/uml/connector/connector.profile.uml" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://static.datafoodconsortium.org/uml/connector/connector.profile.uml connector.profile.uml#_q9P7ADhmEe6Bec_m8yNqyw">
-  <uml:Package xmi:id="_WUScAOZVEeybgd1DwlK4YQ" name="org.datafoodconsortium.connector.sale" URI="http://static.datafoodconsortium.org/uml/connector/sale.uml">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datafoodconsortium_connector="https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/connector.profile.uml" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/connector.profile.uml connector.profile.uml#_q9P7ADhmEe6Bec_m8yNqyw">
+  <uml:Package xmi:id="_WUScAOZVEeybgd1DwlK4YQ" name="org.datafoodconsortium.connector.sale" URI="https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/sale.uml">
     <packagedElement xmi:type="uml:Interface" xmi:id="_dqLEcOZVEeybgd1DwlK4YQ" name="Offerable">
       <ownedComment xmi:id="_uwdBUOdEEeyey8O34-FiDg">
         <body>This interface should be implemented by a marketable entity (CatalogItem).</body>

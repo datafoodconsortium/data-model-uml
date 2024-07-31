@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datafoodconsortium_connector="http://static.datafoodconsortium.org/uml/connector/connector.profile.uml" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://static.datafoodconsortium.org/uml/connector/connector.profile.uml connector.profile.uml#_q9P7ADhmEe6Bec_m8yNqyw">
-  <uml:Package xmi:id="_QRgBkOBfEeyy8cy9J23hHA" name="org.datafoodconsortium.connector.agent" URI="http://static.datafoodconsortium.org/uml/connector/agent.uml">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datafoodconsortium_connector="https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/connector.profile.uml" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/connector.profile.uml connector.profile.uml#_q9P7ADhmEe6Bec_m8yNqyw">
+  <uml:Package xmi:id="_QRgBkOBfEeyy8cy9J23hHA" name="org.datafoodconsortium.connector.agent" URI="https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/agent.uml">
     <packagedElement xmi:type="uml:Interface" xmi:id="_AXs2QNxMEeyr_asPBQgiSQ" name="Dialable">
       <ownedOperation xmi:id="_tLy94NxSEeyr_asPBQgiSQ" name="getNumber">
         <ownedParameter xmi:id="_ySZrUNxSEeyr_asPBQgiSQ" direction="return">

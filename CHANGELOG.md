@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Changed all references to http://static.datafoodconsortium.org/uml/connector to point to latest github release (via jsdelivr) using https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/
+
 ## [2.1.0] - 2023-11-06
 
 ### Added
@@ -174,7 +178,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Browsable`:
     - Changed `getMaintainers` return type to `IEnterprise`.
     - Renamed `getListedItems` to `getItems`
-- Deleted classes: 
+- Deleted classes:
     - `ProductType`;
     - `Unit`;
     - `GeographicalOrigin`;
