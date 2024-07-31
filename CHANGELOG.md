@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add the `soldBy` property in `Order`:
+  - Add method `getSoldBy` in `IOrder` .
+  - Add method `setSoldBy` in `IOrder` .
+  - Add property `soldBy` in `Order` .
+  - Add paramater `soldBy` in constructor of `Order`.
+
 ### Changed
 
 - Changed all references to http://static.datafoodconsortium.org/uml/connector to point to latest github release (via jsdelivr) using https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/
