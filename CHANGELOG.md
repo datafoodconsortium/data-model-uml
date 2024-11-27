@@ -64,12 +64,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - In `DefinedProduct`:
   - Add the `image` property.
   - Add the `images` parameter in constructor.
+  - Add the `hasVariant` property.
+  - Add the `isVariantOf` property.
+  - Add the `variants` parameter in constructor.
+  - Add the `variantOf` parameter in constructor.
 - In `SuppliedProduct`:
   - Add the `images` parameter in constructor.
 - In the `IDefinedProduct` interface:
   - Add the `addImage` method.
   - Add the `removeImage` method.
   - Add the `getImages` method.
+  - Add the `addVariant` method.
+  - Add the `getVariants` method.
+  - Add the `removeVariant` method.
+  - Add the `setVariants` method.
+  - Add the `addIsVariantOf` method.
+  - Add the `getIsVariantOf` method.
+  - Add the `removeIsVariantOf` method.
+  - Add the `setIsVariantOf` method.
 
 ## [2.1.0] - 2023-11-06
 
