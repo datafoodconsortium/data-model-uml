@@ -152,6 +152,7 @@ Here is a list of the DFC features that the model currently supports.
   - [x] orderedBy
   - [x] orderNumber
   - [ ] selects
+  - [x] soldBy
   - [ ] uses
 - `OrderLine`
   - [x] description
