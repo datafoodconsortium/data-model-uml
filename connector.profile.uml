@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_xSn38NtjEeyHhf8rtkVHoQ" name="datafoodconsortium_connector" URI="http://static.datafoodconsortium.org/uml/connector/connector.profile.uml" metaclassReference="_xSn4D9tjEeyHhf8rtkVHoQ _xSn4ENtjEeyHhf8rtkVHoQ _d-HW8NxLEeyr_asPBQgiSQ _hrrqAN2tEeyvAvnuL8ASsQ _ASxCoN5fEeyYcZ-IGE__4Q _YWlAMOA8Eeyy8cy9J23hHA">
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_xSn38NtjEeyHhf8rtkVHoQ" name="datafoodconsortium_connector" URI="https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/connector.profile.uml" metaclassReference="_xSn4D9tjEeyHhf8rtkVHoQ _xSn4ENtjEeyHhf8rtkVHoQ _d-HW8NxLEeyr_asPBQgiSQ _hrrqAN2tEeyvAvnuL8ASsQ _ASxCoN5fEeyYcZ-IGE__4Q _YWlAMOA8Eeyy8cy9J23hHA">
   <eAnnotations xmi:id="_TqQvcOiqEey9aasgGgoaNw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-    <contents xmi:type="ecore:EPackage" xmi:id="_q9P7ADhmEe6Bec_m8yNqyw" name="datafoodconsortium_connector" nsURI="http://static.datafoodconsortium.org/uml/connector/connector.profile.uml" nsPrefix="datafoodconsortium_connector">
+    <contents xmi:type="ecore:EPackage" xmi:id="_q9P7ADhmEe6Bec_m8yNqyw" name="datafoodconsortium_connector" nsURI="https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/connector.profile.uml" nsPrefix="datafoodconsortium_connector">
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_q9P7AThmEe6Bec_m8yNqyw" name="property">
         <eAnnotations xmi:id="_q9P7AjhmEe6Bec_m8yNqyw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xSn4GdtjEeyHhf8rtkVHoQ"/>
         <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_q9P7AzhmEe6Bec_m8yNqyw" name="base_Property" ordered="false" lowerBound="1">
@@ -102,7 +102,7 @@
         </eStructuralFeatures>
       </eClassifiers>
     </contents>
-    <contents xmi:type="ecore:EPackage" xmi:id="_OdJg8DhNEe6utbg-q11DyQ" name="datafoodconsortium_connector" nsURI="http://static.datafoodconsortium.org/uml/connector/connector.profile.uml" nsPrefix="datafoodconsortium_connector">
+    <contents xmi:type="ecore:EPackage" xmi:id="_OdJg8DhNEe6utbg-q11DyQ" name="datafoodconsortium_connector" nsURI="https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/connector.profile.uml" nsPrefix="datafoodconsortium_connector">
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_OdJg8ThNEe6utbg-q11DyQ" name="property">
         <eAnnotations xmi:id="_OdJg8jhNEe6utbg-q11DyQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xSn4GdtjEeyHhf8rtkVHoQ"/>
         <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_OdJg8zhNEe6utbg-q11DyQ" name="base_Property" ordered="false" lowerBound="1">
@@ -206,7 +206,7 @@
         </eStructuralFeatures>
       </eClassifiers>
     </contents>
-    <contents xmi:type="ecore:EPackage" xmi:id="_RFlEEMZEEe2oSMzXUO9qSA" name="datafoodconsortium_connector" nsURI="http://static.datafoodconsortium.org/uml/connector/connector.profile.uml" nsPrefix="datafoodconsortium_connector">
+    <contents xmi:type="ecore:EPackage" xmi:id="_RFlEEMZEEe2oSMzXUO9qSA" name="datafoodconsortium_connector" nsURI="https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/connector.profile.uml" nsPrefix="datafoodconsortium_connector">
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_RFlEEcZEEe2oSMzXUO9qSA" name="property">
         <eAnnotations xmi:id="_RFlEEsZEEe2oSMzXUO9qSA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xSn4GdtjEeyHhf8rtkVHoQ"/>
         <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_RFlEE8ZEEe2oSMzXUO9qSA" name="base_Property" ordered="false" lowerBound="1">
@@ -298,7 +298,7 @@
         </eStructuralFeatures>
       </eClassifiers>
     </contents>
-    <contents xmi:type="ecore:EPackage" xmi:id="_3OuvQK70Ee2D9pavmCI82g" name="datafoodconsortium_connector" nsURI="http://static.datafoodconsortium.org/uml/connector/connector.profile.uml" nsPrefix="datafoodconsortium_connector">
+    <contents xmi:type="ecore:EPackage" xmi:id="_3OuvQK70Ee2D9pavmCI82g" name="datafoodconsortium_connector" nsURI="https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/connector.profile.uml" nsPrefix="datafoodconsortium_connector">
       <eClassifiers xmi:type="ecore:EClass" xmi:id="_3OuvQa70Ee2D9pavmCI82g" name="property">
         <eAnnotations xmi:id="_3OuvQq70Ee2D9pavmCI82g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xSn4GdtjEeyHhf8rtkVHoQ"/>
         <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3OuvQ670Ee2D9pavmCI82g" name="base_Property" ordered="false" lowerBound="1">
