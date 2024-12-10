@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix SocialMedia duplicated getUrl method (#12).
 - Fix missing "Semantic" stereotype on ISocialMedia and IPhoneNumber interfaces (#13).
 
+### Changed
+
+- Changed all references to http://static.datafoodconsortium.org/uml/connector to point to latest github release (via jsdelivr) using https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/.
+
 ### Added
 
 - Add the planned transformation loop (`AsPlannedTransformation`).
@@ -30,6 +34,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `PlannedConsumptionFlow`.
   - `PlannedProductionFlow`.
 
+- Add the `soldBy` property in `Order`:
+  - Add method `getSoldBy` in `IOrder` .
+  - Add method `setSoldBy` in `IOrder` .
+  - Add property `soldBy` in `Order` .
+  - Add paramater `soldBy` in constructor of `Order`.
 - Add the `logo` property in `Agent`:
   - Add method `getLogo` in `IAgent`.
   - Add method `setLogo` in `IAgent`.
@@ -250,7 +259,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Browsable`:
     - Changed `getMaintainers` return type to `IEnterprise`.
     - Renamed `getListedItems` to `getItems`
-- Deleted classes: 
+- Deleted classes:
     - `ProductType`;
     - `Unit`;
     - `GeographicalOrigin`;
