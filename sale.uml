@@ -356,6 +356,8 @@
       <ownedOperation xmi:id="_--Nx4E9bEe-ZZ9VFDhYjHw" name="setSoldBy">
         <ownedParameter xmi:id="_--Nx4U9bEe-ZZ9VFDhYjHw" name="soldBy">
           <type xmi:type="uml:Interface" href="agent.uml#_ljoYEMrjEe24_rxb3O_v6Q"/>
+        </ownedParameter>
+      </ownedOperation>
       <ownedOperation xmi:id="_ydy4QLqwEe6BB6ykmH1j4g" name="getFulfilmentStatus">
         <ownedParameter xmi:id="_0ceLcLqwEe6BB6ykmH1j4g" name="fulfilmentState" direction="return">
           <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
@@ -594,6 +596,7 @@
       </ownedAttribute>
       <ownedAttribute xmi:id="_3o_30E9bEe-ZZ9VFDhYjHw" name="soldBy">
         <type xmi:type="uml:Interface" href="agent.uml#_ljoYEMrjEe24_rxb3O_v6Q"/>
+      </ownedAttribute>
       <ownedAttribute xmi:id="_e6R_4LqxEe6BB6ykmH1j4g" name="fulfilmentStatus">
         <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ik6ekLqxEe6BB6ykmH1j4g"/>
@@ -624,6 +627,7 @@
         </ownedParameter>
         <ownedParameter xmi:id="_RnAR8E9cEe-ZZ9VFDhYjHw" name="soldBy">
           <type xmi:type="uml:Interface" href="agent.uml#_ljoYEMrjEe24_rxb3O_v6Q"/>
+        </ownedParameter>
         <ownedParameter xmi:id="_1QmFILqyEe6BB6ykmH1j4g" name="fulfilmentStatus">
           <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1QmFIbqyEe6BB6ykmH1j4g"/>
