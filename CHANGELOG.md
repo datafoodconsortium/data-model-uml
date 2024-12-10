@@ -7,17 +7,78 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Fix SocialMedia duplicated getUrl method (#12).
+- Fix missing "Semantic" stereotype on ISocialMedia and IPhoneNumber interfaces (#13).
+
+### Changed
+
+- Changed all references to http://static.datafoodconsortium.org/uml/connector to point to latest github release (via jsdelivr) using https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/.
+
 ### Added
+
+- Add the planned transformation loop (`AsPlannedTransformation`).
+- Add image to `DefinedProduct`, see below.
+
+- Interfaces:
+  - `IPlannedTransformation`.
+  - `IFlow`.
+  - `IPlannedFlow`.
+  - `IPlannedConsumptionFlow`.
+  - `IPlannedProductionFlow`.
+
+- Classes:
+  - `PlannedTransformation`.
+  - `Flow`.
+  - `PlannedConsumptionFlow`.
+  - `PlannedProductionFlow`.
 
 - Add the `soldBy` property in `Order`:
   - Add method `getSoldBy` in `IOrder` .
   - Add method `setSoldBy` in `IOrder` .
   - Add property `soldBy` in `Order` .
   - Add paramater `soldBy` in constructor of `Order`.
-
-### Changed
-
-- Changed all references to http://static.datafoodconsortium.org/uml/connector to point to latest github release (via jsdelivr) using https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/
+- Add the `logo` property in `Agent`:
+  - Add method `getLogo` in `IAgent`.
+  - Add method `setLogo` in `IAgent`.
+  - Add property `logo` in `Agent`.
+  - Add parameter `logo` in constructor of `Agent`.
+  - Add parameter `logo` in constructor of `Enterprise`.
+  - Add parameter `logo` in constructor of `Person`.
+- Add the `latitude` property in `Address`:
+  - Add the `latitude` parameter in constructor.
+  - Add the `getLatitude` getter in `Localizable`.
+  - Add the `setLatitude` setter in `Localizable`.
+- Add the `longitude` property in `Address`:
+  - Add the `longitude` parameter in constructor.
+  - Add the `getLongitude` getter in `Localizable`.
+  - Add the `setLongitude` setter in `Localizable`.
+- Add the `region` property in `Address`:
+  - Add the `region` parameter in constructor.
+  - Add the `getRegion` getter in `Localizable`.
+  - Add the `setRegion` setter in `Localizable`.
+- Add the `hasFulfilmentStatus` property in `Order`:
+  - Add the `fulfilmentStatus` parameter in constructor.
+  - Add the `getFulfilmentStatus` getter in `IOrder`.
+  - Add the `setFulfilmentStatus` setter in `IOrder`.
+- Add the `hasOrderStatus` property in `Order`:
+  - Add the `orderStatus` parameter in constructor.
+  - Add the `getOrderStatus` getter in `IOrder`.
+  - Add the `setOrderStatus` setter in `IOrder`.
+- Add the `hasPaymentStatus` property in `Order`:
+  - Add the `paymentStatus` parameter in constructor.
+  - Add the `getPaymentStatus` getter in `IOrder`.
+  - Add the `setPaymentStatus` setter in `IOrder`.
+- In `DefinedProduct`:
+  - Add the `image` property.
+  - Add the `images` parameter in constructor.
+- In `SuppliedProduct`:
+  - Add the `images` parameter in constructor.
+- In the `IDefinedProduct` interface:
+  - Add the `addImage` method.
+  - Add the `removeImage` method.
+  - Add the `getImages` method.
 
 ## [2.1.0] - 2023-11-06
 
@@ -209,7 +270,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - sale.uml
 - skos.uml
 
-[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v2.0.0...HEAD
+[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v2.1.0...HEAD
 [2.1.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/datafoodconsortium/data-model-uml/releases/tag/v1.0.0

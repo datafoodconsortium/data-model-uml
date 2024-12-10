@@ -356,6 +356,40 @@
       <ownedOperation xmi:id="_--Nx4E9bEe-ZZ9VFDhYjHw" name="setSoldBy">
         <ownedParameter xmi:id="_--Nx4U9bEe-ZZ9VFDhYjHw" name="soldBy">
           <type xmi:type="uml:Interface" href="agent.uml#_ljoYEMrjEe24_rxb3O_v6Q"/>
+      <ownedOperation xmi:id="_ydy4QLqwEe6BB6ykmH1j4g" name="getFulfilmentStatus">
+        <ownedParameter xmi:id="_0ceLcLqwEe6BB6ykmH1j4g" name="fulfilmentState" direction="return">
+          <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1GIMcLqwEe6BB6ykmH1j4g"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_2qBoILqwEe6BB6ykmH1j4g" name="setFulfilmentStatus">
+        <ownedParameter xmi:id="_2qBoIbqwEe6BB6ykmH1j4g" name="fulfilmentState">
+          <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2qBoIrqwEe6BB6ykmH1j4g"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_9ToZYLqwEe6BB6ykmH1j4g" name="getOrderStatus">
+        <ownedParameter xmi:id="_9ToZYbqwEe6BB6ykmH1j4g" name="orderState" direction="return">
+          <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9ToZYrqwEe6BB6ykmH1j4g"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_9TpAcLqwEe6BB6ykmH1j4g" name="setOrderStatus">
+        <ownedParameter xmi:id="_9TpAcbqwEe6BB6ykmH1j4g" name="orderState">
+          <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9TpAcrqwEe6BB6ykmH1j4g"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_RHp9gLqxEe6BB6ykmH1j4g" name="getPaymentStatus">
+        <ownedParameter xmi:id="_RHp9gbqxEe6BB6ykmH1j4g" name="paymentState" direction="return">
+          <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RHp9grqxEe6BB6ykmH1j4g"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_RHp9g7qxEe6BB6ykmH1j4g" name="setPaymentStatus">
+        <ownedParameter xmi:id="_RHp9hLqxEe6BB6ykmH1j4g" name="paymentState">
+          <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RHp9hbqxEe6BB6ykmH1j4g"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -560,6 +594,17 @@
       </ownedAttribute>
       <ownedAttribute xmi:id="_3o_30E9bEe-ZZ9VFDhYjHw" name="soldBy">
         <type xmi:type="uml:Interface" href="agent.uml#_ljoYEMrjEe24_rxb3O_v6Q"/>
+      <ownedAttribute xmi:id="_e6R_4LqxEe6BB6ykmH1j4g" name="fulfilmentStatus">
+        <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ik6ekLqxEe6BB6ykmH1j4g"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jLCDYLqxEe6BB6ykmH1j4g" name="orderStatus">
+        <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jLCDYbqxEe6BB6ykmH1j4g"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_kQtSALqxEe6BB6ykmH1j4g" name="paymentStatus">
+        <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kQtSAbqxEe6BB6ykmH1j4g"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_HgAMkL7TEe2g9M79Y7jp8Q" client="_zp5fkOZfEeybgd1DwlK4YQ" supplier="_AEigkL7TEe2g9M79Y7jp8Q" contract="_AEigkL7TEe2g9M79Y7jp8Q"/>
       <ownedOperation xmi:id="_bYmqgL7aEe2g9M79Y7jp8Q" name="Order">
@@ -579,6 +624,20 @@
         </ownedParameter>
         <ownedParameter xmi:id="_RnAR8E9cEe-ZZ9VFDhYjHw" name="soldBy">
           <type xmi:type="uml:Interface" href="agent.uml#_ljoYEMrjEe24_rxb3O_v6Q"/>
+        <ownedParameter xmi:id="_1QmFILqyEe6BB6ykmH1j4g" name="fulfilmentStatus">
+          <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1QmFIbqyEe6BB6ykmH1j4g"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1QmFIrqyEe6BB6ykmH1j4g" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_7rPNULqyEe6BB6ykmH1j4g" name="orderStatus">
+          <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7rPNUbqyEe6BB6ykmH1j4g"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7rPNUrqyEe6BB6ykmH1j4g" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_9pmXcLqyEe6BB6ykmH1j4g" name="paymentStatus">
+          <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9pmXcbqyEe6BB6ykmH1j4g"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9pmXcrqyEe6BB6ykmH1j4g" value="1"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -843,4 +902,22 @@
   <datafoodconsortium_connector:semantic xmi:id="_3pAe4U9bEe-ZZ9VFDhYjHw" map="dfc-b:orderedBy" base_Element="_3o_30E9bEe-ZZ9VFDhYjHw"/>
   <datafoodconsortium_connector:setter xmi:id="_--OY8E9bEe-ZZ9VFDhYjHw" base_Operation="_--Nx4E9bEe-ZZ9VFDhYjHw"/>
   <datafoodconsortium_connector:initializer xmi:id="_RnA5AE9cEe-ZZ9VFDhYjHw" property="_3o_30E9bEe-ZZ9VFDhYjHw" base_Parameter="_RnAR8E9cEe-ZZ9VFDhYjHw"/>
+  <datafoodconsortium_connector:getter xmi:id="_W2tLALqxEe6BB6ykmH1j4g" base_Operation="_ydy4QLqwEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:setter xmi:id="_X_1WQLqxEe6BB6ykmH1j4g" base_Operation="_2qBoILqwEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:getter xmi:id="_YqLTwLqxEe6BB6ykmH1j4g" base_Operation="_9ToZYLqwEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:setter xmi:id="_ZXnokLqxEe6BB6ykmH1j4g" base_Operation="_9TpAcLqwEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:getter xmi:id="_aEUWgLqxEe6BB6ykmH1j4g" base_Operation="_RHp9gLqxEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:setter xmi:id="_a14WULqxEe6BB6ykmH1j4g" base_Operation="_RHp9g7qxEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:property xmi:id="_mPrgILqxEe6BB6ykmH1j4g" base_Property="_e6R_4LqxEe6BB6ykmH1j4g" getter="_ydy4QLqwEe6BB6ykmH1j4g" setter="_2qBoILqwEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:semantic xmi:id="_mPrgIbqxEe6BB6ykmH1j4g" map="dfc-b:hasFulfilmentStatus" base_Element="_e6R_4LqxEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:property xmi:id="_nA5hsLqxEe6BB6ykmH1j4g" base_Property="_jLCDYLqxEe6BB6ykmH1j4g" getter="_9ToZYLqwEe6BB6ykmH1j4g" setter="_9TpAcLqwEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:semantic xmi:id="_nA5hsbqxEe6BB6ykmH1j4g" map="dfc-b:hasOrderStatus" base_Element="_jLCDYLqxEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:property xmi:id="_oIc_oLqxEe6BB6ykmH1j4g" base_Property="_kQtSALqxEe6BB6ykmH1j4g" getter="_RHp9gLqxEe6BB6ykmH1j4g" setter="_RHp9g7qxEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:semantic xmi:id="_oIdmsLqxEe6BB6ykmH1j4g" map="dfc-b:hasPaymentStatus" base_Element="_kQtSALqxEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:skosBroader xmi:id="_oIdmsbqxEe6BB6ykmH1j4g" map="dfc-v:PaymentState" base_Property="_kQtSALqxEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:skosBroader xmi:id="_o5kTgLqxEe6BB6ykmH1j4g" map="dfc-v:OrderState" base_Property="_jLCDYLqxEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:skosBroader xmi:id="_ptV50LqxEe6BB6ykmH1j4g" map="dfc-v:FulfilmentState" base_Property="_e6R_4LqxEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:initializer xmi:id="_AMkDcLqzEe6BB6ykmH1j4g" property="_e6R_4LqxEe6BB6ykmH1j4g" base_Parameter="_1QmFILqyEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:initializer xmi:id="_A4mqELqzEe6BB6ykmH1j4g" property="_jLCDYLqxEe6BB6ykmH1j4g" base_Parameter="_7rPNULqyEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:initializer xmi:id="_BqjrcLqzEe6BB6ykmH1j4g" property="_kQtSALqxEe6BB6ykmH1j4g" base_Parameter="_9pmXcLqyEe6BB6ykmH1j4g"/>
 </xmi:XMI>

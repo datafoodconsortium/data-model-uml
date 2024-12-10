@@ -7,19 +7,23 @@ Here is a list of the DFC features that the model currently supports.
   - [x] postalCode
   - [x] city
   - [x] country
+  - [x] latitude
+  - [x] longitude
+  - [x] region
   - [ ] addressOf
 - `Agent`
   - [x] hasAddress
   - [x] hasPhoneNumber
   - [x] hasSocialMedia
+  - [x] logo
   - [ ] orders
   - [ ] requests
   - [ ] owns
   - [x] email
   - [x] websitePage
 - `AsPlannedConsumptionFlow`
-  - [ ] quantity
-  - [ ] consumes
+  - [x] quantity
+  - [x] consumes
   - [ ] incomeOf
 - `AsPlannedLocalConsumptionFlow`
   - [ ] quantity
@@ -37,12 +41,13 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] hasOutcome
   - [ ] transformedBy
 - `AsPlannedProductionFlow`
-  - [ ] quantity
-  - [ ] produces
+  - [x] quantity
+  - [x] produces
   - [ ] outcomeOf
 - `AsPlannedTransformation`
-  - [ ] hasIncome
-  - [ ] hasOutcome
+  - [x] hasIncome
+  - [x] hasOutcome
+  - [x] hasTransformationType
 - `AsRealizedConsumptionFlow`
   - [ ] quantity
   - [ ] consumes
@@ -93,7 +98,7 @@ Here is a list of the DFC features that the model currently supports.
   - [x] hasPartOrigin
   - [ ] hasBrand
   - [ ] hasProcess
-  - [ ] image
+  - [x] image
   - [x] referencedBy
   - [ ] consumedBy
   - [ ] referenceOf
@@ -135,12 +140,15 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] listedIn
   - [x] offers
 - `Order`
-  - [x] orderNumber
-  - [ ] discount
-  - [x] date
   - [x] belongsTo
+  - [x] date
+  - [ ] discount
+  - [x] hasFulfilmentStatus
+  - [x] hasOrderStatus
   - [x] hasPart
+  - [x] hasPaymentStatus
   - [x] orderedBy
+  - [x] orderNumber
   - [ ] selects
   - [ ] uses
 - `OrderLine`
