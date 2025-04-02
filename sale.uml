@@ -699,6 +699,246 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_6xwpwA7gEfCgCYDrF-CWdA" name="Place">
+      <elementImport xmi:id="_89Za4A7gEfCgCYDrF-CWdA" importedElement="_Kg2aAAadEe26esJmMoAMaw"/>
+      <ownedOperation xmi:id="_De2VsA7hEfCgCYDrF-CWdA" name="getHostedSaleSessions">
+        <ownedParameter xmi:id="_De2VsQ7hEfCgCYDrF-CWdA" name="saleSessions" type="_Kg2aAAadEe26esJmMoAMaw" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q4nMIA7hEfCgCYDrF-CWdA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RQe5kA7hEfCgCYDrF-CWdA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_cIiBMA7hEfCgCYDrF-CWdA" name="addHostedSaleSession">
+        <ownedParameter xmi:id="_cIiBMQ7hEfCgCYDrF-CWdA" name="saleSession" type="_Kg2aAAadEe26esJmMoAMaw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cIiBMg7hEfCgCYDrF-CWdA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cIiBMw7hEfCgCYDrF-CWdA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_cZ-WgA7hEfCgCYDrF-CWdA" name="removeHostedSaleSession">
+        <ownedParameter xmi:id="_cZ-WgQ7hEfCgCYDrF-CWdA" name="saleSession" type="_Kg2aAAadEe26esJmMoAMaw" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cZ-Wgg7hEfCgCYDrF-CWdA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cZ-Wgw7hEfCgCYDrF-CWdA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_cupmAA7hEfCgCYDrF-CWdA" name="setHostedSaleSessions">
+        <ownedParameter xmi:id="_cupmAQ7hEfCgCYDrF-CWdA" name="saleSessions" type="_Kg2aAAadEe26esJmMoAMaw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cupmAg7hEfCgCYDrF-CWdA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cupmAw7hEfCgCYDrF-CWdA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Tzw5MA7iEfCgCYDrF-CWdA" name="IVirtualPlace">
+      <elementImport xmi:id="_Vhat0A7iEfCgCYDrF-CWdA" importedElement="_6xwpwA7gEfCgCYDrF-CWdA"/>
+      <generalization xmi:id="_ZTB-QA7iEfCgCYDrF-CWdA" general="_6xwpwA7gEfCgCYDrF-CWdA"/>
+      <ownedOperation xmi:id="_nVo9YA7iEfCgCYDrF-CWdA" name="getUrls">
+        <ownedParameter xmi:id="_nVo9YQ7iEfCgCYDrF-CWdA" name="urls" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nVo9Yg7iEfCgCYDrF-CWdA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nVo9Yw7iEfCgCYDrF-CWdA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_zRnAIA7iEfCgCYDrF-CWdA" name="addUrl">
+        <ownedParameter xmi:id="_zRnAIQ7iEfCgCYDrF-CWdA" name="url">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zRnAIg7iEfCgCYDrF-CWdA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zRnAIw7iEfCgCYDrF-CWdA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_zyA-gA7iEfCgCYDrF-CWdA" name="removeUrl">
+        <ownedParameter xmi:id="_zyA-gQ7iEfCgCYDrF-CWdA" name="url" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zyA-gg7iEfCgCYDrF-CWdA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zyA-gw7iEfCgCYDrF-CWdA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_0URXAA7iEfCgCYDrF-CWdA" name="setUrls">
+        <ownedParameter xmi:id="_0URXAQ7iEfCgCYDrF-CWdA" name="urls">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0URXAg7iEfCgCYDrF-CWdA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0URXAw7iEfCgCYDrF-CWdA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_YTySUA7jEfCgCYDrF-CWdA" name="IPhysicalPlace">
+      <elementImport xmi:id="_bPeAUA7jEfCgCYDrF-CWdA" importedElement="_6xwpwA7gEfCgCYDrF-CWdA"/>
+      <elementImport xmi:id="_fT-iIA7kEfCgCYDrF-CWdA">
+        <importedElement xmi:type="uml:Interface" href="agent.uml#_8yKiYGauEe6BBZALe8Relw"/>
+      </elementImport>
+      <elementImport xmi:id="_foARYA7kEfCgCYDrF-CWdA">
+        <importedElement xmi:type="uml:Interface" href="agent.uml#_CrX40GasEe6BBZALe8Relw"/>
+      </elementImport>
+      <elementImport xmi:id="_mCivMA_REfCgOoBR6uwQPw">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_FUmc4A_SEfCgOoBR6uwQPw"/>
+      </elementImport>
+      <generalization xmi:id="_bPeAUQ7jEfCgCYDrF-CWdA" general="_6xwpwA7gEfCgCYDrF-CWdA"/>
+      <generalization xmi:id="_zh2JoA7kEfCgCYDrF-CWdA">
+        <general xmi:type="uml:Interface" href="agent.uml#_8yKiYGauEe6BBZALe8Relw"/>
+      </generalization>
+      <generalization xmi:id="_zh2wsA7kEfCgCYDrF-CWdA">
+        <general xmi:type="uml:Interface" href="agent.uml#_CrX40GasEe6BBZALe8Relw"/>
+      </generalization>
+      <generalization xmi:id="_JMDPkA_SEfCgOoBR6uwQPw">
+        <general xmi:type="uml:Interface" href="common.uml#_FUmc4A_SEfCgOoBR6uwQPw"/>
+      </generalization>
+      <ownedOperation xmi:id="_SXMGIA7lEfCgCYDrF-CWdA" name="getAddress">
+        <ownedParameter xmi:id="_SXMGIQ7lEfCgCYDrF-CWdA" name="address" direction="return">
+          <type xmi:type="uml:Interface" href="common.uml#_CPEsAMroEe24_rxb3O_v6Q"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SXMGIg7lEfCgCYDrF-CWdA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SXMGIw7lEfCgCYDrF-CWdA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_S5YNMA7lEfCgCYDrF-CWdA" name="setAddress">
+        <ownedParameter xmi:id="_S5YNMQ7lEfCgCYDrF-CWdA" name="address">
+          <type xmi:type="uml:Interface" href="common.uml#_CPEsAMroEe24_rxb3O_v6Q"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S5YNMg7lEfCgCYDrF-CWdA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S5YNMw7lEfCgCYDrF-CWdA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-GLOkA7lEfCgCYDrF-CWdA" name="getMainContacts">
+        <ownedParameter xmi:id="_-GLOkQ7lEfCgCYDrF-CWdA" name="mainContacts" direction="return">
+          <type xmi:type="uml:Interface" href="agent.uml#_S7W3QAaUEe26esJmMoAMaw"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-GLOkg7lEfCgCYDrF-CWdA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-GLOkw7lEfCgCYDrF-CWdA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-GLOlA7lEfCgCYDrF-CWdA" name="addMainContact">
+        <ownedParameter xmi:id="_-GLOlQ7lEfCgCYDrF-CWdA" name="mainContact">
+          <type xmi:type="uml:Interface" href="agent.uml#_S7W3QAaUEe26esJmMoAMaw"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-GLOlg7lEfCgCYDrF-CWdA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-GLOlw7lEfCgCYDrF-CWdA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-GLOmA7lEfCgCYDrF-CWdA" name="removeMainContact">
+        <ownedParameter xmi:id="_-GLOmQ7lEfCgCYDrF-CWdA" name="mainContact">
+          <type xmi:type="uml:Interface" href="agent.uml#_S7W3QAaUEe26esJmMoAMaw"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-GLOmg7lEfCgCYDrF-CWdA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-GLOmw7lEfCgCYDrF-CWdA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-GL1oA7lEfCgCYDrF-CWdA" name="setMainContacts">
+        <ownedParameter xmi:id="_-GL1oQ7lEfCgCYDrF-CWdA" name="mainContacts">
+          <type xmi:type="uml:Interface" href="agent.uml#_S7W3QAaUEe26esJmMoAMaw"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-GL1og7lEfCgCYDrF-CWdA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-GL1ow7lEfCgCYDrF-CWdA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_AnszcA_TEfCgOoBR6uwQPw" name="getTheoreticalStocks">
+        <ownedParameter xmi:id="_AnszcQ_TEfCgOoBR6uwQPw" name="theoreticalStocks" type="_AL3y8A7qEfCgCYDrF-CWdA" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Anszcg_TEfCgOoBR6uwQPw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Anszcw_TEfCgOoBR6uwQPw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_AnszdA_TEfCgOoBR6uwQPw" name="addTheoreticalStock">
+        <ownedParameter xmi:id="_AnszdQ_TEfCgOoBR6uwQPw" name="theoreticalStock" type="_AL3y8A7qEfCgCYDrF-CWdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Anszdg_TEfCgOoBR6uwQPw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Anszdw_TEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_AnszeA_TEfCgOoBR6uwQPw" name="removeTheoreticalStock">
+        <ownedParameter xmi:id="_AnszeQ_TEfCgOoBR6uwQPw" name="theoreticalStock" type="_AL3y8A7qEfCgCYDrF-CWdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Anszeg_TEfCgOoBR6uwQPw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Anszew_TEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_AnszfA_TEfCgOoBR6uwQPw" name="setTheoreticalStocks">
+        <ownedParameter xmi:id="_AnszfQ_TEfCgOoBR6uwQPw" name="theoreticalStocks" type="_AL3y8A7qEfCgCYDrF-CWdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Anszfg_TEfCgOoBR6uwQPw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Anszfw_TEfCgOoBR6uwQPw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_j5no8A_TEfCgOoBR6uwQPw" name="getRealStocks">
+        <ownedParameter xmi:id="_j5no8Q_TEfCgOoBR6uwQPw" name="realStocks" type="_EC8yMA7qEfCgCYDrF-CWdA" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j5no8g_TEfCgOoBR6uwQPw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j5no8w_TEfCgOoBR6uwQPw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_j5no9A_TEfCgOoBR6uwQPw" name="addRealStock">
+        <ownedParameter xmi:id="_j5no9Q_TEfCgOoBR6uwQPw" name="realStock" type="_EC8yMA7qEfCgCYDrF-CWdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j5no9g_TEfCgOoBR6uwQPw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j5no9w_TEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_j5no-A_TEfCgOoBR6uwQPw" name="removeRealStock">
+        <ownedParameter xmi:id="_j5no-Q_TEfCgOoBR6uwQPw" name="realStock" type="_EC8yMA7qEfCgCYDrF-CWdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j5no-g_TEfCgOoBR6uwQPw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j5no-w_TEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_j5no_A_TEfCgOoBR6uwQPw" name="setRealStocks">
+        <ownedParameter xmi:id="_j5no_Q_TEfCgOoBR6uwQPw" name="realStocks" type="_EC8yMA7qEfCgCYDrF-CWdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j5no_g_TEfCgOoBR6uwQPw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j5no_w_TEfCgOoBR6uwQPw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_BBFOkA7oEfCgCYDrF-CWdA" name="IStock">
+      <elementImport xmi:id="_wHM1cA7pEfCgCYDrF-CWdA">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_S8hGMNxVEeyr_asPBQgiSQ"/>
+      </elementImport>
+      <generalization xmi:id="_w9I-8A7pEfCgCYDrF-CWdA">
+        <general xmi:type="uml:Interface" href="common.uml#_S8hGMNxVEeyr_asPBQgiSQ"/>
+      </generalization>
+      <ownedOperation xmi:id="_l3umMA7oEfCgCYDrF-CWdA" name="getAvailabilityDate">
+        <ownedParameter xmi:id="_l3umMQ7oEfCgCYDrF-CWdA" name="availabilityDate" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l3umMg7oEfCgCYDrF-CWdA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l3umMw7oEfCgCYDrF-CWdA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UQf0UA7pEfCgCYDrF-CWdA" name="setAvailabilityDate">
+        <ownedParameter xmi:id="_UQf0UQ7pEfCgCYDrF-CWdA" name="availabilityDate">
+          <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UQf0Ug7pEfCgCYDrF-CWdA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UQf0Uw7pEfCgCYDrF-CWdA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_AL3y8A7qEfCgCYDrF-CWdA" name="ITheoreticalStock">
+      <elementImport xmi:id="_GtuWYA7qEfCgCYDrF-CWdA" importedElement="_BBFOkA7oEfCgCYDrF-CWdA"/>
+      <elementImport xmi:id="_gn3u4A_UEfCgOoBR6uwQPw">
+        <importedElement xmi:type="uml:Interface" href="product.uml#_YgqXMA_UEfCgOoBR6uwQPw"/>
+      </elementImport>
+      <generalization xmi:id="_GtuWYQ7qEfCgCYDrF-CWdA" general="_BBFOkA7oEfCgCYDrF-CWdA"/>
+      <ownedOperation xmi:id="_OZvKgA_UEfCgOoBR6uwQPw" name="getLocalizedProduct">
+        <ownedParameter xmi:id="_OZvKgQ_UEfCgOoBR6uwQPw" name="localizedProduct" direction="return">
+          <type xmi:type="uml:Interface" href="product.uml#_YgqXMA_UEfCgOoBR6uwQPw"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OZvKgg_UEfCgOoBR6uwQPw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OZvKgw_UEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_OZvKhA_UEfCgOoBR6uwQPw" name="setLocalizedProduct">
+        <ownedParameter xmi:id="_OZvKhQ_UEfCgOoBR6uwQPw" name="localizedProduct">
+          <type xmi:type="uml:Interface" href="product.uml#_YgqXMA_UEfCgOoBR6uwQPw"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OZvKhg_UEfCgOoBR6uwQPw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OZvKhw_UEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_EC8yMA7qEfCgCYDrF-CWdA" name="IRealStock">
+      <elementImport xmi:id="_SrYbMA7qEfCgCYDrF-CWdA" importedElement="_BBFOkA7oEfCgCYDrF-CWdA"/>
+      <elementImport xmi:id="_lEsfgA_UEfCgOoBR6uwQPw">
+        <importedElement xmi:type="uml:Interface" href="product.uml#_aWbmAA_UEfCgOoBR6uwQPw"/>
+      </elementImport>
+      <generalization xmi:id="_SrYbMQ7qEfCgCYDrF-CWdA" general="_BBFOkA7oEfCgCYDrF-CWdA"/>
+      <ownedOperation xmi:id="_mxbHEA_UEfCgOoBR6uwQPw" name="getPhysicalProduct">
+        <ownedParameter xmi:id="_mxbHEQ_UEfCgOoBR6uwQPw" name="physicalProduct" direction="return">
+          <type xmi:type="uml:Interface" href="product.uml#_aWbmAA_UEfCgOoBR6uwQPw"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mxbHEg_UEfCgOoBR6uwQPw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mxbHEw_UEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mxbHFA_UEfCgOoBR6uwQPw" name="setPhysicalProduct">
+        <ownedParameter xmi:id="_mxbHFQ_UEfCgOoBR6uwQPw" name="physicalProduct">
+          <type xmi:type="uml:Interface" href="product.uml#_aWbmAA_UEfCgOoBR6uwQPw"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mxbHFg_UEfCgOoBR6uwQPw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mxbHFw_UEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_xGXhgA7rEfCgCYDrF-CWdA" name="IProductBatch"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_AVFHYA7sEfCgCYDrF-CWdA" name="IPaymentMethod"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_oFG8YA7rEfCgCYDrF-CWdA" name="IShippingOption"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_rhVLoA7rEfCgCYDrF-CWdA" name="IPickupOption"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_to5VEA7rEfCgCYDrF-CWdA" name="IDeliveryOption"/>
     <profileApplication xmi:id="_ckCv4POoEey60OpxS9_JRQ">
       <eAnnotations xmi:id="_ckI2gPOoEey60OpxS9_JRQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="connector.profile.uml#_q9P7ADhmEe6Bec_m8yNqyw"/>
@@ -924,4 +1164,32 @@
   <datafoodconsortium_connector:initializer xmi:id="_AMkDcLqzEe6BB6ykmH1j4g" property="_e6R_4LqxEe6BB6ykmH1j4g" base_Parameter="_1QmFILqyEe6BB6ykmH1j4g"/>
   <datafoodconsortium_connector:initializer xmi:id="_A4mqELqzEe6BB6ykmH1j4g" property="_jLCDYLqxEe6BB6ykmH1j4g" base_Parameter="_7rPNULqyEe6BB6ykmH1j4g"/>
   <datafoodconsortium_connector:initializer xmi:id="_BqjrcLqzEe6BB6ykmH1j4g" property="_kQtSALqxEe6BB6ykmH1j4g" base_Parameter="_9pmXcLqyEe6BB6ykmH1j4g"/>
+  <datafoodconsortium_connector:getter xmi:id="_DfLF0A7hEfCgCYDrF-CWdA" base_Operation="_De2VsA7hEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:adder xmi:id="_qivA8A7hEfCgCYDrF-CWdA" base_Operation="_cIiBMA7hEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:remover xmi:id="_rX5uYA7hEfCgCYDrF-CWdA" base_Operation="_cZ-WgA7hEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:setter xmi:id="_sPRbQA7hEfCgCYDrF-CWdA" base_Operation="_cupmAA7hEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:getter xmi:id="_nVo9ZA7iEfCgCYDrF-CWdA" base_Operation="_nVo9YA7iEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:adder xmi:id="_zRnAJA7iEfCgCYDrF-CWdA" base_Operation="_zRnAIA7iEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:remover xmi:id="_zyA-hA7iEfCgCYDrF-CWdA" base_Operation="_zyA-gA7iEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:setter xmi:id="_0URXBA7iEfCgCYDrF-CWdA" base_Operation="_0URXAA7iEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:getter xmi:id="_SXMtMA7lEfCgCYDrF-CWdA" base_Operation="_SXMGIA7lEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:setter xmi:id="_S5YNNA7lEfCgCYDrF-CWdA" base_Operation="_S5YNMA7lEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:getter xmi:id="_-GL1pA7lEfCgCYDrF-CWdA" base_Operation="_-GLOkA7lEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:adder xmi:id="_-GL1pQ7lEfCgCYDrF-CWdA" base_Operation="_-GLOlA7lEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:remover xmi:id="_-GL1pg7lEfCgCYDrF-CWdA" base_Operation="_-GLOmA7lEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:setter xmi:id="_-GL1pw7lEfCgCYDrF-CWdA" base_Operation="_-GL1oA7lEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:getter xmi:id="_l3vNQA7oEfCgCYDrF-CWdA" base_Operation="_l3umMA7oEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:setter xmi:id="_UQf0VA7pEfCgCYDrF-CWdA" base_Operation="_UQf0UA7pEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:getter xmi:id="_AnyTAA_TEfCgOoBR6uwQPw" base_Operation="_AnszcA_TEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:adder xmi:id="_AnyTAQ_TEfCgOoBR6uwQPw" base_Operation="_AnszdA_TEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:remover xmi:id="_AnyTAg_TEfCgOoBR6uwQPw" base_Operation="_AnszeA_TEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_AnyTAw_TEfCgOoBR6uwQPw" base_Operation="_AnszfA_TEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:getter xmi:id="_j5qsQA_TEfCgOoBR6uwQPw" base_Operation="_j5no8A_TEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:adder xmi:id="_j5qsQQ_TEfCgOoBR6uwQPw" base_Operation="_j5no9A_TEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:remover xmi:id="_j5qsQg_TEfCgOoBR6uwQPw" base_Operation="_j5no-A_TEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_j5qsQw_TEfCgOoBR6uwQPw" base_Operation="_j5no_A_TEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:getter xmi:id="_OZvxkA_UEfCgOoBR6uwQPw" base_Operation="_OZvKgA_UEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_OZvxkQ_UEfCgOoBR6uwQPw" base_Operation="_OZvKhA_UEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:getter xmi:id="_mxbHGA_UEfCgOoBR6uwQPw" base_Operation="_mxbHEA_UEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_mxbHGQ_UEfCgOoBR6uwQPw" base_Operation="_mxbHFA_UEfCgOoBR6uwQPw"/>
 </xmi:XMI>
