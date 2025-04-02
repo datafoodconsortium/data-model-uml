@@ -988,6 +988,9 @@
       <elementImport xmi:id="_zFTooA_WEfCgOoBR6uwQPw">
         <importedElement xmi:type="uml:Interface" href="sale.uml#_EC8yMA7qEfCgCYDrF-CWdA"/>
       </elementImport>
+      <elementImport xmi:id="_BsRckA_YEfCgOoBR6uwQPw">
+        <importedElement xmi:type="uml:Interface" href="sale.uml#_xGXhgA7rEfCgCYDrF-CWdA"/>
+      </elementImport>
       <ownedOperation xmi:id="_u9SqYA_WEfCgOoBR6uwQPw" name="getRealStocks">
         <ownedParameter xmi:id="_u9SqYQ_WEfCgOoBR6uwQPw" name="realStocks" direction="return">
           <type xmi:type="uml:Interface" href="sale.uml#_EC8yMA7qEfCgCYDrF-CWdA"/>
@@ -1028,6 +1031,30 @@
         <ownedParameter xmi:id="_JWzKOA_WEfCgOoBR6uwQPw" name="localizedProducts" type="_YgqXMA_UEfCgOoBR6uwQPw">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JWzKOQ_WEfCgOoBR6uwQPw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JWzKOg_WEfCgOoBR6uwQPw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BJ4hMA_YEfCgOoBR6uwQPw" name="getBatches">
+        <ownedParameter xmi:id="_BJ4hMQ_YEfCgOoBR6uwQPw" name="batches" direction="return">
+          <type xmi:type="uml:Interface" href="sale.uml#_xGXhgA7rEfCgCYDrF-CWdA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BJ4hMg_YEfCgOoBR6uwQPw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BJ4hMw_YEfCgOoBR6uwQPw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BJ4hNA_YEfCgOoBR6uwQPw" name="addBatch">
+        <ownedParameter xmi:id="_BJ4hNQ_YEfCgOoBR6uwQPw" name="batch">
+          <type xmi:type="uml:Interface" href="sale.uml#_xGXhgA7rEfCgCYDrF-CWdA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BJ4hNg_YEfCgOoBR6uwQPw" name="removeBatch">
+        <ownedParameter xmi:id="_BJ4hNw_YEfCgOoBR6uwQPw" name="batch">
+          <type xmi:type="uml:Interface" href="sale.uml#_xGXhgA7rEfCgCYDrF-CWdA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BJ4hOA_YEfCgOoBR6uwQPw" name="setBatches">
+        <ownedParameter xmi:id="_BJ4hOQ_YEfCgOoBR6uwQPw" name="batches">
+          <type xmi:type="uml:Interface" href="sale.uml#_xGXhgA7rEfCgCYDrF-CWdA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BJ4hOg_YEfCgOoBR6uwQPw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BJ4hOw_YEfCgOoBR6uwQPw" value="*"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -1287,4 +1314,8 @@
   <datafoodconsortium_connector:adder xmi:id="_u9TRcQ_WEfCgOoBR6uwQPw" base_Operation="_u9SqZA_WEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:remover xmi:id="_u9TRcg_WEfCgOoBR6uwQPw" base_Operation="_u9SqZg_WEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:setter xmi:id="_u9TRcw_WEfCgOoBR6uwQPw" base_Operation="_u9SqaA_WEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:getter xmi:id="_BJ4hPA_YEfCgOoBR6uwQPw" base_Operation="_BJ4hMA_YEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:adder xmi:id="_BJ4hPQ_YEfCgOoBR6uwQPw" base_Operation="_BJ4hNA_YEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:remover xmi:id="_BJ4hPg_YEfCgOoBR6uwQPw" base_Operation="_BJ4hNg_YEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_BJ4hPw_YEfCgOoBR6uwQPw" base_Operation="_BJ4hOA_YEfCgOoBR6uwQPw"/>
 </xmi:XMI>

@@ -303,6 +303,7 @@
       <elementImport xmi:id="_a3wHkL7XEe2g9M79Y7jp8Q">
         <importedElement xmi:type="uml:Interface" href="agent.uml#_ljoYEMrjEe24_rxb3O_v6Q"/>
       </elementImport>
+      <elementImport xmi:id="_A20XEA_fEfCgOoBR6uwQPw" importedElement="_AVFHYA7sEfCgCYDrF-CWdA"/>
       <ownedOperation xmi:id="_6uzVgL7TEe2g9M79Y7jp8Q" name="getNumber">
         <ownedParameter xmi:id="_9CWFcL7TEe2g9M79Y7jp8Q" name="number" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -393,6 +394,14 @@
           <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RHp9hbqxEe6BB6ykmH1j4g"/>
         </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_13CPwA_eEfCgOoBR6uwQPw" name="getPaymentMethod">
+        <ownedParameter xmi:id="_13CPwQ_eEfCgOoBR6uwQPw" name="paymentMethod" type="_AVFHYA7sEfCgCYDrF-CWdA" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7CJpwA_eEfCgOoBR6uwQPw"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_24SRYA_eEfCgOoBR6uwQPw" name="setPaymentMethod">
+        <ownedParameter xmi:id="_24SRYQ_eEfCgOoBR6uwQPw" name="paymentMethod" type="_AVFHYA7sEfCgCYDrF-CWdA"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_97fegL7UEe2g9M79Y7jp8Q" name="IOrderLine">
@@ -769,6 +778,11 @@
       <elementImport xmi:id="_mCivMA_REfCgOoBR6uwQPw">
         <importedElement xmi:type="uml:Interface" href="common.uml#_FUmc4A_SEfCgOoBR6uwQPw"/>
       </elementImport>
+      <elementImport xmi:id="_qx_5MA_XEfCgOoBR6uwQPw">
+        <importedElement xmi:type="uml:Interface" href="agent.uml#_S7W3QAaUEe26esJmMoAMaw"/>
+      </elementImport>
+      <elementImport xmi:id="_rZev8A_XEfCgOoBR6uwQPw" importedElement="_AL3y8A7qEfCgCYDrF-CWdA"/>
+      <elementImport xmi:id="_rnf90A_XEfCgOoBR6uwQPw" importedElement="_EC8yMA7qEfCgCYDrF-CWdA"/>
       <generalization xmi:id="_bPeAUQ7jEfCgCYDrF-CWdA" general="_6xwpwA7gEfCgCYDrF-CWdA"/>
       <generalization xmi:id="_zh2JoA7kEfCgCYDrF-CWdA">
         <general xmi:type="uml:Interface" href="agent.uml#_8yKiYGauEe6BBZALe8Relw"/>
@@ -874,6 +888,7 @@
       <elementImport xmi:id="_wHM1cA7pEfCgCYDrF-CWdA">
         <importedElement xmi:type="uml:Interface" href="common.uml#_S8hGMNxVEeyr_asPBQgiSQ"/>
       </elementImport>
+      <elementImport xmi:id="_sFtuYA_YEfCgOoBR6uwQPw" importedElement="_YTySUA7jEfCgCYDrF-CWdA"/>
       <generalization xmi:id="_w9I-8A7pEfCgCYDrF-CWdA">
         <general xmi:type="uml:Interface" href="common.uml#_S8hGMNxVEeyr_asPBQgiSQ"/>
       </generalization>
@@ -889,6 +904,18 @@
           <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UQf0Ug7pEfCgCYDrF-CWdA" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UQf0Uw7pEfCgCYDrF-CWdA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_rTSy8A_YEfCgOoBR6uwQPw" name="getPhysicalPlace">
+        <ownedParameter xmi:id="_rTSy8Q_YEfCgOoBR6uwQPw" name="physicalPlace" type="_YTySUA7jEfCgCYDrF-CWdA" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rTSy8g_YEfCgOoBR6uwQPw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rTSy8w_YEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_rTSy9A_YEfCgOoBR6uwQPw" name="setPhysicalPlace">
+        <ownedParameter xmi:id="_rTSy9Q_YEfCgOoBR6uwQPw" name="physicalPlace" type="_YTySUA7jEfCgCYDrF-CWdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rTSy9g_YEfCgOoBR6uwQPw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rTSy9w_YEfCgOoBR6uwQPw" value="1"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -934,8 +961,62 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_xGXhgA7rEfCgCYDrF-CWdA" name="IProductBatch"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_AVFHYA7sEfCgCYDrF-CWdA" name="IPaymentMethod"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_xGXhgA7rEfCgCYDrF-CWdA" name="IProductBatch">
+      <elementImport xmi:id="_gzUpkA_XEfCgOoBR6uwQPw">
+        <importedElement xmi:type="uml:Interface" href="product.uml#_aWbmAA_UEfCgOoBR6uwQPw"/>
+      </elementImport>
+      <elementImport xmi:id="_yWHK4A_XEfCgOoBR6uwQPw" importedElement="_EC8yMA7qEfCgCYDrF-CWdA"/>
+      <ownedOperation xmi:id="_hkr1EA_XEfCgOoBR6uwQPw" name="getPhysicalProduct">
+        <ownedParameter xmi:id="_hkr1EQ_XEfCgOoBR6uwQPw" name="physicalProduct" direction="return">
+          <type xmi:type="uml:Interface" href="product.uml#_aWbmAA_UEfCgOoBR6uwQPw"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hkr1Eg_XEfCgOoBR6uwQPw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hkr1Ew_XEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_hkr1FA_XEfCgOoBR6uwQPw" name="setPhysicalProduct">
+        <ownedParameter xmi:id="_hkr1FQ_XEfCgOoBR6uwQPw" name="physicalProduct">
+          <type xmi:type="uml:Interface" href="product.uml#_aWbmAA_UEfCgOoBR6uwQPw"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hkr1Fg_XEfCgOoBR6uwQPw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hkr1Fw_XEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nxPd8A_XEfCgOoBR6uwQPw" name="getRealStock">
+        <ownedParameter xmi:id="_nxPd8Q_XEfCgOoBR6uwQPw" name="realStock" type="_EC8yMA7qEfCgCYDrF-CWdA" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nxPd8g_XEfCgOoBR6uwQPw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nxPd8w_XEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ot0a8A_XEfCgOoBR6uwQPw" name="setRealStock">
+        <ownedParameter xmi:id="_ot0a8Q_XEfCgOoBR6uwQPw" name="realStock" type="_EC8yMA7qEfCgCYDrF-CWdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ot0a8g_XEfCgOoBR6uwQPw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ot0a8w_XEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_AVFHYA7sEfCgCYDrF-CWdA" name="IPaymentMethod">
+      <elementImport xmi:id="_e2HcYA_fEfCgOoBR6uwQPw" importedElement="_AucwcOZfEeybgd1DwlK4YQ"/>
+      <generalization xmi:id="_gOAHQA_dEfCgOoBR6uwQPw" general="_AucwcOZfEeybgd1DwlK4YQ"/>
+      <ownedOperation xmi:id="_jhI2gA_eEfCgOoBR6uwQPw" name="getProvider">
+        <ownedParameter xmi:id="_jhI2gQ_eEfCgOoBR6uwQPw" name="provider" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jhI2gg_eEfCgOoBR6uwQPw" name="setProvider">
+        <ownedParameter xmi:id="_jhI2gw_eEfCgOoBR6uwQPw" name="provider">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_rKLEcA_eEfCgOoBR6uwQPw" name="getType">
+        <ownedParameter xmi:id="_rKLEcQ_eEfCgOoBR6uwQPw" name="type" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_rKLEcg_eEfCgOoBR6uwQPw" name="setType">
+        <ownedParameter xmi:id="_rKLEcw_eEfCgOoBR6uwQPw" name="type">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_oFG8YA7rEfCgCYDrF-CWdA" name="IShippingOption"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_rhVLoA7rEfCgCYDrF-CWdA" name="IPickupOption"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_to5VEA7rEfCgCYDrF-CWdA" name="IDeliveryOption"/>
@@ -1192,4 +1273,16 @@
   <datafoodconsortium_connector:setter xmi:id="_OZvxkQ_UEfCgOoBR6uwQPw" base_Operation="_OZvKhA_UEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:getter xmi:id="_mxbHGA_UEfCgOoBR6uwQPw" base_Operation="_mxbHEA_UEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:setter xmi:id="_mxbHGQ_UEfCgOoBR6uwQPw" base_Operation="_mxbHFA_UEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:getter xmi:id="_hkr1GA_XEfCgOoBR6uwQPw" base_Operation="_hkr1EA_XEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_hkr1GQ_XEfCgOoBR6uwQPw" base_Operation="_hkr1FA_XEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:getter xmi:id="_nxPd9A_XEfCgOoBR6uwQPw" base_Operation="_nxPd8A_XEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_ot0a9A_XEfCgOoBR6uwQPw" base_Operation="_ot0a8A_XEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:getter xmi:id="_rTSy-A_YEfCgOoBR6uwQPw" base_Operation="_rTSy8A_YEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_rTSy-Q_YEfCgOoBR6uwQPw" base_Operation="_rTSy9A_YEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:getter xmi:id="_jhI2hA_eEfCgOoBR6uwQPw" base_Operation="_jhI2gA_eEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_jhI2hQ_eEfCgOoBR6uwQPw" base_Operation="_jhI2gg_eEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:getter xmi:id="_rKLrgA_eEfCgOoBR6uwQPw" base_Operation="_rKLEcA_eEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_rKLrgQ_eEfCgOoBR6uwQPw" base_Operation="_rKLEcg_eEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:getter xmi:id="_13C20A_eEfCgOoBR6uwQPw" base_Operation="_13CPwA_eEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_24SRYg_eEfCgOoBR6uwQPw" base_Operation="_24SRYA_eEfCgOoBR6uwQPw"/>
 </xmi:XMI>
