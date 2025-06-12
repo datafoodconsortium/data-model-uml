@@ -2080,7 +2080,7 @@
   <datafoodconsortium_connector:getter xmi:id="__6lhWEeiEfCVX5nhGdowdA" base_Operation="__6lhUEeiEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:setter xmi:id="__6mIYEeiEfCVX5nhGdowdA" base_Operation="__6lhVEeiEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:semantic xmi:id="_Ip8eIEejEfCVX5nhGdowdA" map="dfc-b:ProductBatch" base_Element="_Ip73EEejEfCVX5nhGdowdA"/>
-  <datafoodconsortium_connector:semantic xmi:id="_Ip8eIUejEfCVX5nhGdowdA" map="dfc-b:constitutes" base_Element="_Ip73F0ejEfCVX5nhGdowdA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_Ip8eIUejEfCVX5nhGdowdA" map="dfc-b:contains" base_Element="_Ip73F0ejEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:property xmi:id="_Ip8eIkejEfCVX5nhGdowdA" base_Property="_Ip73F0ejEfCVX5nhGdowdA" getter="_hkr1EA_XEfCgOoBR6uwQPw" setter="_hkr1FA_XEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:semantic xmi:id="_Ip8eI0ejEfCVX5nhGdowdA" map="dfc-b:hasQuantity"/>
   <datafoodconsortium_connector:property xmi:id="_Ip8eJEejEfCVX5nhGdowdA" getter="_7rpCMEeCEfCh5Mr5MsA1jg" setter="_7rppQEeCEfCh5Mr5MsA1jg"/>

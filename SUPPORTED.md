@@ -26,19 +26,19 @@ Here is a list of the DFC features that the model currently supports.
   - [x] consumes
   - [ ] incomeOf
 - `AsPlannedLocalConsumptionFlow`
-  - [ ] quantity
-  - [ ] consumes
+  - [x] quantity
+  - [x] consumes
   - [ ] incomeOf
 - `AsPlannedLocalProductionFlow`
-  - [ ] quantity
-  - [ ] produces
+  - [x] quantity
+  - [x] produces
   - [ ] outcomeOf
 - `AsPlannedLocalTransformation`
-  - [ ] cost
-  - [ ] startDate
-  - [ ] endDate
-  - [ ] hasIncome
-  - [ ] hasOutcome
+  - [x] cost
+  - [x] startDate
+  - [x] endDate
+  - [x] hasIncome
+  - [x] hasOutcome
   - [ ] transformedBy
 - `AsPlannedProductionFlow`
   - [x] quantity
@@ -49,18 +49,18 @@ Here is a list of the DFC features that the model currently supports.
   - [x] hasOutcome
   - [x] hasTransformationType
 - `AsRealizedConsumptionFlow`
-  - [ ] quantity
-  - [ ] consumes
+  - [x] quantity
+  - [x] consumes
   - [ ] incomeOf
 - `AsRealizedProductionFlow`
-  - [ ] quantity
-  - [ ] produces
+  - [x] quantity
+  - [x] produces
   - [ ] outcomeOf
 - `AsRealizedTransformation`
-  - [ ] startDate
-  - [ ] endDate
-  - [ ] hasIncome
-  - [ ] hasOutcome
+  - [x] startDate
+  - [x] endDate
+  - [x] hasIncome
+  - [x] hasOutcome
 - `Brand`
   - [ ] description
 - `Catalog`
@@ -106,11 +106,17 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] referenceOf
 - `DeliveryOption`
   - [ ] quantity
+  - [ ] optionOf
+  - [ ] selectedBy
+  - [ ] fee
+  - [ ] startDate
+  - [ ] endDate
+  - [x] quantity
   - [ ] uses
   - [ ] startDate
   - [ ] endDate
-  - [ ] fee
-  - [ ] selectedBy
+  - [x] fee
+  - [x] selectedBy
 - `Enterprise`
   - [x] description
   - [x] VATnumber
@@ -127,12 +133,12 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] requestedBy
   - [ ] satifiedBy
 - `LocalizedProduct`
-  - [ ] cost
-  - [ ] consumedBy
-  - [ ] producedBy
-  - [ ] hasReference
-  - [ ] representedBy
-  - [ ] constitutedBy
+  - [x] cost
+  - [x] consumedBy
+  - [x] producedBy
+  - [x] hasReference
+  - [x] representedBy
+  - [x] constitutedBy
 - `Offer`
   - [ ] discount
   - [x] offeredTo
@@ -162,52 +168,59 @@ Here is a list of the DFC features that the model currently supports.
   - [x] concerns
   - [x] partOf
 - `PaymentMethod`
-  - [ ] price
+  - [x] price
+  - [x] paymentMethodProvider
+  - [x] paymentMethodType
   - [ ] usedBy
 - `Person`
   - [x] familyName
   - [x] firstName
   - [x] affiliates
-- `Place`
-  - [ ] hosts
 - `PhoneNumber`
   - [x] countryCode
   - [x] phoneNumber
 - `PhysicalPlace`
-  - [ ] hasAddress
-  - [ ] hasPhoneNumber
-  - [ ] hasMainContact
+  - [x] hosts
+  - [x] hasAddress
+  - [x] hasPhoneNumber
+  - [x] hasMainContact
 - `PhysicalProduct`
-  - [ ] represents
-  - [ ] constitutedBy
-  - [ ] tracedBy
+  - [x] represents
+  - [x] constitutedBy
+  - [x] tracedBy
   - [ ] concernedBy
   - [ ] ownedBy
-  - [ ] producedBy
-  - [ ] consumedBy
+  - [x] producedBy
+  - [x] consumedBy
 - `PickupOption`
-  - [ ] refersTo
-- `ProductBatch`
-  - [ ] identifies
-  - [ ] traces
-- `RealStock`
-  - [ ] quantity
-  - [ ] date
-  - [ ] isStoredIn
-  - [ ] identifiedBy
-  - [ ] constitutes
-- `SaleSession`
-  - [x] beginDate
-  - [x] endDate
-  - [x] quantity
-  - [x] lists
-- `ShippingOption`
   - [ ] quantity
   - [ ] optionOf
   - [ ] selectedBy
   - [ ] fee
   - [ ] startDate
   - [ ] endDate
+  - [x] pickedUpAt
+  - [ ] refersTo
+- `ProductBatch`
+  - [x] name
+  - [x] description
+  - [x] batchNumber
+  - [x] identifiedBy
+  - [x] contains
+  - [x] bestBeforeDate
+  - [x] expirationDate
+  - [x] productionDate
+- `RealStock`
+  - [x] availabilityDate
+  - [x] hasQuantity
+  - [x] isStoredIn
+  - [x] identifies
+  - [x] constitutes
+- `SaleSession`
+  - [x] beginDate
+  - [x] endDate
+  - [x] quantity
+  - [x] lists
 - `SocialMedia`
   - [x] name
   - [x] URL
@@ -218,10 +231,10 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] satisfies
   - [ ] industrializedBy
 - `TheoreticalStock`
-  - [ ] quantity
-  - [ ] date
-  - [ ] localizedBy
-  - [ ] constitutes
+  - [x] availabilityDate
+  - [x] hasQuantity
+  - [x] localizedBy
+  - [x] constitutes
 - `Transaction`
   - [ ] price
   - [ ] quantity
@@ -229,5 +242,6 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] to
   - [ ] concerns
 - `VirtualPlace`
-  - [ ] hasUrl
+  - [x] hosts
+  - [x] URL
   - [ ] websitePage
