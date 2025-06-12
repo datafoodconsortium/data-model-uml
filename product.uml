@@ -949,6 +949,18 @@
       <elementImport xmi:id="_26-WEEdiEfCh5Mr5MsA1jg" importedElement="_NaLU0MlvEe2sgKS3gBN9sQ"/>
       <elementImport xmi:id="_3X7X0EdiEfCh5Mr5MsA1jg" importedElement="_7x6NyC_SEfCIUvhwBYVA_g"/>
       <elementImport xmi:id="_-kUGAEdiEfCh5Mr5MsA1jg" importedElement="_7x6N0S_SEfCIUvhwBYVA_g"/>
+      <elementImport xmi:id="_jPTeEEehEfCVX5nhGdowdA">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
+      </elementImport>
+      <elementImport xmi:id="_koVtkEehEfCVX5nhGdowdA">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
+      </elementImport>
+      <generalization xmi:id="_mT0X8EehEfCVX5nhGdowdA">
+        <general xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
+      </generalization>
+      <generalization xmi:id="_ndc5gEehEfCVX5nhGdowdA">
+        <general xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
+      </generalization>
       <ownedOperation xmi:id="_mAF8wEd3EfCh5Mr5MsA1jg" name="getCost">
         <ownedParameter xmi:id="_mAF8wUd3EfCh5Mr5MsA1jg" name="cost" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
@@ -1067,6 +1079,18 @@
       </elementImport>
       <elementImport xmi:id="_fjmbcEdsEfCh5Mr5MsA1jg" importedElement="_Dg7IDy_TEfCIUvhwBYVA_g"/>
       <elementImport xmi:id="_fjmbcUdsEfCh5Mr5MsA1jg" importedElement="_Dg7u8C_TEfCIUvhwBYVA_g"/>
+      <elementImport xmi:id="_rXcp4EehEfCVX5nhGdowdA">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
+      </elementImport>
+      <elementImport xmi:id="_rXcp4UehEfCVX5nhGdowdA">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
+      </elementImport>
+      <generalization xmi:id="_rXcp4kehEfCVX5nhGdowdA">
+        <general xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
+      </generalization>
+      <generalization xmi:id="_rXcp40ehEfCVX5nhGdowdA">
+        <general xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
+      </generalization>
       <ownedOperation xmi:id="_u9SqYA_WEfCgOoBR6uwQPw" name="getRealStocks">
         <ownedParameter xmi:id="_u9SqYQ_WEfCgOoBR6uwQPw" name="realStocks" direction="return">
           <type xmi:type="uml:Interface" href="sale.uml#_EC8yMA7qEfCgCYDrF-CWdA"/>
