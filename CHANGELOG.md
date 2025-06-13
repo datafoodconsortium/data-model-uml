@@ -7,25 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [3.1.0] - 2025-06-24
+TODO:
+- Create top classes `Subject` and `Relation` to be generalized by all DFC subjects and relations.
 
-
+## [3.1.0] - 2025-06-26
 
 ### Added
 
 Add logistic concepts:
-- `LocalizedProduct`
-- `AsPlannedLocalTransformation`, `AsPlannedLocalConsumptionFlow`, `AsPlannedLocalProductionFlow`
-- `PhysicalProduct`
-- `AsRealizedTransformation`, `AsRealizedConsumptionFlow`, `AsRealizedProductionFlow`
-- `TheoreticalStock`
-- `RealStock`
-- `ProductBatch`
-- `VirtualPlace`
-- `PhysicalPlace`
-- `PaymentMethod`
-- `PickupOption`
-- `DeliveryOption`
+- `LocalizedProduct`.
+- `AsPlannedLocalTransformation`, `AsPlannedLocalConsumptionFlow`, `AsPlannedLocalProductionFlow`.
+- `PhysicalProduct`.
+- `AsRealizedTransformation`, `AsRealizedConsumptionFlow`, `AsRealizedProductionFlow`.
+- `TheoreticalStock`.
+- `RealStock`.
+- `ProductBatch`.
+- `VirtualPlace`.
+- `PhysicalPlace`.
+- `PaymentMethod`.
+- `PickupOption`.
+- `DeliveryOption`.
 
 ## [3.0.0] - 2025-03-26
 

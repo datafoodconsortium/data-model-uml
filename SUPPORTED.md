@@ -88,6 +88,7 @@ Here is a list of the DFC features that the model currently supports.
   - [x] listedIn
   - [ ] managedBy
 - `Coordination`
+  - [ ] date
   - [ ] coordinates
   - [ ] hasObject
   - [ ] marginPercent
@@ -361,6 +362,9 @@ Here is a list of the DFC features that the model currently supports.
   - [x] localizedBy
   - [x] constitutes
 - `Transaction`
+  - [ ] name
+  - [ ] description
+  - [ ] date
   - [ ] price
   - [ ] quantity
   - [ ] from
