@@ -107,8 +107,8 @@ Here is a list of the DFC features that the model currently supports.
   - [x] optionOf
   - [x] selectedBy
   - [x] quantity
-  - [ ] startDate
-  - [ ] endDate
+  - [x] beginDate
+  - [x] endDate
   - [x] fee
   - [x] selectedBy
 - `Enterprise`
@@ -262,8 +262,8 @@ Here is a list of the DFC features that the model currently supports.
   - [x] optionOf
   - [x] selectedBy
   - [x] fee
-  - [ ] startDate
-  - [ ] endDate
+  - [x] beginDate
+  - [x] endDate
   - [x] pickedUpAt
 - `ProductBatch`
   - [x] name
