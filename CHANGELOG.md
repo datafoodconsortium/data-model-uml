@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+TODO:
+- Create top classes `Subject` and `Relation` to be generalized by all DFC subjects and relations.
+
+## [3.1.0] - 2025-06-26
+
+### Added
+
+Add logistic concepts:
+- `LocalizedProduct`.
+- `AsPlannedLocalTransformation`, `AsPlannedLocalConsumptionFlow`, `AsPlannedLocalProductionFlow`.
+- `PhysicalProduct`.
+- `AsRealizedTransformation`, `AsRealizedConsumptionFlow`, `AsRealizedProductionFlow`.
+- `TheoreticalStock`.
+- `RealStock`.
+- `ProductBatch`.
+- `VirtualPlace`.
+- `PhysicalPlace`.
+- `PaymentMethod`.
+- `PickupOption`.
+- `DeliveryOption`.
+
 ## [3.0.0] - 2025-03-26
 
 ### Fixed
@@ -284,7 +305,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - sale.uml
 - skos.uml
 
-[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.0.0...HEAD
+[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.1.0...HEAD
+[3.1.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.0.0...v3.1.0
 [3.0.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v2.1.0...v3.0.0
 [2.1.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v1.0.0...v2.0.0

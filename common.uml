@@ -206,6 +206,32 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_FUmc4A_SEfCgOoBR6uwQPw" name="Openable">
+      <ownedOperation xmi:id="_Tc5NQA_SEfCgOoBR6uwQPw" name="getOpeningHours">
+        <ownedParameter xmi:id="_Tc5NQQ_SEfCgOoBR6uwQPw" name="dayOfWeek" type="_OGnXAA_QEfCgOoBR6uwQPw" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZO3L4A_SEfCgOoBR6uwQPw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZgxbQA_SEfCgOoBR6uwQPw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Tc50UA_SEfCgOoBR6uwQPw" name="setOpeningHours">
+        <ownedParameter xmi:id="_Tc50UQ_SEfCgOoBR6uwQPw" name="openingHours" type="_OGnXAA_QEfCgOoBR6uwQPw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aEt10A_SEfCgOoBR6uwQPw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aP1gsA_SEfCgOoBR6uwQPw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_hnKTkA_SEfCgOoBR6uwQPw" name="addOpeningHour">
+        <ownedParameter xmi:id="_hnKTkQ_SEfCgOoBR6uwQPw" name="openingHour" type="_OGnXAA_QEfCgOoBR6uwQPw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hnKTkg_SEfCgOoBR6uwQPw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hnKTkw_SEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jD27EA_SEfCgOoBR6uwQPw" name="removeOpeningHour">
+        <ownedParameter xmi:id="_jD3iIA_SEfCgOoBR6uwQPw" name="openingHour" type="_OGnXAA_QEfCgOoBR6uwQPw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jD3iIQ_SEfCgOoBR6uwQPw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jD3iIg_SEfCgOoBR6uwQPw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_CPEsAMroEe24_rxb3O_v6Q" name="IAddress">
       <elementImport xmi:id="_GTMowMroEe24_rxb3O_v6Q" importedElement="_osxSANxLEeyr_asPBQgiSQ"/>
       <generalization xmi:id="_JdGY8MroEe24_rxb3O_v6Q" general="_osxSANxLEeyr_asPBQgiSQ"/>
@@ -464,6 +490,32 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Px9McA7pEfCgCYDrF-CWdA" name="DateTime"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_uIDTMA_QEfCgOoBR6uwQPw" name="Time"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_OGnXAA_QEfCgOoBR6uwQPw" name="IOpeningHoursSpecification">
+      <ownedOperation xmi:id="_XaFGcA_QEfCgOoBR6uwQPw" name="getDayOfWeek">
+        <ownedParameter xmi:id="_XaFGcQ_QEfCgOoBR6uwQPw" name="dayOfWeek" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_YvezIA_QEfCgOoBR6uwQPw" name="setDayOfWeek">
+        <ownedParameter xmi:id="_YvezIQ_QEfCgOoBR6uwQPw" name="dayOfWeek">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8p6aIA_QEfCgOoBR6uwQPw" name="getOpens">
+        <ownedParameter xmi:id="_8p6aIQ_QEfCgOoBR6uwQPw" name="opens" type="_uIDTMA_QEfCgOoBR6uwQPw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8p6aIg_QEfCgOoBR6uwQPw" name="setOpens">
+        <ownedParameter xmi:id="_8p6aIw_QEfCgOoBR6uwQPw" name="opens" type="_uIDTMA_QEfCgOoBR6uwQPw"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_9M-D4A_QEfCgOoBR6uwQPw" name="getCloses">
+        <ownedParameter xmi:id="_9M-D4Q_QEfCgOoBR6uwQPw" name="closes" type="_uIDTMA_QEfCgOoBR6uwQPw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_9M-D4g_QEfCgOoBR6uwQPw" name="setCloses">
+        <ownedParameter xmi:id="_9M-D4w_QEfCgOoBR6uwQPw" name="closes" type="_uIDTMA_QEfCgOoBR6uwQPw"/>
+      </ownedOperation>
+    </packagedElement>
     <profileApplication xmi:id="_vcEZ8OjgEey9aasgGgoaNw">
       <eAnnotations xmi:id="_vcIEUOjgEey9aasgGgoaNw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="connector.profile.uml#_q9P7ADhmEe6Bec_m8yNqyw"/>
@@ -601,4 +653,16 @@
   <datafoodconsortium_connector:initializer xmi:id="_mTLWgLqlEe6LS7Wm0MEjpA" property="_3i7cgLqkEe6LS7Wm0MEjpA" base_Parameter="_deAFkLqlEe6LS7Wm0MEjpA"/>
   <datafoodconsortium_connector:initializer xmi:id="_nCbpMLqlEe6LS7Wm0MEjpA" property="_A0MzkLqlEe6LS7Wm0MEjpA" base_Parameter="_isF7ELqlEe6LS7Wm0MEjpA"/>
   <datafoodconsortium_connector:initializer xmi:id="_nt8rYLqlEe6LS7Wm0MEjpA" property="_Bzg7gLqlEe6LS7Wm0MEjpA" base_Parameter="_jttwILqlEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:getter xmi:id="_XaYocA_QEfCgOoBR6uwQPw" base_Operation="_XaFGcA_QEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_YvezIg_QEfCgOoBR6uwQPw" base_Operation="_YvezIA_QEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_xVAXYA_QEfCgOoBR6uwQPw" map="http://www.w3.org/2001/XMLSchema#time" base_Element="_uIDTMA_QEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_yhWOsA_QEfCgOoBR6uwQPw" map="http://www.w3.org/2001/XMLSchema#dateTime" base_Element="_Px9McA7pEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:getter xmi:id="_8p6aJA_QEfCgOoBR6uwQPw" base_Operation="_8p6aIA_QEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_8p6aJQ_QEfCgOoBR6uwQPw" base_Operation="_8p6aIg_QEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:getter xmi:id="_9M-q8A_QEfCgOoBR6uwQPw" base_Operation="_9M-D4A_QEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_9M-q8Q_QEfCgOoBR6uwQPw" base_Operation="_9M-D4g_QEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:getter xmi:id="_Tc50Ug_SEfCgOoBR6uwQPw" base_Operation="_Tc5NQA_SEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:setter xmi:id="_Tc50Uw_SEfCgOoBR6uwQPw" base_Operation="_Tc50UA_SEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:adder xmi:id="_sjh6gA_SEfCgOoBR6uwQPw" base_Operation="_hnKTkA_SEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:remover xmi:id="_tZkKoA_SEfCgOoBR6uwQPw" base_Operation="_jD27EA_SEfCgOoBR6uwQPw"/>
 </xmi:XMI>

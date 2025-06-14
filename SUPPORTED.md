@@ -3,6 +3,9 @@
 Here is a list of the DFC features that the model currently supports.
 
 - `Address`
+  - [ ] name
+  - [ ] description
+  - [ ] date
   - [x] street
   - [x] postalCode
   - [x] city
@@ -11,7 +14,107 @@ Here is a list of the DFC features that the model currently supports.
   - [x] longitude
   - [x] region
   - [ ] addressOf
-- `Agent`
+- `AsPlannedConsumptionFlow`
+  - [ ] date
+  - [x] quantity
+  - [x] consumes
+  - [x] incomeOf
+- `AsPlannedLocalConsumptionFlow`
+  - [ ] date
+  - [x] quantity
+  - [x] consumes
+  - [x] incomeOf
+- `AsPlannedLocalProductionFlow`
+  - [ ] date
+  - [x] quantity
+  - [x] produces
+  - [x] outcomeOf
+- `AsPlannedLocalTransformation`
+  - [ ] name
+  - [ ] description
+  - [ ] date
+  - [x] cost
+  - [x] startDate
+  - [x] endDate
+  - [x] hasIncome
+  - [x] hasOutcome
+  - [ ] transformedBy
+- `AsPlannedProductionFlow`
+  - [ ] date
+  - [x] quantity
+  - [x] produces
+  - [x] outcomeOf
+- `AsPlannedTransformation`
+  - [ ] name
+  - [ ] description
+  - [ ] date
+  - [x] hasIncome
+  - [x] hasOutcome
+  - [x] hasTransformationType
+- `AsRealizedConsumptionFlow`
+  - [ ] date
+  - [x] quantity
+  - [x] consumes
+  - [x] incomeOf
+- `AsRealizedProductionFlow`
+  - [ ] date
+  - [x] quantity
+  - [x] produces
+  - [x] outcomeOf
+- `AsRealizedTransformation`
+  - [ ] name
+  - [ ] description
+  - [ ] date
+  - [x] startDate
+  - [x] endDate
+  - [x] hasIncome
+  - [x] hasOutcome
+- `Brand`
+  - [ ] name
+  - [ ] description
+  - [ ] date
+- `Catalog`
+  - [ ] name
+  - [ ] description
+  - [ ] date
+  - [x] lists
+  - [x] maintainedBy
+- `CatalogItem`
+  - [ ] date
+  - [x] references
+  - [x] sku
+  - [x] stockLimitation
+  - [x] offeredThrough
+  - [x] listedIn
+  - [ ] managedBy
+- `Coordination`
+  - [ ] date
+  - [ ] coordinates
+  - [ ] hasObject
+  - [ ] marginPercent
+- `CustomerCategory`
+  - [ ] name
+  - [x] description
+  - [ ] date
+  - [ ] definedBy
+- `DeliveryOption`
+  - [x] name
+  - [x] description
+  - [ ] date
+  - [x] accessibilityInfo
+  - [x] deliveredAt
+  - [x] deliveryConstraint
+  - [x] optionOf
+  - [x] selectedBy
+  - [x] quantity
+  - [x] beginDate
+  - [x] endDate
+  - [x] fee
+  - [x] selectedBy
+- `Enterprise`
+  - [ ] name
+  - [x] description
+  - [ ] date
   - [x] hasAddress
   - [x] hasPhoneNumber
   - [x] hasSocialMedia
@@ -21,68 +124,20 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] owns
   - [x] email
   - [x] websitePage
-- `AsPlannedConsumptionFlow`
-  - [x] quantity
-  - [x] consumes
-  - [ ] incomeOf
-- `AsPlannedLocalConsumptionFlow`
-  - [ ] quantity
-  - [ ] consumes
-  - [ ] incomeOf
-- `AsPlannedLocalProductionFlow`
-  - [ ] quantity
-  - [ ] produces
-  - [ ] outcomeOf
-- `AsPlannedLocalTransformation`
-  - [ ] cost
-  - [ ] startDate
-  - [ ] endDate
-  - [ ] hasIncome
-  - [ ] hasOutcome
-  - [ ] transformedBy
-- `AsPlannedProductionFlow`
-  - [x] quantity
-  - [x] produces
-  - [ ] outcomeOf
-- `AsPlannedTransformation`
-  - [x] hasIncome
-  - [x] hasOutcome
-  - [x] hasTransformationType
-- `AsRealizedConsumptionFlow`
-  - [ ] quantity
-  - [ ] consumes
-  - [ ] incomeOf
-- `AsRealizedProductionFlow`
-  - [ ] quantity
-  - [ ] produces
-  - [ ] outcomeOf
-- `AsRealizedTransformation`
-  - [ ] startDate
-  - [ ] endDate
-  - [ ] hasIncome
-  - [ ] hasOutcome
-- `Brand`
-  - [ ] description
-- `Catalog`
-  - [x] lists
-  - [x] maintainedBy
-- `CatalogItem`
-  - [x] references
-  - [x] sku
-  - [x] stockLimitation
-  - [x] offeredThrough
-  - [x] listedIn
-  - [ ] managedBy
-- `Coordination`
-  - [ ] coordinates
-  - [ ] hasObject
-  - [ ] marginPercent
-- `CustomerCategory`
-  - [x] description
-  - [ ] definedBy
-- `DefinedProduct`
+  - [x] VATnumber
+  - [x] defines
+  - [x] hasMainContact
+  - [x] supplies
+  - [x] manages
+  - [x] proposes
+  - [ ] transforms
+  - [x] maintains
+  - [ ] affiliates
+  - [ ] coordinatedBy
+- `FunctionalProduct`
   - [x] name
   - [x] description
+  - [ ] date
   - [x] hasType
   - [x] hasQuantity
   - [x] alcoholPercentage
@@ -104,36 +159,20 @@ Here is a list of the DFC features that the model currently supports.
   - [x] referencedBy
   - [ ] consumedBy
   - [ ] referenceOf
-- `DeliveryOption`
-  - [ ] quantity
-  - [ ] uses
-  - [ ] startDate
-  - [ ] endDate
-  - [ ] fee
-  - [ ] selectedBy
-- `Enterprise`
-  - [x] description
-  - [x] VATnumber
-  - [x] defines
-  - [x] hasMainContact
-  - [x] supplies
-  - [x] manages
-  - [x] proposes
-  - [ ] transforms
-  - [x] maintains
-  - [ ] affiliates
-  - [ ] coordinatedBy
-- `FunctionalProduct`
   - [ ] requestedBy
   - [ ] satifiedBy
 - `LocalizedProduct`
-  - [ ] cost
-  - [ ] consumedBy
-  - [ ] producedBy
-  - [ ] hasReference
-  - [ ] representedBy
-  - [ ] constitutedBy
+  - [x] name
+  - [x] description
+  - [ ] date
+  - [x] cost
+  - [x] consumedBy
+  - [x] producedBy
+  - [x] hasReference
+  - [x] representedBy
+  - [x] constitutedBy
 - `Offer`
+  - [ ] date
   - [ ] discount
   - [x] offeredTo
   - [ ] concernedBy
@@ -155,6 +194,7 @@ Here is a list of the DFC features that the model currently supports.
   - [x] soldBy
   - [ ] uses
 - `OrderLine`
+  - [ ] date
   - [x] description
   - [x] quantity
   - [ ] discount
@@ -162,72 +202,188 @@ Here is a list of the DFC features that the model currently supports.
   - [x] concerns
   - [x] partOf
 - `PaymentMethod`
-  - [ ] price
+  - [x] name
+  - [x] description
+  - [ ] date
+  - [x] price
+  - [x] paymentMethodProvider
+  - [x] paymentMethodType
   - [ ] usedBy
 - `Person`
+  - [ ] name
+  - [ ] description
+  - [ ] date
+  - [x] hasAddress
+  - [x] hasPhoneNumber
+  - [x] hasSocialMedia
+  - [x] logo
+  - [ ] orders
+  - [ ] requests
+  - [ ] owns
+  - [x] email
+  - [x] websitePage
   - [x] familyName
   - [x] firstName
   - [x] affiliates
-- `Place`
-  - [ ] hosts
 - `PhoneNumber`
+  - [ ] name
+  - [ ] description
+  - [ ] date
   - [x] countryCode
   - [x] phoneNumber
 - `PhysicalPlace`
-  - [ ] hasAddress
-  - [ ] hasPhoneNumber
-  - [ ] hasMainContact
+  - [x] name
+  - [x] description
+  - [ ] date
+  - [x] hosts
+  - [x] hasAddress
+  - [x] hasPhoneNumber
+  - [x] hasMainContact
 - `PhysicalProduct`
-  - [ ] represents
-  - [ ] constitutedBy
-  - [ ] tracedBy
+  - [x] name
+  - [x] description
+  - [ ] date
+  - [x] represents
+  - [x] constitutedBy
+  - [x] tracedBy
   - [ ] concernedBy
   - [ ] ownedBy
-  - [ ] producedBy
-  - [ ] consumedBy
+  - [x] producedBy
+  - [x] consumedBy
+  - [ ] containedIn
+  - [ ] fulfills
+  - [ ] hasQuantity
+  - [ ] image
 - `PickupOption`
-  - [ ] refersTo
-- `ProductBatch`
-  - [ ] identifies
-  - [ ] traces
-- `RealStock`
-  - [ ] quantity
+  - [x] name
+  - [x] description
   - [ ] date
-  - [ ] isStoredIn
-  - [ ] identifiedBy
-  - [ ] constitutes
+  - [x] hasQuantity
+  - [x] optionOf
+  - [x] selectedBy
+  - [x] fee
+  - [x] beginDate
+  - [x] endDate
+  - [x] pickedUpAt
+- `ProductBatch`
+  - [x] name
+  - [x] description
+  - [ ] date
+  - [x] batchNumber
+  - [x] identifiedBy
+  - [x] contains
+  - [x] bestBeforeDate
+  - [x] expirationDate
+  - [x] productionDate
+- `RealStock`
+  - [ ] date
+  - [x] availabilityDate
+  - [x] hasQuantity
+  - [x] isStoredIn
+  - [x] identifies
+  - [x] constitutes
 - `SaleSession`
+  - [ ] date
   - [x] beginDate
   - [x] endDate
   - [x] quantity
   - [x] lists
-- `ShippingOption`
-  - [ ] quantity
-  - [ ] optionOf
-  - [ ] selectedBy
-  - [ ] fee
+- `Shipment`
+  - [ ] date
   - [ ] startDate
+  - [ ] startsAt
   - [ ] endDate
+  - [ ] endsAt
+  - [ ] isShippedIn
+  - [ ] transports
 - `SocialMedia`
   - [x] name
+  - [ ] description
+  - [ ] date
   - [x] URL
 - `SuppliedProduct`
+  - [x] name
+  - [x] description
+  - [ ] date
+  - [x] hasType
+  - [x] hasQuantity
+  - [x] alcoholPercentage
+  - [x] lifetime
+  - [x] hasClaim
+  - [x] usageOrStorageConditions
+  - [x] hasAllergenCharacteristic
+  - [x] hasNutrientCharacteristic
+  - [x] hasPhysicalCharacteristic
+  - [x] hasGeographicalOrigin
+  - [x] hasCertifications
+  - [x] hasNatureOrigin
+  - [x] hasPartOrigin
+  - [ ] hasBrand
+  - [ ] hasProcess
+  - [x] hasVariant
+  - [x] isVariantOf
+  - [x] image
+  - [x] referencedBy
+  - [ ] consumedBy
+  - [ ] referenceOf
   - [x] totalTheoreticalStock
   - [ ] referenceOf
 - `TechnicalProduct`
+  - [x] name
+  - [x] description
+  - [ ] date
+  - [x] hasType
+  - [x] hasQuantity
+  - [x] alcoholPercentage
+  - [x] lifetime
+  - [x] hasClaim
+  - [x] usageOrStorageConditions
+  - [x] hasAllergenCharacteristic
+  - [x] hasNutrientCharacteristic
+  - [x] hasPhysicalCharacteristic
+  - [x] hasGeographicalOrigin
+  - [x] hasCertifications
+  - [x] hasNatureOrigin
+  - [x] hasPartOrigin
+  - [ ] hasBrand
+  - [ ] hasProcess
+  - [x] hasVariant
+  - [x] isVariantOf
+  - [x] image
+  - [x] referencedBy
+  - [ ] consumedBy
+  - [ ] referenceOf
   - [ ] satisfies
   - [ ] industrializedBy
 - `TheoreticalStock`
-  - [ ] quantity
   - [ ] date
-  - [ ] localizedBy
-  - [ ] constitutes
+  - [x] availabilityDate
+  - [x] hasQuantity
+  - [x] localizedBy
+  - [x] constitutes
 - `Transaction`
+  - [ ] name
+  - [ ] description
+  - [ ] date
   - [ ] price
   - [ ] quantity
   - [ ] from
   - [ ] to
   - [ ] concerns
+- `Vehicle`
+  - [ ] name
+  - [ ] description
+  - [ ] date
+  - [ ] basedAt
+  - [ ] frozen
+  - [ ] hasQuantity
+  - [ ] isAvailableDuring
+  - [ ] refrigerated
+  - [ ] ships
 - `VirtualPlace`
-  - [ ] hasUrl
+  - [x] name
+  - [x] description
+  - [ ] date
+  - [x] hosts
+  - [x] URL
   - [ ] websitePage
