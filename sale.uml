@@ -2411,4 +2411,9 @@
   <datafoodconsortium_connector:initializerParent xmi:id="_r_0YgEkBEfCj65wyCO6bSg" property="_SwdNEEkBEfCj65wyCO6bSg" base_Parameter="_r_zxcEkBEfCj65wyCO6bSg"/>
   <datafoodconsortium_connector:initializerParent xmi:id="_xOomwEkBEfCj65wyCO6bSg" property="_0cccAEkAEfCj65wyCO6bSg" base_Parameter="_xOn_sEkBEfCj65wyCO6bSg"/>
   <datafoodconsortium_connector:initializerParent xmi:id="_xOomwUkBEfCj65wyCO6bSg" property="_SwdNEEkBEfCj65wyCO6bSg" base_Parameter="_xOn_s0kBEfCj65wyCO6bSg"/>
+  <datafoodconsortium_connector:semantic xmi:id="_hbsVcFKkEfCPJqIMXx6mBw" base_Element="_6xwpwA7gEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_kpYZcFKkEfCPJqIMXx6mBw" base_Element="_BBFOkA7oEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_oylDcFKkEfCPJqIMXx6mBw" base_Element="_xGXhgA7rEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_rHjWwFKkEfCPJqIMXx6mBw" base_Element="_AVFHYA7sEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_tDEoQFKkEfCPJqIMXx6mBw" base_Element="_oFG8YA7rEfCgCYDrF-CWdA"/>
 </xmi:XMI>

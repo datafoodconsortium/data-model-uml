@@ -2336,4 +2336,6 @@
   <datafoodconsortium_connector:property xmi:id="_3XcDEkd3EfCh5Mr5MsA1jg" base_Property="_3XcDEEd3EfCh5Mr5MsA1jg" getter="_YRF2IEd3EfCh5Mr5MsA1jg" setter="_YRF2Ikd3EfCh5Mr5MsA1jg"/>
   <datafoodconsortium_connector:semantic xmi:id="_3XcDE0d3EfCh5Mr5MsA1jg" map="dfc-b:cost" base_Element="_3XcDEEd3EfCh5Mr5MsA1jg"/>
   <datafoodconsortium_connector:initializer xmi:id="_L22Ggkd4EfCh5Mr5MsA1jg" property="_3XcDEEd3EfCh5Mr5MsA1jg" base_Parameter="_L22GgEd4EfCh5Mr5MsA1jg"/>
+  <datafoodconsortium_connector:semantic xmi:id="_EuE6cFKkEfCPJqIMXx6mBw" base_Element="_YgqXMA_UEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_F4dp8FKkEfCPJqIMXx6mBw" base_Element="_aWbmAA_UEfCgOoBR6uwQPw"/>
 </xmi:XMI>
