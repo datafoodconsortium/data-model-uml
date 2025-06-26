@@ -7,6 +7,75 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+TODO:
+- Create top classes `Subject` and `Relation` to be generalized by all DFC subjects and relations.
+
+## [3.1.0] - 2025-06-26
+
+Add logistic concepts:
+- `AsPlannedLocalTransformation`, `AsPlannedLocalConsumptionFlow`, `AsPlannedLocalProductionFlow`.
+- `AsRealizedTransformation`, `AsRealizedConsumptionFlow`, `AsRealizedProductionFlow`.
+- `DeliveryOption`.
+- `LocalizedProduct`.
+- `PaymentMethod`.
+- `PhysicalPlace`.
+- `PhysicalProduct`.
+- `PickupOption`.
+- `ProductBatch`.
+- `RealStock`.
+- `TheoreticalStock`.
+- `VirtualPlace`.
+
+### Fixed
+- Add `AddressOwner:setLocalizations`.
+- Add `PhoneNumberOwner:setPhoneNumbers`.
+- Import `SKOSConcept` in `IPlannedTransformation`.
+- Import `SKOSConcept` in `PlannedTransformation`.
+- Add setter to property `PlannedTransformation:consumptionFlow`.
+- Add setter to property `PlannedTransformation:productionFlow`.
+
+### Added
+
+Interfaces:
+- `IDeliveryOption`.
+- `ILocalizedProduct`.
+- `IPaymentMethod`.
+- `IPhysicalPlace`.
+- `IPhysicalProduct`.
+- `IPickupOption`.
+- `IPlace`.
+- `IPlannedLocalFlow`.
+- `IPlannedLocalProductionFlow`.
+- `IPlannedLocalTransformation`.
+- `IProductBatch`.
+- `IRealizedConsumptionFlow`.
+- `IRealizedFlow`.
+- `IRealizedProductionFlow`.
+- `IRealizedTransformation`.
+- `IRealStock`.
+- `IShippingOption`.
+- `IStock`.
+- `ITheoreticalStock`.
+- `IVirtualPlace`.
+- `Openable`.
+
+Classes:
+- `DeliveryOption`.
+- `LocalizedProduct`.
+- `PaymentMethod`.
+- `PhysicalPlace`.
+- `PhysicalProduct`.
+- `PickupOption`.
+- `PlannedLocalConsumptionFlow`.
+- `PlannedLocalTransformation`.
+- `ProductBatch`.
+- `RealizedConsumptionFlow`.
+- `RealizedTransformation`.
+- `RealStock`.
+- `ShippingOption`.
+- `TheoreticalStock`.
+- `VirtualPlace`.
+
 ## [3.0.0] - 2025-03-26
 
 ### Fixed
@@ -284,7 +353,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - sale.uml
 - skos.uml
 
-[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.0.0...HEAD
+[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.1.0...HEAD
+[3.1.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.0.0...v3.1.0
 [3.0.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v2.1.0...v3.0.0
 [2.1.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v1.0.0...v2.0.0
