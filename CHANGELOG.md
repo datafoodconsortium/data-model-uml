@@ -12,21 +12,69 @@ TODO:
 
 ## [3.1.0] - 2025-06-26
 
+Add logistic concepts:
+- `AsPlannedLocalTransformation`, `AsPlannedLocalConsumptionFlow`, `AsPlannedLocalProductionFlow`.
+- `AsRealizedTransformation`, `AsRealizedConsumptionFlow`, `AsRealizedProductionFlow`.
+- `DeliveryOption`.
+- `LocalizedProduct`.
+- `PaymentMethod`.
+- `PhysicalPlace`.
+- `PhysicalProduct`.
+- `PickupOption`.
+- `ProductBatch`.
+- `RealStock`.
+- `TheoreticalStock`.
+- `VirtualPlace`.
+
+### Fixed
+- Add `AddressOwner:setLocalizations`.
+- Add `PhoneNumberOwner:setPhoneNumbers`.
+- Import `SKOSConcept` in `IPlannedTransformation`.
+- Import `SKOSConcept` in `PlannedTransformation`.
+- Add setter to property `PlannedTransformation:consumptionFlow`.
+- Add setter to property `PlannedTransformation:productionFlow`.
+
 ### Added
 
-Add logistic concepts:
-- `LocalizedProduct`.
-- `AsPlannedLocalTransformation`, `AsPlannedLocalConsumptionFlow`, `AsPlannedLocalProductionFlow`.
-- `PhysicalProduct`.
-- `AsRealizedTransformation`, `AsRealizedConsumptionFlow`, `AsRealizedProductionFlow`.
-- `TheoreticalStock`.
-- `RealStock`.
-- `ProductBatch`.
-- `VirtualPlace`.
-- `PhysicalPlace`.
-- `PaymentMethod`.
-- `PickupOption`.
+Interfaces:
+- `IDeliveryOption`.
+- `ILocalizedProduct`.
+- `IPaymentMethod`.
+- `IPhysicalPlace`.
+- `IPhysicalProduct`.
+- `IPickupOption`.
+- `IPlace`.
+- `IPlannedLocalFlow`.
+- `IPlannedLocalProductionFlow`.
+- `IPlannedLocalTransformation`.
+- `IProductBatch`.
+- `IRealizedConsumptionFlow`.
+- `IRealizedFlow`.
+- `IRealizedProductionFlow`.
+- `IRealizedTransformation`.
+- `IRealStock`.
+- `IShippingOption`.
+- `IStock`.
+- `ITheoreticalStock`.
+- `IVirtualPlace`.
+- `Openable`.
+
+Classes:
 - `DeliveryOption`.
+- `LocalizedProduct`.
+- `PaymentMethod`.
+- `PhysicalPlace`.
+- `PhysicalProduct`.
+- `PickupOption`.
+- `PlannedLocalConsumptionFlow`.
+- `PlannedLocalTransformation`.
+- `ProductBatch`.
+- `RealizedConsumptionFlow`.
+- `RealizedTransformation`.
+- `RealStock`.
+- `ShippingOption`.
+- `TheoreticalStock`.
+- `VirtualPlace`.
 
 ## [3.0.0] - 2025-03-26
 
