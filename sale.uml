@@ -1562,12 +1562,12 @@
       </ownedAttribute>
       <ownedAttribute xmi:id="_4sJl4Ee8EfCVX5nhGdowdA" name="provider">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4sJl4Ue8EfCVX5nhGdowdA"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4sJl4Ue8EfCVX5nhGdowdA" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4sJl4ke8EfCVX5nhGdowdA" value="1"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_EHBtwEe9EfCVX5nhGdowdA" name="type">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EHBtwUe9EfCVX5nhGdowdA"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EHBtwUe9EfCVX5nhGdowdA" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EHBtwke9EfCVX5nhGdowdA" value="1"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_gVaEmke8EfCVX5nhGdowdA" client="_gVaEgEe8EfCVX5nhGdowdA" supplier="_AL3y8A7qEfCgCYDrF-CWdA _EC8yMA7qEfCgCYDrF-CWdA _xGXhgA7rEfCgCYDrF-CWdA _Tzw5MA7iEfCgCYDrF-CWdA _YTySUA7jEfCgCYDrF-CWdA _AVFHYA7sEfCgCYDrF-CWdA" contract="_AVFHYA7sEfCgCYDrF-CWdA"/>
@@ -1586,12 +1586,12 @@
         </ownedParameter>
         <ownedParameter xmi:id="_JB8voEe9EfCVX5nhGdowdA" name="provider">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JB8voUe9EfCVX5nhGdowdA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JB8voUe9EfCVX5nhGdowdA" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JB8voke9EfCVX5nhGdowdA" value="1"/>
         </ownedParameter>
         <ownedParameter xmi:id="_L_YKEEe9EfCVX5nhGdowdA" name="type">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_L_YKEUe9EfCVX5nhGdowdA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_L_YKEUe9EfCVX5nhGdowdA" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L_YKEke9EfCVX5nhGdowdA" value="1"/>
         </ownedParameter>
       </ownedOperation>
