@@ -915,7 +915,7 @@
       <ownedOperation xmi:id="_l3umMA7oEfCgCYDrF-CWdA" name="getAvailabilityDate">
         <ownedParameter xmi:id="_l3umMQ7oEfCgCYDrF-CWdA" name="availabilityDate" direction="return">
           <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l3umMg7oEfCgCYDrF-CWdA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l3umMg7oEfCgCYDrF-CWdA" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l3umMw7oEfCgCYDrF-CWdA" value="1"/>
         </ownedParameter>
       </ownedOperation>
@@ -1303,7 +1303,7 @@
         </ownedParameter>
         <ownedParameter xmi:id="_fHvucEeDEfCh5Mr5MsA1jg" name="availabilityDate">
           <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fHvucUeDEfCh5Mr5MsA1jg"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fHvucUeDEfCh5Mr5MsA1jg" value="1"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -1349,7 +1349,7 @@
         </ownedParameter>
         <ownedParameter xmi:id="_riuogkeDEfCh5Mr5MsA1jg" name="availabilityDate">
           <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_riuog0eDEfCh5Mr5MsA1jg"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_riuog0eDEfCh5Mr5MsA1jg" value="1"/>
         </ownedParameter>
         <ownedParameter xmi:id="_HuHDoEeFEfCh5Mr5MsA1jg" name="productBatches" type="_xGXhgA7rEfCgCYDrF-CWdA">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HuHDoUeFEfCh5Mr5MsA1jg"/>
