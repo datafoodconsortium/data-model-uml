@@ -91,25 +91,22 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_JqlP4OZdEeybgd1DwlK4YQ" name="Ellapsable">
+      <elementImport xmi:id="_jqgwACz2EfGgHtzHArw2YA" importedElement="_Px9McA7pEfCgCYDrF-CWdA"/>
       <ownedOperation xmi:id="_MCm3MOZdEeybgd1DwlK4YQ" name="getBeginDate">
-        <ownedParameter xmi:id="_wLtRkL7QEe2g9M79Y7jp8Q" name="beginDate" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <ownedParameter xmi:id="_wLtRkL7QEe2g9M79Y7jp8Q" name="beginDate" type="_Px9McA7pEfCgCYDrF-CWdA" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S2ziQCz2EfGgHtzHArw2YA"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_OvKkEOZdEeybgd1DwlK4YQ" name="getEndDate">
-        <ownedParameter xmi:id="_0zXZML7QEe2g9M79Y7jp8Q" name="endDate" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <ownedParameter xmi:id="_0zXZML7QEe2g9M79Y7jp8Q" name="endDate" type="_Px9McA7pEfCgCYDrF-CWdA" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UNMGYCz2EfGgHtzHArw2YA"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_rJxBsL7QEe2g9M79Y7jp8Q" name="setBeginDate">
-        <ownedParameter xmi:id="_4JQ-AL7QEe2g9M79Y7jp8Q" name="beginDate">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedParameter>
+        <ownedParameter xmi:id="_4JQ-AL7QEe2g9M79Y7jp8Q" name="beginDate" type="_Px9McA7pEfCgCYDrF-CWdA"/>
       </ownedOperation>
       <ownedOperation xmi:id="_soPK0L7QEe2g9M79Y7jp8Q" name="setEndDate">
-        <ownedParameter xmi:id="_6NMkoL7QEe2g9M79Y7jp8Q" name="endDate">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedParameter>
+        <ownedParameter xmi:id="_6NMkoL7QEe2g9M79Y7jp8Q" name="endDate" type="_Px9McA7pEfCgCYDrF-CWdA"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_osxSANxLEeyr_asPBQgiSQ" name="Localizable">
