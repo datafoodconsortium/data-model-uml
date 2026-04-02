@@ -513,6 +513,143 @@
         <ownedParameter xmi:id="_9M-D4w_QEfCgOoBR6uwQPw" name="closes" type="_uIDTMA_QEfCgOoBR6uwQPw"/>
       </ownedOperation>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_k_DYkC6MEfG4LKU1i_p3gA" name="Vevent">
+      <elementImport xmi:id="_MzI8QC6OEfG4LKU1i_p3gA" importedElement="_Px9McA7pEfCgCYDrF-CWdA"/>
+      <ownedAttribute xmi:id="_zRSIEC6MEfG4LKU1i_p3gA" name="dtstart" type="_Px9McA7pEfCgCYDrF-CWdA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HGQucC6NEfG4LKU1i_p3gA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_XPQLQC6NEfG4LKU1i_p3gA" name="dtend" type="_Px9McA7pEfCgCYDrF-CWdA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XPQLQS6NEfG4LKU1i_p3gA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_iO2P4C6OEfG4LKU1i_p3gA" name="rrule" type="_sK9TsC6OEfG4LKU1i_p3gA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iO2P4S6OEfG4LKU1i_p3gA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_cnBhMC6NEfG4LKU1i_p3gA" name="getStart">
+        <ownedParameter xmi:id="_cnBhMS6NEfG4LKU1i_p3gA" name="start" type="_Px9McA7pEfCgCYDrF-CWdA" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iTUVoC6NEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_npKY8C6NEfG4LKU1i_p3gA" name="setStart">
+        <ownedParameter xmi:id="_npKY8S6NEfG4LKU1i_p3gA" name="start" type="_Px9McA7pEfCgCYDrF-CWdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p-RPIC6NEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_y3X90C6NEfG4LKU1i_p3gA" name="getEnd">
+        <ownedParameter xmi:id="_y3X90S6NEfG4LKU1i_p3gA" name="end" type="_Px9McA7pEfCgCYDrF-CWdA" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y3X90i6NEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_y3X90y6NEfG4LKU1i_p3gA" name="setEnd">
+        <ownedParameter xmi:id="_y3X91C6NEfG4LKU1i_p3gA" name="end" type="_Px9McA7pEfCgCYDrF-CWdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y3X91S6NEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_EemoUC6QEfG4LKU1i_p3gA" name="getRule">
+        <ownedParameter xmi:id="_EemoUS6QEfG4LKU1i_p3gA" name="rule" type="_sK9TsC6OEfG4LKU1i_p3gA" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EemoUi6QEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_EemoUy6QEfG4LKU1i_p3gA" name="setRule">
+        <ownedParameter xmi:id="_EemoVC6QEfG4LKU1i_p3gA" name="rule" type="_sK9TsC6OEfG4LKU1i_p3gA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EemoVS6QEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_B_mhMC6OEfG4LKU1i_p3gA" name="Vevent">
+        <ownedParameter xmi:id="_B_mhMS6OEfG4LKU1i_p3gA" name="start" type="_Px9McA7pEfCgCYDrF-CWdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B_mhMi6OEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_B_mhMy6OEfG4LKU1i_p3gA" name="end" type="_Px9McA7pEfCgCYDrF-CWdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B_mhNC6OEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_c7cxsC6QEfG4LKU1i_p3gA" name="rule" type="_sK9TsC6OEfG4LKU1i_p3gA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c7cxsS6QEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sK9TsC6OEfG4LKU1i_p3gA" name="ValueRecur">
+      <ownedAttribute xmi:id="_0SKrYC6OEfG4LKU1i_p3gA" name="byday">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0SKrYS6OEfG4LKU1i_p3gA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_6XVS0C6OEfG4LKU1i_p3gA" name="bymonth">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6XVS0S6OEfG4LKU1i_p3gA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_81FHoC6OEfG4LKU1i_p3gA" name="freq">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_81FHoS6OEfG4LKU1i_p3gA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AJ9_0C6PEfG4LKU1i_p3gA" name="interval">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AJ9_0S6PEfG4LKU1i_p3gA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_VdGmQC6PEfG4LKU1i_p3gA" name="getByDay">
+        <ownedParameter xmi:id="_VdGmQS6PEfG4LKU1i_p3gA" name="byDay" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VdGmQi6PEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_VdGmQy6PEfG4LKU1i_p3gA" name="setByDay">
+        <ownedParameter xmi:id="_VdGmRC6PEfG4LKU1i_p3gA" name="byDay">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VdGmRS6PEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_k2nt8C6PEfG4LKU1i_p3gA" name="getByMonth">
+        <ownedParameter xmi:id="_k2nt8S6PEfG4LKU1i_p3gA" name="byMonth" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k2nt8i6PEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_k2nt8y6PEfG4LKU1i_p3gA" name="setByMonth">
+        <ownedParameter xmi:id="_k2nt9C6PEfG4LKU1i_p3gA" name="byMonth">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k2nt9S6PEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_lbxpcC6PEfG4LKU1i_p3gA" name="getFreq">
+        <ownedParameter xmi:id="_lbxpcS6PEfG4LKU1i_p3gA" name="freq" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lbxpci6PEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_lbxpcy6PEfG4LKU1i_p3gA" name="setFreq">
+        <ownedParameter xmi:id="_lbxpdC6PEfG4LKU1i_p3gA" name="freq">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lbxpdS6PEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mmAA4C6PEfG4LKU1i_p3gA" name="getInterval">
+        <ownedParameter xmi:id="_mmAA4S6PEfG4LKU1i_p3gA" name="interval" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mmAA4i6PEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mmAA4y6PEfG4LKU1i_p3gA" name="setInterval">
+        <ownedParameter xmi:id="_mmAA5C6PEfG4LKU1i_p3gA" name="interval">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mmAA5S6PEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BHPq8C6QEfG4LKU1i_p3gA" name="Vevent">
+        <ownedParameter xmi:id="_BHPq8S6QEfG4LKU1i_p3gA" name="byDay">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BHPq8i6QEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_mGPGQC6QEfG4LKU1i_p3gA" name="byMonth">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mGPGQS6QEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_mdE48C6QEfG4LKU1i_p3gA" name="freq">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mdE48S6QEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_muCtIC6QEfG4LKU1i_p3gA" name="interval">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_muCtIS6QEfG4LKU1i_p3gA"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
     <profileApplication xmi:id="_vcEZ8OjgEey9aasgGgoaNw">
       <eAnnotations xmi:id="_vcIEUOjgEey9aasgGgoaNw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="connector.profile.uml#_q9P7ADhmEe6Bec_m8yNqyw"/>
@@ -662,4 +799,50 @@
   <datafoodconsortium_connector:setter xmi:id="_Tc50Uw_SEfCgOoBR6uwQPw" base_Operation="_Tc50UA_SEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:adder xmi:id="_sjh6gA_SEfCgOoBR6uwQPw" base_Operation="_hnKTkA_SEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:remover xmi:id="_tZkKoA_SEfCgOoBR6uwQPw" base_Operation="_jD27EA_SEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_o1En4C6MEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#Vevent" base_Element="_k_DYkC6MEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:property xmi:id="_K7esgC6NEfG4LKU1i_p3gA" base_Property="_zRSIEC6MEfG4LKU1i_p3gA" getter="_cnBhMC6NEfG4LKU1i_p3gA" setter="_npKY8C6NEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_K7fTkC6NEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#dtstart" base_Element="_zRSIEC6MEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:property xmi:id="_XPQyUC6NEfG4LKU1i_p3gA" base_Property="_XPQLQC6NEfG4LKU1i_p3gA" getter="_y3X90C6NEfG4LKU1i_p3gA" setter="_y3X90y6NEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_XPQyUS6NEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#dtstart" base_Element="_XPQLQC6NEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:getter xmi:id="_cnBhMi6NEfG4LKU1i_p3gA" base_Operation="_cnBhMC6NEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:getter xmi:id="_k59AsC6NEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:setter xmi:id="_npKY8i6NEfG4LKU1i_p3gA" base_Operation="_npKY8C6NEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:getter xmi:id="_y3X91i6NEfG4LKU1i_p3gA" base_Operation="_y3X90C6NEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:setter xmi:id="_y3Yk4C6NEfG4LKU1i_p3gA" base_Operation="_y3X90y6NEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:initializer xmi:id="_B_mhQi6OEfG4LKU1i_p3gA" property="_rJEWkNuhEeyR38y4P6cy-Q"/>
+  <datafoodconsortium_connector:initializer xmi:id="_B_mhQy6OEfG4LKU1i_p3gA" property="_tgfg8NuhEeyR38y4P6cy-Q"/>
+  <datafoodconsortium_connector:initializer xmi:id="_B_mhRC6OEfG4LKU1i_p3gA" property="_3i7cgLqkEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:initializer xmi:id="_B_mhRS6OEfG4LKU1i_p3gA" property="_A0MzkLqlEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:initializer xmi:id="_B_mhRi6OEfG4LKU1i_p3gA" property="_Bzg7gLqlEe6LS7Wm0MEjpA"/>
+  <datafoodconsortium_connector:property xmi:id="_iO2P4i6OEfG4LKU1i_p3gA" base_Property="_iO2P4C6OEfG4LKU1i_p3gA" getter="_y3X90C6NEfG4LKU1i_p3gA" setter="_y3X90y6NEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_iO228C6OEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#dtstart" base_Element="_iO2P4C6OEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:property xmi:id="_0SKrYi6OEfG4LKU1i_p3gA" base_Property="_0SKrYC6OEfG4LKU1i_p3gA" getter="_VdGmQC6PEfG4LKU1i_p3gA" setter="_VdGmQy6PEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_0SLScC6OEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#byday" base_Element="_0SKrYC6OEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:property xmi:id="_6XVS0i6OEfG4LKU1i_p3gA" base_Property="_6XVS0C6OEfG4LKU1i_p3gA" getter="_k2nt8C6PEfG4LKU1i_p3gA" setter="_k2nt8y6PEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_6XVS0y6OEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#bymonth" base_Element="_6XVS0C6OEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:property xmi:id="_81FusC6OEfG4LKU1i_p3gA" base_Property="_81FHoC6OEfG4LKU1i_p3gA" getter="_lbxpcC6PEfG4LKU1i_p3gA" setter="_lbxpcy6PEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_81FusS6OEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#freq" base_Element="_81FHoC6OEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:property xmi:id="_AJ9_0i6PEfG4LKU1i_p3gA" base_Property="_AJ9_0C6PEfG4LKU1i_p3gA" getter="_mmAA4C6PEfG4LKU1i_p3gA" setter="_mmAA4y6PEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_AJ9_0y6PEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#interval" base_Element="_AJ9_0C6PEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_FFbNMC6PEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#Value_RECUR" base_Element="_sK9TsC6OEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:getter xmi:id="_VdHNUC6PEfG4LKU1i_p3gA" base_Operation="_VdGmQC6PEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:setter xmi:id="_VdHNUS6PEfG4LKU1i_p3gA" base_Operation="_VdGmQy6PEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:getter xmi:id="_k2nt9i6PEfG4LKU1i_p3gA" base_Operation="_k2nt8C6PEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:setter xmi:id="_k2oVAC6PEfG4LKU1i_p3gA" base_Operation="_k2nt8y6PEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:getter xmi:id="_lbxpdi6PEfG4LKU1i_p3gA" base_Operation="_lbxpcC6PEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:setter xmi:id="_lbxpdy6PEfG4LKU1i_p3gA" base_Operation="_lbxpcy6PEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:getter xmi:id="_mmAA5i6PEfG4LKU1i_p3gA" base_Operation="_mmAA4C6PEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:setter xmi:id="_mmAA5y6PEfG4LKU1i_p3gA" base_Operation="_mmAA4y6PEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:constructor xmi:id="_BHQSAC6QEfG4LKU1i_p3gA" base_Operation="_BHPq8C6QEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:initializer xmi:id="_BHQSAS6QEfG4LKU1i_p3gA" property="_0SKrYC6OEfG4LKU1i_p3gA" base_Parameter="_BHPq8S6QEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:initializer xmi:id="_BHQSAi6QEfG4LKU1i_p3gA" property="_XPQLQC6NEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:getter xmi:id="_EemoVi6QEfG4LKU1i_p3gA" base_Operation="_EemoUC6QEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:setter xmi:id="_EemoVy6QEfG4LKU1i_p3gA" base_Operation="_EemoUy6QEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:constructor xmi:id="_B_mhPy6OEfG4LKU1i_p3gA" base_Operation="_B_mhMC6OEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:initializer xmi:id="_B_mhQC6OEfG4LKU1i_p3gA" property="_zRSIEC6MEfG4LKU1i_p3gA" base_Parameter="_B_mhMS6OEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:initializer xmi:id="_B_mhQS6OEfG4LKU1i_p3gA" property="_XPQLQC6NEfG4LKU1i_p3gA" base_Parameter="_B_mhMy6OEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:initializer xmi:id="_c7cxsi6QEfG4LKU1i_p3gA" property="_iO2P4C6OEfG4LKU1i_p3gA" base_Parameter="_c7cxsC6QEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:initializer xmi:id="_mGPGQi6QEfG4LKU1i_p3gA" property="_6XVS0C6OEfG4LKU1i_p3gA" base_Parameter="_mGPGQC6QEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:initializer xmi:id="_mdE48i6QEfG4LKU1i_p3gA" property="_81FHoC6OEfG4LKU1i_p3gA" base_Parameter="_mdE48C6QEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:initializer xmi:id="_muCtIi6QEfG4LKU1i_p3gA" property="_AJ9_0C6PEfG4LKU1i_p3gA" base_Parameter="_muCtIC6QEfG4LKU1i_p3gA"/>
 </xmi:XMI>
