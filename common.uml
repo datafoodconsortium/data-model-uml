@@ -650,6 +650,14 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_UmyC8DJYEfGwnMOhDcDDew" name="Datable">
+      <ownedOperation xmi:id="_UmyC8TJYEfGwnMOhDcDDew" name="getDate">
+        <ownedParameter xmi:id="_UmyC8jJYEfGwnMOhDcDDew" name="date" type="_Px9McA7pEfCgCYDrF-CWdA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UmyC8zJYEfGwnMOhDcDDew" name="setDate">
+        <ownedParameter xmi:id="_UmyC9DJYEfGwnMOhDcDDew" name="date" type="_Px9McA7pEfCgCYDrF-CWdA"/>
+      </ownedOperation>
+    </packagedElement>
     <profileApplication xmi:id="_vcEZ8OjgEey9aasgGgoaNw">
       <eAnnotations xmi:id="_vcIEUOjgEey9aasgGgoaNw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="connector.profile.uml#_q9P7ADhmEe6Bec_m8yNqyw"/>
@@ -845,4 +853,6 @@
   <datafoodconsortium_connector:initializer xmi:id="_mGPGQi6QEfG4LKU1i_p3gA" property="_6XVS0C6OEfG4LKU1i_p3gA" base_Parameter="_mGPGQC6QEfG4LKU1i_p3gA"/>
   <datafoodconsortium_connector:initializer xmi:id="_mdE48i6QEfG4LKU1i_p3gA" property="_81FHoC6OEfG4LKU1i_p3gA" base_Parameter="_mdE48C6QEfG4LKU1i_p3gA"/>
   <datafoodconsortium_connector:initializer xmi:id="_muCtIi6QEfG4LKU1i_p3gA" property="_AJ9_0C6PEfG4LKU1i_p3gA" base_Parameter="_muCtIC6QEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:getter xmi:id="_UmyqADJYEfGwnMOhDcDDew" base_Operation="_UmyC8TJYEfGwnMOhDcDDew"/>
+  <datafoodconsortium_connector:setter xmi:id="_UmyqATJYEfGwnMOhDcDDew" base_Operation="_UmyC8zJYEfGwnMOhDcDDew"/>
 </xmi:XMI>
