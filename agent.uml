@@ -670,6 +670,9 @@
         <importedElement xmi:type="uml:Interface" href="product.uml#_zm0rgMluEe2sgKS3gBN9sQ"/>
       </elementImport>
       <elementImport xmi:id="_KdnWqyzeEfGgHtzHArw2YA" importedElement="_OXNFcGa6Ee6BBZALe8Relw"/>
+      <elementImport xmi:id="_tfhY8DJqEfGwnMOhDcDDew">
+        <importedElement xmi:type="uml:Interface" href="sale.uml#_Z5uQUDJlEfGwnMOhDcDDew"/>
+      </elementImport>
       <generalization xmi:id="_KdnWrCzeEfGgHtzHArw2YA" general="_0m9XsOBfEeyy8cy9J23hHA"/>
       <ownedAttribute xmi:id="_KdnWrSzeEfGgHtzHArw2YA" name="name">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -706,6 +709,11 @@
       </ownedAttribute>
       <ownedAttribute xmi:id="_KdnWvyzeEfGgHtzHArw2YA" name="mainContact" type="_S7W3QAaUEe26esJmMoAMaw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KdnWwCzeEfGgHtzHArw2YA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_sFJssDJqEfGwnMOhDcDDew" name="templateSaleSessions">
+        <type xmi:type="uml:Interface" href="sale.uml#_Z5uQUDJlEfGwnMOhDcDDew"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sFJssTJqEfGwnMOhDcDDew"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sFJssjJqEfGwnMOhDcDDew" value="*"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_KdnWwSzeEfGgHtzHArw2YA" client="_KdnWoCzeEfGgHtzHArw2YA" supplier="_QDLJMAaUEe26esJmMoAMaw _X_K3ICzeEfGgHtzHArw2YA" contract="_X_K3ICzeEfGgHtzHArw2YA"/>
       <interfaceRealization xmi:id="_KdnWwizeEfGgHtzHArw2YA" client="_KdnWoCzeEfGgHtzHArw2YA">
@@ -763,6 +771,11 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KdnW4SzeEfGgHtzHArw2YA"/>
         </ownedParameter>
+        <ownedParameter xmi:id="_797jQDJqEfGwnMOhDcDDew" name="templateSaleSessions">
+          <type xmi:type="uml:Interface" href="sale.uml#_Z5uQUDJlEfGwnMOhDcDDew"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_797jQTJqEfGwnMOhDcDDew"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_797jQjJqEfGwnMOhDcDDew" value="*"/>
+        </ownedParameter>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_X_K3ICzeEfGgHtzHArw2YA" name="IOrganization">
@@ -785,6 +798,9 @@
       <elementImport xmi:id="_X_K3KSzeEfGgHtzHArw2YA">
         <importedElement xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
       </elementImport>
+      <elementImport xmi:id="_VuUNkDJqEfGwnMOhDcDDew">
+        <importedElement xmi:type="uml:Interface" href="sale.uml#_Z5uQUDJlEfGwnMOhDcDDew"/>
+      </elementImport>
       <generalization xmi:id="_X_K3KizeEfGgHtzHArw2YA" general="_e8-RoOtOEey6f7rgFRym3Q"/>
       <generalization xmi:id="_X_K3KyzeEfGgHtzHArw2YA">
         <general xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
@@ -804,6 +820,32 @@
       <generalization xmi:id="_X_K3MizeEfGgHtzHArw2YA">
         <general xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
       </generalization>
+      <ownedOperation xmi:id="_-6X7sDJpEfGwnMOhDcDDew" name="addTemplateSaleSession">
+        <ownedParameter xmi:id="_-6X7sTJpEfGwnMOhDcDDew" name="templateSaleSession">
+          <ownedComment xmi:id="_-6X7sjJpEfGwnMOhDcDDew">
+            <body>The localization to add like an `Address`.</body>
+          </ownedComment>
+          <type xmi:type="uml:Interface" href="sale.uml#_Z5uQUDJlEfGwnMOhDcDDew"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-6X7szJpEfGwnMOhDcDDew" name="removeTemplateSaleSession">
+        <ownedParameter xmi:id="_-6X7tDJpEfGwnMOhDcDDew" name="templateSaleSession">
+          <type xmi:type="uml:Interface" href="sale.uml#_Z5uQUDJlEfGwnMOhDcDDew"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-6X7tTJpEfGwnMOhDcDDew" name="setTemplateSaleSessions">
+        <ownedParameter xmi:id="_-6X7tjJpEfGwnMOhDcDDew" name="templateSaleSessions">
+          <type xmi:type="uml:Interface" href="sale.uml#_Z5uQUDJlEfGwnMOhDcDDew"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-6X7tzJpEfGwnMOhDcDDew" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_AdBaMDJqEfGwnMOhDcDDew" name="getTemplateSaleSessions">
+        <ownedParameter xmi:id="_AdBaMTJqEfGwnMOhDcDDew" name="templateSaleSession" direction="return">
+          <type xmi:type="uml:Interface" href="sale.uml#_Z5uQUDJlEfGwnMOhDcDDew"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TzBlkDJqEfGwnMOhDcDDew"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UJK0sDJqEfGwnMOhDcDDew" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <profileApplication xmi:id="_6B89cK73Ee2D9pavmCI82g">
       <eAnnotations xmi:id="_6B9kgK73Ee2D9pavmCI82g" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -1036,4 +1078,11 @@
   <datafoodconsortium_connector:initializer xmi:id="_Kdzj_CzeEfGgHtzHArw2YA" property="_KdnWvyzeEfGgHtzHArw2YA" base_Parameter="_KdnW3izeEfGgHtzHArw2YA"/>
   <datafoodconsortium_connector:initializerParent xmi:id="_Kdzj_SzeEfGgHtzHArw2YA" property="_MlZ8kLn8Ee6BZsWClGUxSQ" base_Parameter="_KdnW4CzeEfGgHtzHArw2YA"/>
   <datafoodconsortium_connector:semantic xmi:id="_X_LeMCzeEfGgHtzHArw2YA" base_Element="_X_K3ICzeEfGgHtzHArw2YA"/>
+  <datafoodconsortium_connector:adder xmi:id="_-6f3gDJpEfGwnMOhDcDDew" base_Operation="_-6X7sDJpEfGwnMOhDcDDew"/>
+  <datafoodconsortium_connector:remover xmi:id="_-6f3gTJpEfGwnMOhDcDDew" base_Operation="_-6X7szJpEfGwnMOhDcDDew"/>
+  <datafoodconsortium_connector:setter xmi:id="_-6f3gjJpEfGwnMOhDcDDew" base_Operation="_-6X7tTJpEfGwnMOhDcDDew"/>
+  <datafoodconsortium_connector:getter xmi:id="_AdBaMjJqEfGwnMOhDcDDew" base_Operation="_AdBaMDJqEfGwnMOhDcDDew"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_sFKTwDJqEfGwnMOhDcDDew" base_Property="_sFJssDJqEfGwnMOhDcDDew" getter="_AdBaMDJqEfGwnMOhDcDDew" setter="_-6X7tTJpEfGwnMOhDcDDew" adder="_-6X7sDJpEfGwnMOhDcDDew" remover="_-6X7szJpEfGwnMOhDcDDew"/>
+  <datafoodconsortium_connector:semantic xmi:id="_sFKTwTJqEfGwnMOhDcDDew" map="dfc-b:hasTemplateSaleSession" base_Element="_sFJssDJqEfGwnMOhDcDDew"/>
+  <datafoodconsortium_connector:initializer xmi:id="_797jQzJqEfGwnMOhDcDDew" property="_sFJssDJqEfGwnMOhDcDDew" base_Parameter="_797jQDJqEfGwnMOhDcDDew"/>
 </xmi:XMI>
