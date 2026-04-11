@@ -673,6 +673,7 @@
       <elementImport xmi:id="_tfhY8DJqEfGwnMOhDcDDew">
         <importedElement xmi:type="uml:Interface" href="sale.uml#_Z5uQUDJlEfGwnMOhDcDDew"/>
       </elementImport>
+      <elementImport xmi:id="_jlpoYDWtEfG0p_Bon9dX0w" importedElement="_hPro0DWoEfG0p_Bon9dX0w"/>
       <generalization xmi:id="_KdnWrCzeEfGgHtzHArw2YA" general="_0m9XsOBfEeyy8cy9J23hHA"/>
       <ownedAttribute xmi:id="_KdnWrSzeEfGgHtzHArw2YA" name="name">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -714,6 +715,10 @@
         <type xmi:type="uml:Interface" href="sale.uml#_Z5uQUDJlEfGwnMOhDcDDew"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sFJssTJqEfGwnMOhDcDDew"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sFJssjJqEfGwnMOhDcDDew" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZWu9UDWtEfG0p_Bon9dX0w" name="certifications" type="_hPro0DWoEfG0p_Bon9dX0w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZWu9UTWtEfG0p_Bon9dX0w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZWu9UjWtEfG0p_Bon9dX0w" value="*"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_KdnWwSzeEfGgHtzHArw2YA" client="_KdnWoCzeEfGgHtzHArw2YA" supplier="_QDLJMAaUEe26esJmMoAMaw _X_K3ICzeEfGgHtzHArw2YA" contract="_X_K3ICzeEfGgHtzHArw2YA"/>
       <interfaceRealization xmi:id="_KdnWwizeEfGgHtzHArw2YA" client="_KdnWoCzeEfGgHtzHArw2YA">
@@ -801,6 +806,7 @@
       <elementImport xmi:id="_VuUNkDJqEfGwnMOhDcDDew">
         <importedElement xmi:type="uml:Interface" href="sale.uml#_Z5uQUDJlEfGwnMOhDcDDew"/>
       </elementImport>
+      <elementImport xmi:id="_BG6jUDWtEfG0p_Bon9dX0w" importedElement="_hPro0DWoEfG0p_Bon9dX0w"/>
       <generalization xmi:id="_X_K3KizeEfGgHtzHArw2YA" general="_e8-RoOtOEey6f7rgFRym3Q"/>
       <generalization xmi:id="_X_K3KyzeEfGgHtzHArw2YA">
         <general xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
@@ -836,6 +842,7 @@
       <ownedOperation xmi:id="_-6X7tTJpEfGwnMOhDcDDew" name="setTemplateSaleSessions">
         <ownedParameter xmi:id="_-6X7tjJpEfGwnMOhDcDDew" name="templateSaleSessions">
           <type xmi:type="uml:Interface" href="sale.uml#_Z5uQUDJlEfGwnMOhDcDDew"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lK_LUDWpEfG0p_Bon9dX0w"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-6X7tzJpEfGwnMOhDcDDew" value="*"/>
         </ownedParameter>
       </ownedOperation>
@@ -844,6 +851,187 @@
           <type xmi:type="uml:Interface" href="sale.uml#_Z5uQUDJlEfGwnMOhDcDDew"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TzBlkDJqEfGwnMOhDcDDew"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UJK0sDJqEfGwnMOhDcDDew" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_HlIj8DWtEfG0p_Bon9dX0w" name="addCertification">
+        <ownedParameter xmi:id="_HlIj8TWtEfG0p_Bon9dX0w" name="certification" type="_hPro0DWoEfG0p_Bon9dX0w">
+          <ownedComment xmi:id="_HlIj8jWtEfG0p_Bon9dX0w">
+            <body>The localization to add like an `Address`.</body>
+          </ownedComment>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_HlIj8zWtEfG0p_Bon9dX0w" name="getCertifications">
+        <ownedParameter xmi:id="_HlIj9DWtEfG0p_Bon9dX0w" name="certifications" type="_hPro0DWoEfG0p_Bon9dX0w" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HlIj9TWtEfG0p_Bon9dX0w"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HlJLADWtEfG0p_Bon9dX0w" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_HlJLATWtEfG0p_Bon9dX0w" name="setCertifications">
+        <ownedParameter xmi:id="_HlJLAjWtEfG0p_Bon9dX0w" name="certifications" type="_hPro0DWoEfG0p_Bon9dX0w">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HlJLAzWtEfG0p_Bon9dX0w"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HlJLBDWtEfG0p_Bon9dX0w" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_HlJLBTWtEfG0p_Bon9dX0w" name="removeCertifications">
+        <ownedParameter xmi:id="_HlJLBjWtEfG0p_Bon9dX0w" name="certification" type="_hPro0DWoEfG0p_Bon9dX0w"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_hPro0DWoEfG0p_Bon9dX0w" name="ICertification">
+      <elementImport xmi:id="_kwL7IDWoEfG0p_Bon9dX0w">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
+      </elementImport>
+      <elementImport xmi:id="_nhryYDWoEfG0p_Bon9dX0w">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
+      </elementImport>
+      <elementImport xmi:id="_CGtwQDWpEfG0p_Bon9dX0w" importedElement="_X_K3ICzeEfGgHtzHArw2YA"/>
+      <generalization xmi:id="_qdAUADWoEfG0p_Bon9dX0w">
+        <general xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
+      </generalization>
+      <generalization xmi:id="_tboBQDWoEfG0p_Bon9dX0w">
+        <general xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
+      </generalization>
+      <ownedOperation xmi:id="_JT2FUDWpEfG0p_Bon9dX0w" name="addCertificationReference">
+        <ownedParameter xmi:id="_JT2FUTWpEfG0p_Bon9dX0w" name="certificationReference">
+          <ownedComment xmi:id="_JT2FUjWpEfG0p_Bon9dX0w">
+            <body>The localization to add like an `Address`.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_JT2FUzWpEfG0p_Bon9dX0w" name="getCertificationReferences">
+        <ownedParameter xmi:id="_JT2FVDWpEfG0p_Bon9dX0w" name="certificationReferences" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JT2FVTWpEfG0p_Bon9dX0w"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JT2FVjWpEfG0p_Bon9dX0w" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_KfG-kDWpEfG0p_Bon9dX0w" name="setCertificationReferences">
+        <ownedParameter xmi:id="_KfG-kTWpEfG0p_Bon9dX0w" name="certificationReferences">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gg5awDWpEfG0p_Bon9dX0w"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KfG-kjWpEfG0p_Bon9dX0w" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_LTUpwDWpEfG0p_Bon9dX0w" name="removeCertificationReference">
+        <ownedParameter xmi:id="_LTUpwTWpEfG0p_Bon9dX0w" name="certificationReference">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pvBXMDWpEfG0p_Bon9dX0w" name="addCertificationScore">
+        <ownedParameter xmi:id="_pvBXMTWpEfG0p_Bon9dX0w" name="certificationReference">
+          <ownedComment xmi:id="_pvBXMjWpEfG0p_Bon9dX0w">
+            <body>The localization to add like an `Address`.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pvBXMzWpEfG0p_Bon9dX0w" name="getCertificationScores">
+        <ownedParameter xmi:id="_pvBXNDWpEfG0p_Bon9dX0w" name="certificationReferences" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pvBXNTWpEfG0p_Bon9dX0w"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pvBXNjWpEfG0p_Bon9dX0w" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pvBXNzWpEfG0p_Bon9dX0w" name="setCertificationScores">
+        <ownedParameter xmi:id="_pvBXODWpEfG0p_Bon9dX0w" name="certificationReferences">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pvBXOTWpEfG0p_Bon9dX0w"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pvBXOjWpEfG0p_Bon9dX0w" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pvBXOzWpEfG0p_Bon9dX0w" name="removeCertificationScore">
+        <ownedParameter xmi:id="_pvBXPDWpEfG0p_Bon9dX0w" name="certificationReference">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_xHn8cDWpEfG0p_Bon9dX0w" name="addOperatorId">
+        <ownedParameter xmi:id="_xHn8cTWpEfG0p_Bon9dX0w" name="operatorId">
+          <ownedComment xmi:id="_xHn8cjWpEfG0p_Bon9dX0w">
+            <body>The localization to add like an `Address`.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_xHn8czWpEfG0p_Bon9dX0w" name="getOpereratorIds">
+        <ownedParameter xmi:id="_xHn8dDWpEfG0p_Bon9dX0w" name="operatorIds" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xHn8dTWpEfG0p_Bon9dX0w"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xHn8djWpEfG0p_Bon9dX0w" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_xHn8dzWpEfG0p_Bon9dX0w" name="setOperatorIds">
+        <ownedParameter xmi:id="_xHn8eDWpEfG0p_Bon9dX0w" name="operatorIds">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xHn8eTWpEfG0p_Bon9dX0w"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xHn8ejWpEfG0p_Bon9dX0w" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_xHn8ezWpEfG0p_Bon9dX0w" name="removeOperatorId">
+        <ownedParameter xmi:id="_xHn8fDWpEfG0p_Bon9dX0w" name="operatorId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-mZ1wDWpEfG0p_Bon9dX0w" name="addCertifiedOrganization">
+        <ownedParameter xmi:id="_-mZ1wTWpEfG0p_Bon9dX0w" name="certifiedOrganization" type="_X_K3ICzeEfGgHtzHArw2YA">
+          <ownedComment xmi:id="_-mZ1wjWpEfG0p_Bon9dX0w">
+            <body>The localization to add like an `Address`.</body>
+          </ownedComment>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-mac0DWpEfG0p_Bon9dX0w" name="getCertifiedOrganizations">
+        <ownedParameter xmi:id="_-mac0TWpEfG0p_Bon9dX0w" name="certifiedOrganizations" type="_X_K3ICzeEfGgHtzHArw2YA" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-mac0jWpEfG0p_Bon9dX0w"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-mac0zWpEfG0p_Bon9dX0w" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-mac1DWpEfG0p_Bon9dX0w" name="setCertifiedOrganizations">
+        <ownedParameter xmi:id="_-mac1TWpEfG0p_Bon9dX0w" name="certifiedOrganizations" type="_X_K3ICzeEfGgHtzHArw2YA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-mac1jWpEfG0p_Bon9dX0w"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-mac1zWpEfG0p_Bon9dX0w" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-mac2DWpEfG0p_Bon9dX0w" name="removeCertifiedOrganization">
+        <ownedParameter xmi:id="_-mac2TWpEfG0p_Bon9dX0w" name="certifiedOrganization" type="_X_K3ICzeEfGgHtzHArw2YA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Q51J0DWqEfG0p_Bon9dX0w" name="Certification">
+      <elementImport xmi:id="_XKB8kDWqEfG0p_Bon9dX0w" importedElement="_X_K3ICzeEfGgHtzHArw2YA"/>
+      <ownedAttribute xmi:id="_gdAj0DWqEfG0p_Bon9dX0w" name="certificationReferences">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gdAj0TWqEfG0p_Bon9dX0w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gdAj0jWqEfG0p_Bon9dX0w" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1xhN0DWrEfG0p_Bon9dX0w" name="certificationScores">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1xhN0TWrEfG0p_Bon9dX0w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1xhN0jWrEfG0p_Bon9dX0w" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_-m9kgDWrEfG0p_Bon9dX0w" name="operatorIds">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-m9kgTWrEfG0p_Bon9dX0w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-m9kgjWrEfG0p_Bon9dX0w" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_GEJu0DWsEfG0p_Bon9dX0w" name="certifiedOrganizations" type="_X_K3ICzeEfGgHtzHArw2YA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GEJu0TWsEfG0p_Bon9dX0w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GEJu0jWsEfG0p_Bon9dX0w" value="*"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_X_PtUDWqEfG0p_Bon9dX0w" client="_Q51J0DWqEfG0p_Bon9dX0w" supplier="_X_K3ICzeEfGgHtzHArw2YA" contract="_X_K3ICzeEfGgHtzHArw2YA"/>
+      <ownedOperation xmi:id="_nWFpkDWsEfG0p_Bon9dX0w" name="Certification">
+        <ownedParameter xmi:id="_qr-AQDWsEfG0p_Bon9dX0w" name="certificationReferences">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_susF8DWsEfG0p_Bon9dX0w"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wm34cDWsEfG0p_Bon9dX0w" name="certificationScores">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wm34cTWsEfG0p_Bon9dX0w"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_znfw0DWsEfG0p_Bon9dX0w" name="operatorIds">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_znfw0TWsEfG0p_Bon9dX0w"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_1abuEDWsEfG0p_Bon9dX0w" name="certifiedOrganizations">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1abuETWsEfG0p_Bon9dX0w"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -1085,4 +1273,40 @@
   <datafoodconsortium_connector:propertyMultiple xmi:id="_sFKTwDJqEfGwnMOhDcDDew" base_Property="_sFJssDJqEfGwnMOhDcDDew" getter="_AdBaMDJqEfGwnMOhDcDDew" setter="_-6X7tTJpEfGwnMOhDcDDew" adder="_-6X7sDJpEfGwnMOhDcDDew" remover="_-6X7szJpEfGwnMOhDcDDew"/>
   <datafoodconsortium_connector:semantic xmi:id="_sFKTwTJqEfGwnMOhDcDDew" map="dfc-b:hasTemplateSaleSession" base_Element="_sFJssDJqEfGwnMOhDcDDew"/>
   <datafoodconsortium_connector:initializer xmi:id="_797jQzJqEfGwnMOhDcDDew" property="_sFJssDJqEfGwnMOhDcDDew" base_Parameter="_797jQDJqEfGwnMOhDcDDew"/>
+  <datafoodconsortium_connector:adder xmi:id="_JUTYUDWpEfG0p_Bon9dX0w" base_Operation="_JT2FUDWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:getter xmi:id="_JUTYUTWpEfG0p_Bon9dX0w" base_Operation="_JT2FUzWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:setter xmi:id="_KfHloDWpEfG0p_Bon9dX0w" base_Operation="_KfG-kDWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:remover xmi:id="_LTVQ0DWpEfG0p_Bon9dX0w" base_Operation="_LTUpwDWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:adder xmi:id="_pvBXPTWpEfG0p_Bon9dX0w" base_Operation="_pvBXMDWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:getter xmi:id="_pvBXPjWpEfG0p_Bon9dX0w" base_Operation="_pvBXMzWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:setter xmi:id="_pvBXPzWpEfG0p_Bon9dX0w" base_Operation="_pvBXNzWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:remover xmi:id="_pvBXQDWpEfG0p_Bon9dX0w" base_Operation="_pvBXOzWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:adder xmi:id="_xHojgDWpEfG0p_Bon9dX0w" base_Operation="_xHn8cDWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:getter xmi:id="_xHojgTWpEfG0p_Bon9dX0w" base_Operation="_xHn8czWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:setter xmi:id="_xHojgjWpEfG0p_Bon9dX0w" base_Operation="_xHn8dzWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:remover xmi:id="_xHojgzWpEfG0p_Bon9dX0w" base_Operation="_xHn8ezWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:adder xmi:id="_-mbD4DWpEfG0p_Bon9dX0w" base_Operation="_-mZ1wDWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:getter xmi:id="_-mbD4TWpEfG0p_Bon9dX0w" base_Operation="_-mac0DWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:setter xmi:id="_-mbD4jWpEfG0p_Bon9dX0w" base_Operation="_-mac1DWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:remover xmi:id="_-mbD4zWpEfG0p_Bon9dX0w" base_Operation="_-mac2DWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:semantic xmi:id="_T2DqYDWqEfG0p_Bon9dX0w" map="dfc-b:Certfication" base_Element="_Q51J0DWqEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_gdBK4DWqEfG0p_Bon9dX0w" base_Property="_gdAj0DWqEfG0p_Bon9dX0w" getter="_JT2FUzWpEfG0p_Bon9dX0w" setter="_KfG-kDWpEfG0p_Bon9dX0w" adder="_JT2FUDWpEfG0p_Bon9dX0w" remover="_LTUpwDWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:semantic xmi:id="_gdBK4TWqEfG0p_Bon9dX0w" map="dfc-b:certiferReference" base_Element="_gdAj0DWqEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_1xhN0zWrEfG0p_Bon9dX0w" base_Property="_1xhN0DWrEfG0p_Bon9dX0w" getter="_pvBXMzWpEfG0p_Bon9dX0w" setter="_pvBXNzWpEfG0p_Bon9dX0w" adder="_pvBXMDWpEfG0p_Bon9dX0w" remover="_pvBXOzWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:semantic xmi:id="_1xhN1DWrEfG0p_Bon9dX0w" map="dfc-b:certificationScore" base_Element="_1xhN0DWrEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_-m9kgzWrEfG0p_Bon9dX0w" base_Property="_-m9kgDWrEfG0p_Bon9dX0w" getter="_xHn8czWpEfG0p_Bon9dX0w" setter="_xHn8dzWpEfG0p_Bon9dX0w" adder="_xHn8cDWpEfG0p_Bon9dX0w" remover="_xHn8ezWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:semantic xmi:id="_-m9khDWrEfG0p_Bon9dX0w" map="dfc-b:operatorId" base_Element="_-m9kgDWrEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_GEJu0zWsEfG0p_Bon9dX0w" base_Property="_GEJu0DWsEfG0p_Bon9dX0w" getter="_-mac0DWpEfG0p_Bon9dX0w" setter="_-mac1DWpEfG0p_Bon9dX0w" adder="_-mZ1wDWpEfG0p_Bon9dX0w" remover="_-mac2DWpEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:semantic xmi:id="_GEJu1DWsEfG0p_Bon9dX0w" map="dfc-b:certifies" base_Element="_GEJu0DWsEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:constructor xmi:id="_pm0WEDWsEfG0p_Bon9dX0w" base_Operation="_nWFpkDWsEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:initializer xmi:id="_uYcSADWsEfG0p_Bon9dX0w" property="_gdAj0DWqEfG0p_Bon9dX0w" base_Parameter="_qr-AQDWsEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:initializer xmi:id="_wm34cjWsEfG0p_Bon9dX0w" property="_1xhN0DWrEfG0p_Bon9dX0w" base_Parameter="_wm34cDWsEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:initializer xmi:id="_znfw0jWsEfG0p_Bon9dX0w" property="_-m9kgDWrEfG0p_Bon9dX0w" base_Parameter="_znfw0DWsEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:initializer xmi:id="_1acVIDWsEfG0p_Bon9dX0w" property="_GEJu0DWsEfG0p_Bon9dX0w" base_Parameter="_1abuEDWsEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:adder xmi:id="_HlJLBzWtEfG0p_Bon9dX0w" base_Operation="_HlIj8DWtEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:getter xmi:id="_HlJLCDWtEfG0p_Bon9dX0w" base_Operation="_HlIj8zWtEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:setter xmi:id="_HlJLCTWtEfG0p_Bon9dX0w" base_Operation="_HlJLATWtEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:remover xmi:id="_HlJLCjWtEfG0p_Bon9dX0w" base_Operation="_HlJLBTWtEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_ZWu9UzWtEfG0p_Bon9dX0w" base_Property="_ZWu9UDWtEfG0p_Bon9dX0w" getter="_HlIj8zWtEfG0p_Bon9dX0w" setter="_HlJLATWtEfG0p_Bon9dX0w" adder="_HlIj8DWtEfG0p_Bon9dX0w" remover="_HlJLBTWtEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:semantic xmi:id="_ZWu9VDWtEfG0p_Bon9dX0w" map="dfc-b:isCertifiedBy" base_Element="_ZWu9UDWtEfG0p_Bon9dX0w"/>
 </xmi:XMI>
