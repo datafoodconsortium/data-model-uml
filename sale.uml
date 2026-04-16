@@ -3111,8 +3111,8 @@
     <setter href="common.uml#_ZcvkYFUnEe2_KYs77o2hVQ"/>
   </datafoodconsortium_connector:property>
   <datafoodconsortium_connector:semantic xmi:id="_67PnxDl8EfGIYbS_WmPVGw" map="dfc-b:description" base_Element="_67PAtTl8EfGIYbS_WmPVGw"/>
-  <datafoodconsortium_connector:semantic xmi:id="_67PnxTl8EfGIYbS_WmPVGw" map="dfc-b:hasStep" base_Element="_67PAtjl8EfGIYbS_WmPVGw"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_67Pnxjl8EfGIYbS_WmPVGw" base_Property="_67PAtjl8EfGIYbS_WmPVGw" getter="_1BJsEDl1EfGll4LYlwGlyg" setter="_1BKTIDl1EfGll4LYlwGlyg" adder="_1BKTJDl1EfGll4LYlwGlyg" remover="_1BKTKDl1EfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:semantic xmi:id="_67PnxTl8EfGIYbS_WmPVGw" map="dfc-b:isStepOf" base_Element="_67PAtjl8EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_67Pnxjl8EfGIYbS_WmPVGw" base_Property="_67PAtjl8EfGIYbS_WmPVGw" getter="_q9ikADlzEfGll4LYlwGlyg" setter="_q9ikBDlzEfGll4LYlwGlyg" adder="_q9ikCDlzEfGll4LYlwGlyg" remover="_q9ikDDlzEfGll4LYlwGlyg"/>
   <datafoodconsortium_connector:semantic xmi:id="_67Pnxzl8EfGIYbS_WmPVGw" map="dfc-b:hasGeoJsonFeature" base_Element="_67PAuTl8EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:propertyMultiple xmi:id="_67PnyDl8EfGIYbS_WmPVGw" base_Property="_67PAuTl8EfGIYbS_WmPVGw" getter="_e91wcDl2EfGll4LYlwGlyg" setter="_e91wdDl2EfGll4LYlwGlyg" adder="_e91weDl2EfGll4LYlwGlyg" remover="_e91wfDl2EfGll4LYlwGlyg"/>
   <datafoodconsortium_connector:constructor xmi:id="_67PnyTl8EfGIYbS_WmPVGw" base_Operation="_67PAvTl8EfGIYbS_WmPVGw"/>
