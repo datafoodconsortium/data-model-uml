@@ -774,6 +774,12 @@
       <elementImport xmi:id="_8ZbnYEelEfCVX5nhGdowdA">
         <importedElement xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
       </elementImport>
+      <generalization xmi:id="_ThgCQDlxEfGll4LYlwGlyg">
+        <general xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
+      </generalization>
+      <generalization xmi:id="_bt9tYDlxEfGll4LYlwGlyg">
+        <general xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
+      </generalization>
       <ownedOperation xmi:id="_De2VsA7hEfCgCYDrF-CWdA" name="getHostedSaleSessions">
         <ownedParameter xmi:id="_De2VsQ7hEfCgCYDrF-CWdA" name="saleSessions" type="_Kg2aAAadEe26esJmMoAMaw" direction="return">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q4nMIA7hEfCgCYDrF-CWdA"/>
@@ -2017,6 +2023,176 @@
       <elementImport xmi:id="_IiZs4DlwEfGll4LYlwGlyg" importedElement="_p3eYQDjNEfG0p_Bon9dX0w"/>
       <generalization xmi:id="_IiaT8DlwEfGll4LYlwGlyg" general="_p3eYQDjNEfG0p_Bon9dX0w"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_8B3vEDlwEfGll4LYlwGlyg" name="IStep">
+      <elementImport xmi:id="_RapqgDlxEfGll4LYlwGlyg">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
+      </elementImport>
+      <elementImport xmi:id="_RapqgTlxEfGll4LYlwGlyg">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
+      </elementImport>
+      <generalization xmi:id="_eZ7kYDlxEfGll4LYlwGlyg">
+        <general xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
+      </generalization>
+      <generalization xmi:id="_eZ8LcDlxEfGll4LYlwGlyg">
+        <general xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
+      </generalization>
+      <ownedOperation xmi:id="_Ro6TgDlyEfGll4LYlwGlyg" name="getArrivalDate">
+        <ownedParameter xmi:id="_Ro6TgTlyEfGll4LYlwGlyg" name="arrivalDate" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ro6TgjlyEfGll4LYlwGlyg"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ro6TgzlyEfGll4LYlwGlyg" name="setArrivalDate">
+        <ownedParameter xmi:id="_Ro6ThDlyEfGll4LYlwGlyg" name="arrivalDate">
+          <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ro6ThTlyEfGll4LYlwGlyg"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_cR5rcDlyEfGll4LYlwGlyg" name="getDuration">
+        <ownedParameter xmi:id="_cR5rcTlyEfGll4LYlwGlyg" name="duration" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cR5rcjlyEfGll4LYlwGlyg"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_cR6SgDlyEfGll4LYlwGlyg" name="setDuration">
+        <ownedParameter xmi:id="_cR6SgTlyEfGll4LYlwGlyg" name="duration">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cR6SgjlyEfGll4LYlwGlyg"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_G5FeUDlzEfGll4LYlwGlyg" name="getDeliveredShipments">
+        <ownedParameter xmi:id="_G5FeUTlzEfGll4LYlwGlyg" name="deliveredShipments" type="_Ex4hQDlzEfGll4LYlwGlyg" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_G5FeUjlzEfGll4LYlwGlyg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_G5FeUzlzEfGll4LYlwGlyg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_G5FeVDlzEfGll4LYlwGlyg" name="setDeliveredShipments">
+        <ownedParameter xmi:id="_G5FeVTlzEfGll4LYlwGlyg" name="deliveredShipments" type="_Ex4hQDlzEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_G5FeVjlzEfGll4LYlwGlyg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_G5FeVzlzEfGll4LYlwGlyg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_G5FeWDlzEfGll4LYlwGlyg" name="addDeliveredShipment">
+        <ownedParameter xmi:id="_G5FeWTlzEfGll4LYlwGlyg" name="deliveredShipment" type="_Ex4hQDlzEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_G5FeWjlzEfGll4LYlwGlyg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_G5FeWzlzEfGll4LYlwGlyg" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_G5GFYDlzEfGll4LYlwGlyg" name="removeDeliveredShipment">
+        <ownedParameter xmi:id="_G5GFYTlzEfGll4LYlwGlyg" name="deliveredShipment" type="_Ex4hQDlzEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_G5GFYjlzEfGll4LYlwGlyg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_G5GFYzlzEfGll4LYlwGlyg" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_be_LUDlzEfGll4LYlwGlyg" name="getPickedUpShipments">
+        <ownedParameter xmi:id="_be_LUTlzEfGll4LYlwGlyg" name="pickedUpShipments" type="_Ex4hQDlzEfGll4LYlwGlyg" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_be_LUjlzEfGll4LYlwGlyg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_be_LUzlzEfGll4LYlwGlyg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_be_LVDlzEfGll4LYlwGlyg" name="setPickedUpShipments">
+        <ownedParameter xmi:id="_be_yYDlzEfGll4LYlwGlyg" name="pickedUpShipments" type="_Ex4hQDlzEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_be_yYTlzEfGll4LYlwGlyg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_be_yYjlzEfGll4LYlwGlyg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_be_yYzlzEfGll4LYlwGlyg" name="addPickedUpShipment">
+        <ownedParameter xmi:id="_be_yZDlzEfGll4LYlwGlyg" name="pickedUpShipment" type="_Ex4hQDlzEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_be_yZTlzEfGll4LYlwGlyg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_be_yZjlzEfGll4LYlwGlyg" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_be_yZzlzEfGll4LYlwGlyg" name="removePickedUpShipment">
+        <ownedParameter xmi:id="_be_yaDlzEfGll4LYlwGlyg" name="pickedUpShipment" type="_Ex4hQDlzEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_be_yaTlzEfGll4LYlwGlyg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_be_yajlzEfGll4LYlwGlyg" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_q9ikADlzEfGll4LYlwGlyg" name="getRoutes">
+        <ownedParameter xmi:id="_q9ikATlzEfGll4LYlwGlyg" name="routes" type="_odGAgDlzEfGll4LYlwGlyg" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q9ikAjlzEfGll4LYlwGlyg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q9ikAzlzEfGll4LYlwGlyg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_q9ikBDlzEfGll4LYlwGlyg" name="setRoutes">
+        <ownedParameter xmi:id="_q9ikBTlzEfGll4LYlwGlyg" name="routes" type="_odGAgDlzEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q9ikBjlzEfGll4LYlwGlyg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q9ikBzlzEfGll4LYlwGlyg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_q9ikCDlzEfGll4LYlwGlyg" name="addRoute">
+        <ownedParameter xmi:id="_q9ikCTlzEfGll4LYlwGlyg" name="route" type="_odGAgDlzEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q9ikCjlzEfGll4LYlwGlyg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q9ikCzlzEfGll4LYlwGlyg" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_q9ikDDlzEfGll4LYlwGlyg" name="removeRoute">
+        <ownedParameter xmi:id="_q9ikDTlzEfGll4LYlwGlyg" name="route" type="_odGAgDlzEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q9ikDjlzEfGll4LYlwGlyg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q9ikDzlzEfGll4LYlwGlyg" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Ex4hQDlzEfGll4LYlwGlyg" name="IShipment">
+      <elementImport xmi:id="_XkDU4Dl1EfGll4LYlwGlyg">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
+      </elementImport>
+      <elementImport xmi:id="_XkDU4Tl1EfGll4LYlwGlyg">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
+      </elementImport>
+      <generalization xmi:id="_XkDU4jl1EfGll4LYlwGlyg">
+        <general xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
+      </generalization>
+      <generalization xmi:id="_XkDU4zl1EfGll4LYlwGlyg">
+        <general xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
+      </generalization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_odGAgDlzEfGll4LYlwGlyg" name="IRoute">
+      <elementImport xmi:id="_X-AtADl1EfGll4LYlwGlyg">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
+      </elementImport>
+      <elementImport xmi:id="_X-AtATl1EfGll4LYlwGlyg">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
+      </elementImport>
+      <generalization xmi:id="_X-AtAjl1EfGll4LYlwGlyg">
+        <general xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
+      </generalization>
+      <generalization xmi:id="_X-AtAzl1EfGll4LYlwGlyg">
+        <general xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
+      </generalization>
+      <ownedOperation xmi:id="_1BJsEDl1EfGll4LYlwGlyg" name="getSteps">
+        <ownedParameter xmi:id="_1BJsETl1EfGll4LYlwGlyg" name="steps" type="_8B3vEDlwEfGll4LYlwGlyg" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1BJsEjl1EfGll4LYlwGlyg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1BJsEzl1EfGll4LYlwGlyg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1BKTIDl1EfGll4LYlwGlyg" name="setSteps">
+        <ownedParameter xmi:id="_1BKTITl1EfGll4LYlwGlyg" name="steps" type="_8B3vEDlwEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1BKTIjl1EfGll4LYlwGlyg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1BKTIzl1EfGll4LYlwGlyg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1BKTJDl1EfGll4LYlwGlyg" name="addStep">
+        <ownedParameter xmi:id="_1BKTJTl1EfGll4LYlwGlyg" name="step" type="_8B3vEDlwEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1BKTJjl1EfGll4LYlwGlyg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1BKTJzl1EfGll4LYlwGlyg" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_1BKTKDl1EfGll4LYlwGlyg" name="removeStep">
+        <ownedParameter xmi:id="_1BKTKTl1EfGll4LYlwGlyg" name="step" type="_8B3vEDlwEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1BKTKjl1EfGll4LYlwGlyg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1BKTKzl1EfGll4LYlwGlyg" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_O-9HUDl1EfGll4LYlwGlyg" name="IDeliveryStep">
+      <elementImport xmi:id="_Zg9tgDl1EfGll4LYlwGlyg" importedElement="_8B3vEDlwEfGll4LYlwGlyg"/>
+      <generalization xmi:id="_c7fToDl1EfGll4LYlwGlyg" general="_8B3vEDlwEfGll4LYlwGlyg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_QA998Dl1EfGll4LYlwGlyg" name="IPickUpStep">
+      <elementImport xmi:id="_fxzZcDl1EfGll4LYlwGlyg" importedElement="_8B3vEDlwEfGll4LYlwGlyg"/>
+      <generalization xmi:id="_fx0AgDl1EfGll4LYlwGlyg" general="_8B3vEDlwEfGll4LYlwGlyg"/>
+    </packagedElement>
     <profileApplication xmi:id="_ckCv4POoEey60OpxS9_JRQ">
       <eAnnotations xmi:id="_ckI2gPOoEey60OpxS9_JRQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="connector.profile.uml#_q9P7ADhmEe6Bec_m8yNqyw"/>
@@ -2682,4 +2858,24 @@
   <datafoodconsortium_connector:setter xmi:id="_qZc8UDlvEfGll4LYlwGlyg" base_Operation="_qZO54DlvEfGll4LYlwGlyg"/>
   <datafoodconsortium_connector:adder xmi:id="_2Z3aMDlvEfGll4LYlwGlyg" base_Operation="_z06KIDlvEfGll4LYlwGlyg"/>
   <datafoodconsortium_connector:remover xmi:id="_7GStEDlvEfGll4LYlwGlyg" base_Operation="_0MOd8DlvEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:getter xmi:id="_Ro66kDlyEfGll4LYlwGlyg" base_Operation="_Ro6TgDlyEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:setter xmi:id="_Ro66kTlyEfGll4LYlwGlyg" base_Operation="_Ro6TgzlyEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:getter xmi:id="_cR6SgzlyEfGll4LYlwGlyg" base_Operation="_cR5rcDlyEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:setter xmi:id="_cR6ShDlyEfGll4LYlwGlyg" base_Operation="_cR6SgDlyEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:getter xmi:id="_G5GFZDlzEfGll4LYlwGlyg" base_Operation="_G5FeUDlzEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:setter xmi:id="_G5GFZTlzEfGll4LYlwGlyg" base_Operation="_G5FeVDlzEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:adder xmi:id="_G5GFZjlzEfGll4LYlwGlyg" base_Operation="_G5FeWDlzEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:remover xmi:id="_G5GFZzlzEfGll4LYlwGlyg" base_Operation="_G5GFYDlzEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:getter xmi:id="_be_yazlzEfGll4LYlwGlyg" base_Operation="_be_LUDlzEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:setter xmi:id="_be_ybDlzEfGll4LYlwGlyg" base_Operation="_be_LVDlzEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:adder xmi:id="_be_ybTlzEfGll4LYlwGlyg" base_Operation="_be_yYzlzEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:remover xmi:id="_be_ybjlzEfGll4LYlwGlyg" base_Operation="_be_yZzlzEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:getter xmi:id="_q9jLEDlzEfGll4LYlwGlyg" base_Operation="_q9ikADlzEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:setter xmi:id="_q9jLETlzEfGll4LYlwGlyg" base_Operation="_q9ikBDlzEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:adder xmi:id="_q9jLEjlzEfGll4LYlwGlyg" base_Operation="_q9ikCDlzEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:remover xmi:id="_q9jLEzlzEfGll4LYlwGlyg" base_Operation="_q9ikDDlzEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:getter xmi:id="_1BK6MDl1EfGll4LYlwGlyg" base_Operation="_1BJsEDl1EfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:setter xmi:id="_1BK6MTl1EfGll4LYlwGlyg" base_Operation="_1BKTIDl1EfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:adder xmi:id="_1BK6Mjl1EfGll4LYlwGlyg" base_Operation="_1BKTJDl1EfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:remover xmi:id="_1BK6Mzl1EfGll4LYlwGlyg" base_Operation="_1BKTKDl1EfGll4LYlwGlyg"/>
 </xmi:XMI>
