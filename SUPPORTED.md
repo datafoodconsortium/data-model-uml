@@ -97,6 +97,7 @@ Here is a list of the DFC features that the model currently supports.
   - [x] description
   - [ ] date
   - [ ] definedBy
+  - [x] hasMember
 - `DeliveryOption`
   - [x] name
   - [x] description
@@ -111,52 +112,30 @@ Here is a list of the DFC features that the model currently supports.
   - [x] endDate
   - [x] fee
   - [x] selectedBy
-- `Enterprise`
-  - [ ] name
-  - [x] description
-  - [ ] date
-  - [x] hasAddress
-  - [x] hasPhoneNumber
-  - [x] hasSocialMedia
-  - [x] logo
-  - [ ] orders
-  - [ ] requests
-  - [ ] owns
-  - [x] email
-  - [x] websitePage
-  - [x] VATnumber
-  - [x] defines
-  - [x] hasMainContact
-  - [x] supplies
-  - [x] manages
-  - [x] proposes
-  - [ ] transforms
-  - [x] maintains
-  - [ ] affiliates
-  - [ ] coordinatedBy
+- `Enterprise` (deprecated, see Organization)
 - `FunctionalProduct`
-  - [x] name
-  - [x] description
+  - [ ] name
+  - [ ] description
   - [ ] date
-  - [x] hasType
-  - [x] hasQuantity
-  - [x] alcoholPercentage
-  - [x] lifetime
-  - [x] hasClaim
-  - [x] usageOrStorageConditions
-  - [x] hasAllergenCharacteristic
-  - [x] hasNutrientCharacteristic
-  - [x] hasPhysicalCharacteristic
-  - [x] hasGeographicalOrigin
-  - [x] hasCertifications
-  - [x] hasNatureOrigin
-  - [x] hasPartOrigin
+  - [ ] hasType
+  - [ ] hasQuantity
+  - [ ] alcoholPercentage
+  - [ ] lifetime
+  - [ ] hasClaim
+  - [ ] usageOrStorageConditions
+  - [ ] hasAllergenCharacteristic
+  - [ ] hasNutrientCharacteristic
+  - [ ] hasPhysicalCharacteristic
+  - [ ] hasGeographicalOrigin
+  - [ ] hasCertifications
+  - [ ] hasNatureOrigin
+  - [ ] hasPartOrigin
   - [ ] hasBrand
   - [ ] hasProcess
-  - [x] hasVariant
-  - [x] isVariantOf
-  - [x] image
-  - [x] referencedBy
+  - [ ] hasVariant
+  - [ ] isVariantOf
+  - [ ] image
+  - [ ] referencedBy
   - [ ] consumedBy
   - [ ] referenceOf
   - [ ] requestedBy
@@ -201,6 +180,32 @@ Here is a list of the DFC features that the model currently supports.
   - [x] hasPrice
   - [x] concerns
   - [x] partOf
+- `Organization`
+  - [ ] name
+  - [x] description
+  - [ ] date
+  - [x] hasAddress
+  - [x] hasPhoneNumber
+  - [x] hasSocialMedia
+  - [x] hasTemplateSaleSession
+  - [x] isCertifiedBy
+  - [x] isMemberOf
+  - [x] logo
+  - [ ] orders
+  - [ ] requests
+  - [ ] owns
+  - [x] email
+  - [x] websitePage
+  - [x] VATnumber
+  - [x] defines
+  - [x] hasMainContact
+  - [x] supplies
+  - [x] manages
+  - [x] proposes
+  - [ ] transforms
+  - [x] maintains
+  - [ ] affiliates
+  - [ ] coordinatedBy
 - `PaymentMethod`
   - [x] name
   - [x] description
@@ -216,6 +221,7 @@ Here is a list of the DFC features that the model currently supports.
   - [x] hasAddress
   - [x] hasPhoneNumber
   - [x] hasSocialMedia
+  - [x] isMemberOf
   - [x] logo
   - [ ] orders
   - [ ] requests
@@ -237,6 +243,7 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] date
   - [x] hosts
   - [x] hasAddress
+  - [x] hasGeoJsonFeature
   - [x] hasPhoneNumber
   - [x] hasMainContact
 - `PhysicalProduct`
@@ -282,10 +289,16 @@ Here is a list of the DFC features that the model currently supports.
   - [x] isStoredIn
   - [x] identifies
   - [x] constitutes
+- `Route`
+  - [x] description
+  - [x] hasGeoJsonFeature
+  - [x] hasStep
+  - [x] name
 - `SaleSession`
   - [ ] date
   - [x] beginDate
   - [x] endDate
+  - [x] hostedAt
   - [x] quantity
   - [x] lists
 - `Shipment`
@@ -318,6 +331,7 @@ Here is a list of the DFC features that the model currently supports.
   - [x] hasCertifications
   - [x] hasNatureOrigin
   - [x] hasPartOrigin
+  - [x] hasReferenceProductOption
   - [ ] hasBrand
   - [ ] hasProcess
   - [x] hasVariant
@@ -345,6 +359,7 @@ Here is a list of the DFC features that the model currently supports.
   - [x] hasCertifications
   - [x] hasNatureOrigin
   - [x] hasPartOrigin
+  - [x] hasReferenceProductOption
   - [ ] hasBrand
   - [ ] hasProcess
   - [x] hasVariant
@@ -355,6 +370,9 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] referenceOf
   - [ ] satisfies
   - [ ] industrializedBy
+- `TemplateSaleSession`
+  - [x] isTemplateSaleSessionOf
+  - [x] hostedAt
 - `TheoreticalStock`
   - [ ] date
   - [x] availabilityDate
@@ -370,6 +388,12 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] from
   - [ ] to
   - [ ] concerns
+- `VariantCharacteristic`
+  - [x] name
+  - [x] description
+  - [ ] date
+  - [x] hasProductOption
+  - [x] hasProductOptionValue
 - `Vehicle`
   - [ ] name
   - [ ] description
