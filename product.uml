@@ -2103,6 +2103,7 @@
       <elementImport xmi:id="_CNBHQDJhEfGwnMOhDcDDew" importedElement="_ZAMZINwDEeyr_asPBQgiSQ"/>
       <elementImport xmi:id="_V0S98DJjEfGwnMOhDcDDew" importedElement="_Dh92EDJjEfGwnMOhDcDDew"/>
       <elementImport xmi:id="_xtA0cDm6EfGIYbS_WmPVGw" importedElement="_GTo7MDJdEfGwnMOhDcDDew"/>
+      <elementImport xmi:id="_APns0Dm8EfGIYbS_WmPVGw" importedElement="_ksWi4DJZEfGwnMOhDcDDew"/>
       <generalization xmi:id="_-PxOkDJgEfGwnMOhDcDDew" general="_ZAMZINwDEeyr_asPBQgiSQ"/>
       <ownedAttribute xmi:id="_kXyckDJjEfGwnMOhDcDDew" name="isVariantOf" type="_OtRegAaaEe26esJmMoAMaw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kXyckTJjEfGwnMOhDcDDew"/>
@@ -2202,6 +2203,10 @@
         <ownedParameter xmi:id="_AKo7oDm7EfGIYbS_WmPVGw" name="variantCharacteristics">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BV7DADm7EfGIYbS_WmPVGw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Db_XoDm7EfGIYbS_WmPVGw" value="*"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_DbOtMDm8EfGIYbS_WmPVGw" name="referenceProductOptions">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DbOtMTm8EfGIYbS_WmPVGw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DbOtMjm8EfGIYbS_WmPVGw" value="*"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -2905,4 +2910,5 @@
   <datafoodconsortium_connector:propertyMultiple xmi:id="_ve5XEzm6EfGIYbS_WmPVGw" base_Property="_ve5XEDm6EfGIYbS_WmPVGw" getter="_X_jXwjm6EfGIYbS_WmPVGw" setter="_X_jXxjm6EfGIYbS_WmPVGw" adder="_X_jXwDm6EfGIYbS_WmPVGw" remover="_X_jXyjm6EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:semantic xmi:id="_ve5XFDm6EfGIYbS_WmPVGw" map="dfc-b:hasVariantCaracteristic" base_Element="_ve5XEDm6EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:initializer xmi:id="_HEg9gDm7EfGIYbS_WmPVGw" property="_ve5XEDm6EfGIYbS_WmPVGw" base_Parameter="_AKo7oDm7EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializerParent xmi:id="_DbOtMzm8EfGIYbS_WmPVGw" property="_V9hn4Dm1EfGIYbS_WmPVGw" base_Parameter="_DbOtMDm8EfGIYbS_WmPVGw"/>
 </xmi:XMI>
