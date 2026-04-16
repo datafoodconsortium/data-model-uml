@@ -87,6 +87,11 @@ Here is a list of the DFC features that the model currently supports.
   - [x] offeredThrough
   - [x] listedIn
   - [ ] managedBy
+- `Certification`
+  - [x] certiferReference
+  - [x] certificationScore
+  - [x] certifies
+  - [x] operatorId
 - `Coordination`
   - [ ] date
   - [ ] coordinates
@@ -282,6 +287,11 @@ Here is a list of the DFC features that the model currently supports.
   - [x] bestBeforeDate
   - [x] expirationDate
   - [x] productionDate
+- `ProductOption`
+  - [x] name
+  - [x] description
+  - [x] date
+  - [x] hasReferenceProductOptionValue
 - `RealStock`
   - [ ] date
   - [x] availabilityDate
@@ -314,6 +324,17 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] description
   - [ ] date
   - [x] URL
+- `Step`
+  - [x] arrivalDate
+  - [ ] date
+  - [x] delivery
+  - [x] description
+  - [x] duration
+  - [x] isStepOf
+  - [x] name
+  - [x] pickUp
+  - [ ] usedInRoute
+  - [ ] useVehicle
 - `SuppliedProduct`
   - [x] name
   - [x] description
@@ -388,6 +409,29 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] from
   - [ ] to
   - [ ] concerns
+- `Variant`
+  - [x] name
+  - [x] description
+  - [ ] date
+  - [x] hasType
+  - [x] hasQuantity
+  - [x] alcoholPercentage
+  - [x] lifetime
+  - [x] hasClaim
+  - [x] usageOrStorageConditions
+  - [x] hasAllergenCharacteristic
+  - [x] hasNutrientCharacteristic
+  - [x] hasPhysicalCharacteristic
+  - [x] hasGeographicalOrigin
+  - [x] hasCertifications
+  - [x] hasNatureOrigin
+  - [x] hasPartOrigin
+  - [x] hasReferenceProductOption
+  - [x] hasVariant
+  - [x] hasVariantCaracteristic (with typo)
+  - [x] isVariantOf
+  - [x] image
+  - [x] referencedBy
 - `VariantCharacteristic`
   - [x] name
   - [x] description
