@@ -1956,6 +1956,67 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_716lsDjLEfG0p_Bon9dX0w" name="IGeoJsonFeature">
+      <ownedOperation xmi:id="_21RrcDjNEfG0p_Bon9dX0w" name="getGeometry">
+        <ownedParameter xmi:id="_5HEH4DjNEfG0p_Bon9dX0w" name="geometry" type="_p3eYQDjNEfG0p_Bon9dX0w" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6NhZoDjNEfG0p_Bon9dX0w"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_BbQysDjOEfG0p_Bon9dX0w" name="setGeometry">
+        <ownedParameter xmi:id="_BbQysTjOEfG0p_Bon9dX0w" name="geometry" type="_p3eYQDjNEfG0p_Bon9dX0w">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BbQysjjOEfG0p_Bon9dX0w"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_HgqqsDjOEfG0p_Bon9dX0w" name="getProperties">
+        <ownedParameter xmi:id="_HgqqsTjOEfG0p_Bon9dX0w" name="properties" type="_pClXoDjNEfG0p_Bon9dX0w" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HgqqsjjOEfG0p_Bon9dX0w"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_HgqqszjOEfG0p_Bon9dX0w" name="setProperties">
+        <ownedParameter xmi:id="_HgqqtDjOEfG0p_Bon9dX0w" name="properties" type="_pClXoDjNEfG0p_Bon9dX0w">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HgqqtTjOEfG0p_Bon9dX0w"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_pClXoDjNEfG0p_Bon9dX0w" name="IGeoJsonProperties"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_p3eYQDjNEfG0p_Bon9dX0w" name="IGeoJsonGeometry">
+      <ownedOperation xmi:id="_qZHlIDlvEfGll4LYlwGlyg" name="getCoordinates">
+        <ownedParameter xmi:id="_qZHlITlvEfGll4LYlwGlyg" name="coordinates" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qZHlIjlvEfGll4LYlwGlyg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s_oUYDlvEfGll4LYlwGlyg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_qZO54DlvEfGll4LYlwGlyg" name="setCoordinates">
+        <ownedParameter xmi:id="_qZO54TlvEfGll4LYlwGlyg" name="coordinates">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qZO54jlvEfGll4LYlwGlyg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xapuMDlvEfGll4LYlwGlyg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_z06KIDlvEfGll4LYlwGlyg" name="addCoordinate">
+        <ownedParameter xmi:id="_z06KITlvEfGll4LYlwGlyg" name="coordinate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z06KIjlvEfGll4LYlwGlyg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z06KIzlvEfGll4LYlwGlyg" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_0MOd8DlvEfGll4LYlwGlyg" name="removeCoordinate">
+        <ownedParameter xmi:id="_0MOd8TlvEfGll4LYlwGlyg" name="coordinate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0MOd8jlvEfGll4LYlwGlyg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0MOd8zlvEfGll4LYlwGlyg" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_qNMJkDjNEfG0p_Bon9dX0w" name="IGeoJsonPoint">
+      <elementImport xmi:id="_B4D70DlwEfGll4LYlwGlyg" importedElement="_p3eYQDjNEfG0p_Bon9dX0w"/>
+      <generalization xmi:id="_FvEpoDlwEfGll4LYlwGlyg" general="_p3eYQDjNEfG0p_Bon9dX0w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_qZgHQDjNEfG0p_Bon9dX0w" name="IGeoJsonPolygon">
+      <elementImport xmi:id="_IiZs4DlwEfGll4LYlwGlyg" importedElement="_p3eYQDjNEfG0p_Bon9dX0w"/>
+      <generalization xmi:id="_IiaT8DlwEfGll4LYlwGlyg" general="_p3eYQDjNEfG0p_Bon9dX0w"/>
+    </packagedElement>
     <profileApplication xmi:id="_ckCv4POoEey60OpxS9_JRQ">
       <eAnnotations xmi:id="_ckI2gPOoEey60OpxS9_JRQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="connector.profile.uml#_q9P7ADhmEe6Bec_m8yNqyw"/>
@@ -2613,4 +2674,12 @@
   <datafoodconsortium_connector:setter xmi:id="_Ln_TSjJpEfGwnMOhDcDDew" base_Operation="_Ln_TQDJpEfGwnMOhDcDDew"/>
   <datafoodconsortium_connector:remover xmi:id="_Ln_TSzJpEfGwnMOhDcDDew" base_Operation="_Ln_TRDJpEfGwnMOhDcDDew"/>
   <datafoodconsortium_connector:initializer xmi:id="_jwVMQDJpEfGwnMOhDcDDew" property="_7rCHUDJoEfGwnMOhDcDDew" base_Parameter="_jwUlMDJpEfGwnMOhDcDDew"/>
+  <datafoodconsortium_connector:getter xmi:id="_FUj_gDjOEfG0p_Bon9dX0w" base_Operation="_21RrcDjNEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:setter xmi:id="_GnBs8DjOEfG0p_Bon9dX0w" base_Operation="_BbQysDjOEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:getter xmi:id="_HgrRwDjOEfG0p_Bon9dX0w" base_Operation="_HgqqsDjOEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:setter xmi:id="_HgrRwTjOEfG0p_Bon9dX0w" base_Operation="_HgqqszjOEfG0p_Bon9dX0w"/>
+  <datafoodconsortium_connector:getter xmi:id="_qZcVQDlvEfGll4LYlwGlyg" base_Operation="_qZHlIDlvEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:setter xmi:id="_qZc8UDlvEfGll4LYlwGlyg" base_Operation="_qZO54DlvEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:adder xmi:id="_2Z3aMDlvEfGll4LYlwGlyg" base_Operation="_z06KIDlvEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:remover xmi:id="_7GStEDlvEfGll4LYlwGlyg" base_Operation="_0MOd8DlvEfGll4LYlwGlyg"/>
 </xmi:XMI>
