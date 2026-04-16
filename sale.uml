@@ -2255,6 +2255,44 @@
       <elementImport xmi:id="_fxzZcDl1EfGll4LYlwGlyg" importedElement="_8B3vEDlwEfGll4LYlwGlyg"/>
       <generalization xmi:id="_fx0AgDl1EfGll4LYlwGlyg" general="_8B3vEDlwEfGll4LYlwGlyg"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cFbmoDl7EfGIYbS_WmPVGw" name="Route">
+      <elementImport xmi:id="_yi4EEDl7EfGIYbS_WmPVGw" importedElement="_odGAgDlzEfGll4LYlwGlyg"/>
+      <elementImport xmi:id="_-NX8UDl7EfGIYbS_WmPVGw" importedElement="_8B3vEDlwEfGll4LYlwGlyg"/>
+      <elementImport xmi:id="_-NX8UTl7EfGIYbS_WmPVGw" importedElement="_716lsDjLEfG0p_Bon9dX0w"/>
+      <ownedAttribute xmi:id="_6A7KADl7EfGIYbS_WmPVGw" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_6A7xEDl7EfGIYbS_WmPVGw" name="description">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AHnbcDl8EfGIYbS_WmPVGw" name="steps" type="_8B3vEDlwEfGll4LYlwGlyg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BdH10Dl8EfGIYbS_WmPVGw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B09HADl8EfGIYbS_WmPVGw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_UbxRIDl8EfGIYbS_WmPVGw" name="features" type="_716lsDjLEfG0p_Bon9dX0w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UbxRITl8EfGIYbS_WmPVGw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UbxRIjl8EfGIYbS_WmPVGw" value="*"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_12WnADl7EfGIYbS_WmPVGw" client="_cFbmoDl7EfGIYbS_WmPVGw" supplier="_odGAgDlzEfGll4LYlwGlyg" contract="_odGAgDlzEfGll4LYlwGlyg"/>
+      <ownedOperation xmi:id="_dW9DcDl8EfGIYbS_WmPVGw" name="Route">
+        <ownedParameter xmi:id="_ixBfcDl8EfGIYbS_WmPVGw" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ixBfcTl8EfGIYbS_WmPVGw"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ixBfcjl8EfGIYbS_WmPVGw" name="description">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ixBfczl8EfGIYbS_WmPVGw"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_nraV0Dl8EfGIYbS_WmPVGw" name="steps" type="_8B3vEDlwEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nraV0Tl8EfGIYbS_WmPVGw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oxl6wDl8EfGIYbS_WmPVGw" value="*"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_rbricDl8EfGIYbS_WmPVGw" name="features" type="_716lsDjLEfG0p_Bon9dX0w">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rbricTl8EfGIYbS_WmPVGw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rbricjl8EfGIYbS_WmPVGw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
     <profileApplication xmi:id="_ckCv4POoEey60OpxS9_JRQ">
       <eAnnotations xmi:id="_ckI2gPOoEey60OpxS9_JRQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="connector.profile.uml#_q9P7ADhmEe6Bec_m8yNqyw"/>
@@ -2951,4 +2989,25 @@
   <datafoodconsortium_connector:semantic xmi:id="_YbeaMzl3EfGll4LYlwGlyg" map="dfc-b:hasGeoJsonFeature" base_Element="_YbeaMDl3EfGll4LYlwGlyg"/>
   <datafoodconsortium_connector:propertyMultiple xmi:id="_YbeaNDl3EfGll4LYlwGlyg" base_Property="_YbeaMDl3EfGll4LYlwGlyg" getter="_BCQ4ETl3EfGll4LYlwGlyg" setter="_BCRfIDl3EfGll4LYlwGlyg" adder="_BCRfJDl3EfGll4LYlwGlyg" remover="_BCRfKDl3EfGll4LYlwGlyg"/>
   <datafoodconsortium_connector:initializer xmi:id="_kx-c0zl3EfGll4LYlwGlyg" property="_YbeaMDl3EfGll4LYlwGlyg" base_Parameter="_kx-c0Dl3EfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:semantic xmi:id="_ew014Dl7EfGIYbS_WmPVGw" map="dfc-b:Step"/>
+  <datafoodconsortium_connector:semantic xmi:id="_fixQMDl7EfGIYbS_WmPVGw" map="dfc-b:Route" base_Element="_cFbmoDl7EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_6A7xETl7EfGIYbS_WmPVGw" map="dfc-b:name" base_Element="_6A7KADl7EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:property xmi:id="_6A7xEjl7EfGIYbS_WmPVGw" base_Property="_6A7KADl7EfGIYbS_WmPVGw">
+    <getter href="common.uml#_sUqPoNxUEeyr_asPBQgiSQ"/>
+    <setter href="common.uml#_UuoPcFUnEe2_KYs77o2hVQ"/>
+  </datafoodconsortium_connector:property>
+  <datafoodconsortium_connector:semantic xmi:id="_6A7xEzl7EfGIYbS_WmPVGw" map="dfc-b:description" base_Element="_6A7xEDl7EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:property xmi:id="_6A7xFDl7EfGIYbS_WmPVGw" base_Property="_6A7xEDl7EfGIYbS_WmPVGw">
+    <getter href="common.uml#_tMdaUNxUEeyr_asPBQgiSQ"/>
+    <setter href="common.uml#_ZcvkYFUnEe2_KYs77o2hVQ"/>
+  </datafoodconsortium_connector:property>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_EvPt4Dl8EfGIYbS_WmPVGw" base_Property="_AHnbcDl8EfGIYbS_WmPVGw" getter="_1BJsEDl1EfGll4LYlwGlyg" setter="_1BKTIDl1EfGll4LYlwGlyg" adder="_1BKTJDl1EfGll4LYlwGlyg" remover="_1BKTKDl1EfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:semantic xmi:id="_EvQU8Dl8EfGIYbS_WmPVGw" map="dfc-b:hasStep" base_Element="_AHnbcDl8EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_UbxRIzl8EfGIYbS_WmPVGw" map="dfc-b:hasGeoJsonFeature" base_Element="_UbxRIDl8EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_UbxRJDl8EfGIYbS_WmPVGw" base_Property="_UbxRIDl8EfGIYbS_WmPVGw" getter="_e91wcDl2EfGll4LYlwGlyg" setter="_e91wdDl2EfGll4LYlwGlyg" adder="_e91weDl2EfGll4LYlwGlyg" remover="_e91wfDl2EfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:constructor xmi:id="_e4HUMDl8EfGIYbS_WmPVGw" base_Operation="_dW9DcDl8EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializer xmi:id="_ixBfdDl8EfGIYbS_WmPVGw" property="_6A7KADl7EfGIYbS_WmPVGw" base_Parameter="_ixBfcDl8EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializer xmi:id="_ixBfdTl8EfGIYbS_WmPVGw" property="_6A7xEDl7EfGIYbS_WmPVGw" base_Parameter="_ixBfcjl8EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializer xmi:id="_nraV0jl8EfGIYbS_WmPVGw" property="_AHnbcDl8EfGIYbS_WmPVGw" base_Parameter="_nraV0Dl8EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializer xmi:id="_rbsJgDl8EfGIYbS_WmPVGw" property="_UbxRIDl8EfGIYbS_WmPVGw" base_Parameter="_rbricDl8EfGIYbS_WmPVGw"/>
 </xmi:XMI>
