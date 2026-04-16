@@ -2102,10 +2102,15 @@
       </elementImport>
       <elementImport xmi:id="_CNBHQDJhEfGwnMOhDcDDew" importedElement="_ZAMZINwDEeyr_asPBQgiSQ"/>
       <elementImport xmi:id="_V0S98DJjEfGwnMOhDcDDew" importedElement="_Dh92EDJjEfGwnMOhDcDDew"/>
+      <elementImport xmi:id="_xtA0cDm6EfGIYbS_WmPVGw" importedElement="_GTo7MDJdEfGwnMOhDcDDew"/>
       <generalization xmi:id="_-PxOkDJgEfGwnMOhDcDDew" general="_ZAMZINwDEeyr_asPBQgiSQ"/>
       <ownedAttribute xmi:id="_kXyckDJjEfGwnMOhDcDDew" name="isVariantOf" type="_OtRegAaaEe26esJmMoAMaw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kXyckTJjEfGwnMOhDcDDew"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kXyckjJjEfGwnMOhDcDDew" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ve5XEDm6EfGIYbS_WmPVGw" name="variantCharacteristics" type="_GTo7MDJdEfGwnMOhDcDDew">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ve5XETm6EfGIYbS_WmPVGw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ve5XEjm6EfGIYbS_WmPVGw" value="*"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_Y2RhMDJjEfGwnMOhDcDDew" client="_-4pB4DJfEfGwnMOhDcDDew" supplier="_Dh92EDJjEfGwnMOhDcDDew" contract="_Dh92EDJjEfGwnMOhDcDDew"/>
       <ownedOperation xmi:id="_R41VUDJgEfGwnMOhDcDDew" name="Variant">
@@ -2194,10 +2199,15 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R41VgDJgEfGwnMOhDcDDew"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R41VgTJgEfGwnMOhDcDDew" value="*"/>
         </ownedParameter>
+        <ownedParameter xmi:id="_AKo7oDm7EfGIYbS_WmPVGw" name="variantCharacteristics">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BV7DADm7EfGIYbS_WmPVGw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Db_XoDm7EfGIYbS_WmPVGw" value="*"/>
+        </ownedParameter>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_Dh92EDJjEfGwnMOhDcDDew" name="IVariant">
       <elementImport xmi:id="_FcV4EDJjEfGwnMOhDcDDew" importedElement="_OtRegAaaEe26esJmMoAMaw"/>
+      <elementImport xmi:id="_gpC9IDm6EfGIYbS_WmPVGw" importedElement="_GTo7MDJdEfGwnMOhDcDDew"/>
       <generalization xmi:id="_G5o8gDJjEfGwnMOhDcDDew" general="_OtRegAaaEe26esJmMoAMaw"/>
       <ownedOperation xmi:id="_KBkWwDJjEfGwnMOhDcDDew" name="addIsVariantOf">
         <ownedParameter xmi:id="_KBkWwTJjEfGwnMOhDcDDew" name="product" type="_OtRegAaaEe26esJmMoAMaw"/>
@@ -2216,6 +2226,24 @@
       </ownedOperation>
       <ownedOperation xmi:id="_KBk92DJjEfGwnMOhDcDDew" name="removeIsVariantOf">
         <ownedParameter xmi:id="_KBk92TJjEfGwnMOhDcDDew" name="product" type="_OtRegAaaEe26esJmMoAMaw"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_X_jXwDm6EfGIYbS_WmPVGw" name="addVariantCharacteristic">
+        <ownedParameter xmi:id="_X_jXwTm6EfGIYbS_WmPVGw" name="variantCharacteristic" type="_GTo7MDJdEfGwnMOhDcDDew"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_X_jXwjm6EfGIYbS_WmPVGw" name="getVariantCharacteristics">
+        <ownedParameter xmi:id="_X_jXwzm6EfGIYbS_WmPVGw" name="variantCharacteristics" type="_GTo7MDJdEfGwnMOhDcDDew" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_X_jXxDm6EfGIYbS_WmPVGw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X_jXxTm6EfGIYbS_WmPVGw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_X_jXxjm6EfGIYbS_WmPVGw" name="setVariantCharacteristics">
+        <ownedParameter xmi:id="_X_jXxzm6EfGIYbS_WmPVGw" name="variantCharacteristics" type="_GTo7MDJdEfGwnMOhDcDDew">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_X_jXyDm6EfGIYbS_WmPVGw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X_jXyTm6EfGIYbS_WmPVGw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_X_jXyjm6EfGIYbS_WmPVGw" name="removeVariantCharacteristic">
+        <ownedParameter xmi:id="_X_jXyzm6EfGIYbS_WmPVGw" name="variantCharacteristic" type="_GTo7MDJdEfGwnMOhDcDDew"/>
       </ownedOperation>
     </packagedElement>
     <profileApplication xmi:id="_ZaCIsK76Ee27bvIjdr5biQ">
@@ -2870,4 +2898,11 @@
   <datafoodconsortium_connector:initializerParent xmi:id="_S2f6ozm3EfGIYbS_WmPVGw" property="_awB1IKvkEe-q1bilAIjjnA" base_Parameter="_S2f6oDm3EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:initializerParent xmi:id="_bRkpgDm3EfGIYbS_WmPVGw" property="_V9hn4Dm1EfGIYbS_WmPVGw" base_Parameter="_Wtk54Dm3EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:initializerParent xmi:id="_iQ7oUzm3EfGIYbS_WmPVGw" property="_V9hn4Dm1EfGIYbS_WmPVGw" base_Parameter="_iQ7oUDm3EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:adder xmi:id="_X_jXzDm6EfGIYbS_WmPVGw" base_Operation="_X_jXwDm6EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:getter xmi:id="_X_j-0Dm6EfGIYbS_WmPVGw" base_Operation="_X_jXwjm6EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:setter xmi:id="_X_j-0Tm6EfGIYbS_WmPVGw" base_Operation="_X_jXxjm6EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:remover xmi:id="_X_j-0jm6EfGIYbS_WmPVGw" base_Operation="_X_jXyjm6EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_ve5XEzm6EfGIYbS_WmPVGw" base_Property="_ve5XEDm6EfGIYbS_WmPVGw" getter="_KBk90DJjEfGwnMOhDcDDew" setter="_KBk91DJjEfGwnMOhDcDDew" adder="_KBkWwDJjEfGwnMOhDcDDew" remover="_KBk92DJjEfGwnMOhDcDDew"/>
+  <datafoodconsortium_connector:semantic xmi:id="_ve5XFDm6EfGIYbS_WmPVGw" map="dfc-b:hasVariantCaracteristic" base_Element="_ve5XEDm6EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializer xmi:id="_HEg9gDm7EfGIYbS_WmPVGw" property="_ve5XEDm6EfGIYbS_WmPVGw" base_Parameter="_AKo7oDm7EfGIYbS_WmPVGw"/>
 </xmi:XMI>
