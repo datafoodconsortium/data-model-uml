@@ -1554,6 +1554,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_eF7hwEenEfCVX5nhGdowdA" name="PhysicalPlace">
       <elementImport xmi:id="_eF7hwUenEfCVX5nhGdowdA" importedElement="_YTySUA7jEfCgCYDrF-CWdA"/>
       <elementImport xmi:id="_eF7hwkenEfCVX5nhGdowdA" importedElement="_Kg2aAAadEe26esJmMoAMaw"/>
+      <elementImport xmi:id="_bBuDsDl3EfGll4LYlwGlyg" importedElement="_716lsDjLEfG0p_Bon9dX0w"/>
       <ownedAttribute xmi:id="_eF7hw0enEfCVX5nhGdowdA" name="name">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
@@ -1591,6 +1592,10 @@
       <ownedAttribute xmi:id="_kdpcUEeoEfCVX5nhGdowdA" name="realStocks" type="_EC8yMA7qEfCgCYDrF-CWdA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kdpcUUeoEfCVX5nhGdowdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kdpcUkeoEfCVX5nhGdowdA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_YbeaMDl3EfGll4LYlwGlyg" name="features" type="_716lsDjLEfG0p_Bon9dX0w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YbeaMTl3EfGll4LYlwGlyg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YbeaMjl3EfGll4LYlwGlyg" value="*"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_eF7hy0enEfCVX5nhGdowdA" client="_eF7hwEenEfCVX5nhGdowdA" supplier="_AL3y8A7qEfCgCYDrF-CWdA _EC8yMA7qEfCgCYDrF-CWdA _xGXhgA7rEfCgCYDrF-CWdA _Tzw5MA7iEfCgCYDrF-CWdA _YTySUA7jEfCgCYDrF-CWdA" contract="_YTySUA7jEfCgCYDrF-CWdA"/>
       <ownedOperation xmi:id="_eF7hzEenEfCVX5nhGdowdA" name="PhysicalPlace">
@@ -1633,6 +1638,10 @@
         <ownedParameter xmi:id="_MisXsEerEfCVX5nhGdowdA" name="realStocks" type="_EC8yMA7qEfCgCYDrF-CWdA">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MisXsUerEfCVX5nhGdowdA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MisXskerEfCVX5nhGdowdA" value="*"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_kx-c0Dl3EfGll4LYlwGlyg" name="features" type="_716lsDjLEfG0p_Bon9dX0w">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kx-c0Tl3EfGll4LYlwGlyg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kx-c0jl3EfGll4LYlwGlyg" value="*"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -2939,4 +2948,7 @@
   <datafoodconsortium_connector:setter xmi:id="_BCSGMDl3EfGll4LYlwGlyg" base_Operation="_BCRfIDl3EfGll4LYlwGlyg"/>
   <datafoodconsortium_connector:adder xmi:id="_BCSGMTl3EfGll4LYlwGlyg" base_Operation="_BCRfJDl3EfGll4LYlwGlyg"/>
   <datafoodconsortium_connector:remover xmi:id="_BCSGMjl3EfGll4LYlwGlyg" base_Operation="_BCRfKDl3EfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:semantic xmi:id="_YbeaMzl3EfGll4LYlwGlyg" map="dfc-b:hasGeoJsonFeature" base_Element="_YbeaMDl3EfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_YbeaNDl3EfGll4LYlwGlyg" base_Property="_YbeaMDl3EfGll4LYlwGlyg" getter="_BCQ4ETl3EfGll4LYlwGlyg" setter="_BCRfIDl3EfGll4LYlwGlyg" adder="_BCRfJDl3EfGll4LYlwGlyg" remover="_BCRfKDl3EfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:initializer xmi:id="_kx-c0zl3EfGll4LYlwGlyg" property="_YbeaMDl3EfGll4LYlwGlyg" base_Parameter="_kx-c0Dl3EfGll4LYlwGlyg"/>
 </xmi:XMI>
