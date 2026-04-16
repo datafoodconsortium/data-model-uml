@@ -2296,7 +2296,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_67PAsDl8EfGIYbS_WmPVGw" name="Step" isAbstract="true">
       <elementImport xmi:id="_67PAsTl8EfGIYbS_WmPVGw" importedElement="_odGAgDlzEfGll4LYlwGlyg"/>
       <elementImport xmi:id="_67PAsjl8EfGIYbS_WmPVGw" importedElement="_8B3vEDlwEfGll4LYlwGlyg"/>
-      <elementImport xmi:id="_67PAszl8EfGIYbS_WmPVGw" importedElement="_716lsDjLEfG0p_Bon9dX0w"/>
+      <elementImport xmi:id="_67PAszl8EfGIYbS_WmPVGw" importedElement="_Ex4hQDlzEfGll4LYlwGlyg"/>
       <ownedAttribute xmi:id="_67PAtDl8EfGIYbS_WmPVGw" name="name">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
@@ -2307,9 +2307,19 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_67PAtzl8EfGIYbS_WmPVGw"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_67PAuDl8EfGIYbS_WmPVGw" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_67PAuTl8EfGIYbS_WmPVGw" name="features" type="_716lsDjLEfG0p_Bon9dX0w">
+      <ownedAttribute xmi:id="_67PAuTl8EfGIYbS_WmPVGw" name="deliveredShipments" type="_Ex4hQDlzEfGll4LYlwGlyg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_67PAujl8EfGIYbS_WmPVGw"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_67PAuzl8EfGIYbS_WmPVGw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_INwUwDl_EfGIYbS_WmPVGw" name="pickedUpShipments" type="_Ex4hQDlzEfGll4LYlwGlyg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_INwUwTl_EfGIYbS_WmPVGw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_INwUwjl_EfGIYbS_WmPVGw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_R1HQkDl_EfGIYbS_WmPVGw" name="duration">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_bAaigDl_EfGIYbS_WmPVGw" name="arrivalDate">
+        <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_67PAvDl8EfGIYbS_WmPVGw" client="_67PAsDl8EfGIYbS_WmPVGw" supplier="_odGAgDlzEfGll4LYlwGlyg _8B3vEDlwEfGll4LYlwGlyg" contract="_8B3vEDlwEfGll4LYlwGlyg"/>
       <ownedOperation xmi:id="_67PAvTl8EfGIYbS_WmPVGw" name="Step">
@@ -2325,16 +2335,28 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_67PAwzl8EfGIYbS_WmPVGw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_67PAxDl8EfGIYbS_WmPVGw" value="*"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_67PAxTl8EfGIYbS_WmPVGw" name="features" type="_716lsDjLEfG0p_Bon9dX0w">
+        <ownedParameter xmi:id="_67PAxTl8EfGIYbS_WmPVGw" name="deliveredShipments" type="_Ex4hQDlzEfGll4LYlwGlyg">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_67PAxjl8EfGIYbS_WmPVGw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_67PAxzl8EfGIYbS_WmPVGw" value="*"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_nHrPQDl_EfGIYbS_WmPVGw" name="pickedUpShipments" type="_Ex4hQDlzEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nHrPQTl_EfGIYbS_WmPVGw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nHrPQjl_EfGIYbS_WmPVGw" value="*"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_raaPwDl_EfGIYbS_WmPVGw" name="duration">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_raaPwTl_EfGIYbS_WmPVGw"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_uYApUDl_EfGIYbS_WmPVGw" name="arrivalDate">
+          <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uYApUTl_EfGIYbS_WmPVGw"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_N-sqkDl9EfGIYbS_WmPVGw" name="DeliveryStep">
       <elementImport xmi:id="_N-sqkTl9EfGIYbS_WmPVGw" importedElement="_odGAgDlzEfGll4LYlwGlyg"/>
       <elementImport xmi:id="_N-sqkjl9EfGIYbS_WmPVGw" importedElement="_67PAsDl8EfGIYbS_WmPVGw"/>
-      <elementImport xmi:id="_N-sqkzl9EfGIYbS_WmPVGw" importedElement="_716lsDjLEfG0p_Bon9dX0w"/>
+      <elementImport xmi:id="_N-sqkzl9EfGIYbS_WmPVGw" importedElement="_Ex4hQDlzEfGll4LYlwGlyg"/>
       <elementImport xmi:id="_xQp8UDl9EfGIYbS_WmPVGw" importedElement="_O-9HUDl1EfGll4LYlwGlyg"/>
       <generalization xmi:id="_XSzTMDl9EfGIYbS_WmPVGw" general="_67PAsDl8EfGIYbS_WmPVGw"/>
       <interfaceRealization xmi:id="_zWoKUDl9EfGIYbS_WmPVGw" client="_N-sqkDl9EfGIYbS_WmPVGw" supplier="_O-9HUDl1EfGll4LYlwGlyg" contract="_O-9HUDl1EfGll4LYlwGlyg"/>
@@ -2351,17 +2373,29 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N-sqozl9EfGIYbS_WmPVGw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N-sqpDl9EfGIYbS_WmPVGw" value="*"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_N-sqpTl9EfGIYbS_WmPVGw" name="features" type="_716lsDjLEfG0p_Bon9dX0w">
+        <ownedParameter xmi:id="_N-sqpTl9EfGIYbS_WmPVGw" name="deliveredShipments" type="_Ex4hQDlzEfGll4LYlwGlyg">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N-sqpjl9EfGIYbS_WmPVGw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N-sqpzl9EfGIYbS_WmPVGw" value="*"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_84WGQDl_EfGIYbS_WmPVGw" name="pickedUpShipments" type="_Ex4hQDlzEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_84WGQTl_EfGIYbS_WmPVGw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_84WGQjl_EfGIYbS_WmPVGw" value="*"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="__sY7MDl_EfGIYbS_WmPVGw" name="duration">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__sY7MTl_EfGIYbS_WmPVGw"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BaNu8DmAEfGIYbS_WmPVGw" name="arrivalDate">
+          <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BaNu8TmAEfGIYbS_WmPVGw"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_tlD0UDl9EfGIYbS_WmPVGw" name="PickupStep">
       <elementImport xmi:id="_tlD0UTl9EfGIYbS_WmPVGw" importedElement="_odGAgDlzEfGll4LYlwGlyg"/>
       <elementImport xmi:id="_tlD0Ujl9EfGIYbS_WmPVGw" importedElement="_67PAsDl8EfGIYbS_WmPVGw"/>
-      <elementImport xmi:id="_tlD0Uzl9EfGIYbS_WmPVGw" importedElement="_716lsDjLEfG0p_Bon9dX0w"/>
       <elementImport xmi:id="_3f5s0Dl9EfGIYbS_WmPVGw" importedElement="_QA998Dl1EfGll4LYlwGlyg"/>
+      <elementImport xmi:id="_HkdqsDmAEfGIYbS_WmPVGw" importedElement="_Ex4hQDlzEfGll4LYlwGlyg"/>
       <generalization xmi:id="_tlD0VDl9EfGIYbS_WmPVGw" general="_67PAsDl8EfGIYbS_WmPVGw"/>
       <interfaceRealization xmi:id="_3f6T4Dl9EfGIYbS_WmPVGw" client="_N-sqkDl9EfGIYbS_WmPVGw _tlD0UDl9EfGIYbS_WmPVGw" supplier="_O-9HUDl1EfGll4LYlwGlyg _QA998Dl1EfGll4LYlwGlyg" contract="_QA998Dl1EfGll4LYlwGlyg"/>
       <ownedOperation xmi:id="_tlD0VTl9EfGIYbS_WmPVGw" name="PickUpStep">
@@ -2377,9 +2411,21 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tlD0Wzl9EfGIYbS_WmPVGw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tlD0XDl9EfGIYbS_WmPVGw" value="*"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_tlD0XTl9EfGIYbS_WmPVGw" name="features" type="_716lsDjLEfG0p_Bon9dX0w">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tlD0Xjl9EfGIYbS_WmPVGw"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tlD0Xzl9EfGIYbS_WmPVGw" value="*"/>
+        <ownedParameter xmi:id="_I4KHMDmAEfGIYbS_WmPVGw" name="deliveredShipments" type="_Ex4hQDlzEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I4KHMTmAEfGIYbS_WmPVGw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I4KHMjmAEfGIYbS_WmPVGw" value="*"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_I4KHMzmAEfGIYbS_WmPVGw" name="pickedUpShipments" type="_Ex4hQDlzEfGll4LYlwGlyg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I4KHNDmAEfGIYbS_WmPVGw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I4KHNTmAEfGIYbS_WmPVGw" value="*"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_I4KHNjmAEfGIYbS_WmPVGw" name="duration">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I4KHNzmAEfGIYbS_WmPVGw"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_I4KHODmAEfGIYbS_WmPVGw" name="arrivalDate">
+          <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I4KHOTmAEfGIYbS_WmPVGw"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -3113,8 +3159,8 @@
   <datafoodconsortium_connector:semantic xmi:id="_67PnxDl8EfGIYbS_WmPVGw" map="dfc-b:description" base_Element="_67PAtTl8EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:semantic xmi:id="_67PnxTl8EfGIYbS_WmPVGw" map="dfc-b:isStepOf" base_Element="_67PAtjl8EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:propertyMultiple xmi:id="_67Pnxjl8EfGIYbS_WmPVGw" base_Property="_67PAtjl8EfGIYbS_WmPVGw" getter="_q9ikADlzEfGll4LYlwGlyg" setter="_q9ikBDlzEfGll4LYlwGlyg" adder="_q9ikCDlzEfGll4LYlwGlyg" remover="_q9ikDDlzEfGll4LYlwGlyg"/>
-  <datafoodconsortium_connector:semantic xmi:id="_67Pnxzl8EfGIYbS_WmPVGw" map="dfc-b:hasGeoJsonFeature" base_Element="_67PAuTl8EfGIYbS_WmPVGw"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_67PnyDl8EfGIYbS_WmPVGw" base_Property="_67PAuTl8EfGIYbS_WmPVGw" getter="_e91wcDl2EfGll4LYlwGlyg" setter="_e91wdDl2EfGll4LYlwGlyg" adder="_e91weDl2EfGll4LYlwGlyg" remover="_e91wfDl2EfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:semantic xmi:id="_67Pnxzl8EfGIYbS_WmPVGw" map="dfc-b:delivery" base_Element="_67PAuTl8EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_67PnyDl8EfGIYbS_WmPVGw" base_Property="_67PAuTl8EfGIYbS_WmPVGw" getter="_G5FeUDlzEfGll4LYlwGlyg" setter="_G5FeVDlzEfGll4LYlwGlyg" adder="_G5FeWDlzEfGll4LYlwGlyg" remover="_G5GFYDlzEfGll4LYlwGlyg"/>
   <datafoodconsortium_connector:constructor xmi:id="_67PnyTl8EfGIYbS_WmPVGw" base_Operation="_67PAvTl8EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:initializer xmi:id="_67Pnyjl8EfGIYbS_WmPVGw" property="_67PAtDl8EfGIYbS_WmPVGw" base_Parameter="_67PAvjl8EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:initializer xmi:id="_67Pnyzl8EfGIYbS_WmPVGw" property="_67PAtTl8EfGIYbS_WmPVGw" base_Parameter="_67PAwDl8EfGIYbS_WmPVGw"/>
@@ -3145,5 +3191,21 @@
   <datafoodconsortium_connector:initializerParent xmi:id="_tlEbYjl9EfGIYbS_WmPVGw" property="_67PAtDl8EfGIYbS_WmPVGw" base_Parameter="_tlD0Vjl9EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:initializerParent xmi:id="_tlEbYzl9EfGIYbS_WmPVGw" property="_67PAtTl8EfGIYbS_WmPVGw" base_Parameter="_tlD0WDl9EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:initializerParent xmi:id="_tlEbZDl9EfGIYbS_WmPVGw" property="_67PAtjl8EfGIYbS_WmPVGw" base_Parameter="_tlD0Wjl9EfGIYbS_WmPVGw"/>
-  <datafoodconsortium_connector:initializerParent xmi:id="_tlEbZTl9EfGIYbS_WmPVGw" property="_67PAuTl8EfGIYbS_WmPVGw" base_Parameter="_tlD0XTl9EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializerParent xmi:id="_tlEbZTl9EfGIYbS_WmPVGw" property="_67PAuTl8EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_INwUwzl_EfGIYbS_WmPVGw" map="dfc-b:pickUp" base_Element="_INwUwDl_EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_INwUxDl_EfGIYbS_WmPVGw" base_Property="_INwUwDl_EfGIYbS_WmPVGw" getter="_be_LUDlzEfGll4LYlwGlyg" setter="_be_LVDlzEfGll4LYlwGlyg" adder="_be_yYzlzEfGll4LYlwGlyg" remover="_be_yZzlzEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:property xmi:id="_R1HQkTl_EfGIYbS_WmPVGw" base_Property="_R1HQkDl_EfGIYbS_WmPVGw" getter="_cR5rcDlyEfGll4LYlwGlyg" setter="_cR6SgDlyEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:semantic xmi:id="_R1HQkjl_EfGIYbS_WmPVGw" map="dfc-b:duration" base_Element="_R1HQkDl_EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:property xmi:id="_bAbJkDl_EfGIYbS_WmPVGw" base_Property="_bAaigDl_EfGIYbS_WmPVGw" getter="_Ro6TgDlyEfGll4LYlwGlyg" setter="_Ro6TgzlyEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:semantic xmi:id="_bAbJkTl_EfGIYbS_WmPVGw" map="dfc-b:arrivalDate" base_Element="_bAaigDl_EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializer xmi:id="_nHrPQzl_EfGIYbS_WmPVGw" property="_INwUwDl_EfGIYbS_WmPVGw" base_Parameter="_nHrPQDl_EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializer xmi:id="_raaPwjl_EfGIYbS_WmPVGw" property="_R1HQkDl_EfGIYbS_WmPVGw" base_Parameter="_raaPwDl_EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializer xmi:id="_uYApUjl_EfGIYbS_WmPVGw" property="_bAaigDl_EfGIYbS_WmPVGw" base_Parameter="_uYApUDl_EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializerParent xmi:id="_84WGQzl_EfGIYbS_WmPVGw" property="_INwUwDl_EfGIYbS_WmPVGw" base_Parameter="_84WGQDl_EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializerParent xmi:id="__sY7Mjl_EfGIYbS_WmPVGw" property="_R1HQkDl_EfGIYbS_WmPVGw" base_Parameter="__sY7MDl_EfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializerParent xmi:id="_BaNu8jmAEfGIYbS_WmPVGw" property="_bAaigDl_EfGIYbS_WmPVGw" base_Parameter="_BaNu8DmAEfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializerParent xmi:id="_I4KuQDmAEfGIYbS_WmPVGw" property="_67PAuTl8EfGIYbS_WmPVGw" base_Parameter="_I4KHMDmAEfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializerParent xmi:id="_I4KuQTmAEfGIYbS_WmPVGw" property="_INwUwDl_EfGIYbS_WmPVGw" base_Parameter="_I4KHMzmAEfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializerParent xmi:id="_I4KuQjmAEfGIYbS_WmPVGw" property="_R1HQkDl_EfGIYbS_WmPVGw" base_Parameter="_I4KHNjmAEfGIYbS_WmPVGw"/>
+  <datafoodconsortium_connector:initializerParent xmi:id="_I4KuQzmAEfGIYbS_WmPVGw" property="_bAaigDl_EfGIYbS_WmPVGw" base_Parameter="_I4KHODmAEfGIYbS_WmPVGw"/>
 </xmi:XMI>
