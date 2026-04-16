@@ -2902,7 +2902,7 @@
   <datafoodconsortium_connector:getter xmi:id="_X_j-0Dm6EfGIYbS_WmPVGw" base_Operation="_X_jXwjm6EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:setter xmi:id="_X_j-0Tm6EfGIYbS_WmPVGw" base_Operation="_X_jXxjm6EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:remover xmi:id="_X_j-0jm6EfGIYbS_WmPVGw" base_Operation="_X_jXyjm6EfGIYbS_WmPVGw"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_ve5XEzm6EfGIYbS_WmPVGw" base_Property="_ve5XEDm6EfGIYbS_WmPVGw" getter="_KBk90DJjEfGwnMOhDcDDew" setter="_KBk91DJjEfGwnMOhDcDDew" adder="_KBkWwDJjEfGwnMOhDcDDew" remover="_KBk92DJjEfGwnMOhDcDDew"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_ve5XEzm6EfGIYbS_WmPVGw" base_Property="_ve5XEDm6EfGIYbS_WmPVGw" getter="_X_jXwjm6EfGIYbS_WmPVGw" setter="_X_jXxjm6EfGIYbS_WmPVGw" adder="_X_jXwDm6EfGIYbS_WmPVGw" remover="_X_jXyjm6EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:semantic xmi:id="_ve5XFDm6EfGIYbS_WmPVGw" map="dfc-b:hasVariantCaracteristic" base_Element="_ve5XEDm6EfGIYbS_WmPVGw"/>
   <datafoodconsortium_connector:initializer xmi:id="_HEg9gDm7EfGIYbS_WmPVGw" property="_ve5XEDm6EfGIYbS_WmPVGw" base_Parameter="_AKo7oDm7EfGIYbS_WmPVGw"/>
 </xmi:XMI>
