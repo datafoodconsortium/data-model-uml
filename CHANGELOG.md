@@ -12,10 +12,25 @@ TODO:
 
 ## [4.0.0]
 
+This major version implements the ontology version 2 changes. It introduces several breaking changes.
+
 ### Added
 
 - `SuppliedProduct:constructor` variants parameter
 - `TechnicalProduct:constructor` variants parameter
+
+### Changed
+
+- Domain : isVariantOf, DefinedProduct -> Variant (**BREAKING CHANGE**)
+- Constraint 1:1 for Stock:availabilityDate (**BREAKING CHANGE**)
+- Constraint 1:1 for PaymentMethod:paymentMethodProvider (**BREAKING CHANGE**)
+- Constraint 1:1 for PaymentMethod:paymentMethodType (**BREAKING CHANGE**)
+- Domain : beginDate, (AsPlannedLocalTransformation | AsRealizedTransformation | SaleSession | Shipment | Shipping option) -> (AsPlannedTransformation | AsRealizedTransformation | Catalog | SaleSession | Shipment | Shipping option)
+- Domain : endDate, (AsPlannedLocalTransformation | AsRealizedTransformation | SaleSession | Shipment | Shipping option) -> (AsPlannedTransformation | AsRealizedTransformation | Catalog | SaleSession | Shipment | Shipping option)
+
+### Removed
+
+- The `Enterprise` class has been replaced by `Organization` (**BREAKING CHANGE**).
 
 ## [3.1.0] - 2025-06-26
 

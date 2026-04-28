@@ -82,11 +82,11 @@
       </ownedComment>
       <elementImport xmi:id="_DSfEsPOrEey60OpxS9_JRQ" importedElement="_pcawwAaREe26esJmMoAMaw"/>
       <elementImport xmi:id="_TPIm0L7LEe2g9M79Y7jp8Q">
-        <importedElement xmi:type="uml:Interface" href="agent.uml#_QDLJMAaUEe26esJmMoAMaw"/>
+        <importedElement xmi:type="uml:Interface" href="agent.uml#_X_K3ICzeEfGgHtzHArw2YA"/>
       </elementImport>
       <ownedOperation xmi:id="_b1RQ8OZYEeybgd1DwlK4YQ" name="getMaintainers">
         <ownedParameter xmi:id="_rjp1YOZYEeybgd1DwlK4YQ" name="maintainers" direction="return">
-          <type xmi:type="uml:Interface" href="agent.uml#_QDLJMAaUEe26esJmMoAMaw"/>
+          <type xmi:type="uml:Interface" href="agent.uml#_X_K3ICzeEfGgHtzHArw2YA"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ssa0QOZYEeybgd1DwlK4YQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uFzCAOZYEeybgd1DwlK4YQ" value="*"/>
         </ownedParameter>
@@ -111,7 +111,7 @@
       </ownedOperation>
       <ownedOperation xmi:id="_MBSa4L7dEe2g9M79Y7jp8Q" name="addMaintainer">
         <ownedParameter xmi:id="_MBSa4b7dEe2g9M79Y7jp8Q" name="maintainer">
-          <type xmi:type="uml:Interface" href="agent.uml#_QDLJMAaUEe26esJmMoAMaw"/>
+          <type xmi:type="uml:Interface" href="agent.uml#_X_K3ICzeEfGgHtzHArw2YA"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MBSa4r7dEe2g9M79Y7jp8Q" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MBSa477dEe2g9M79Y7jp8Q" value="1"/>
         </ownedParameter>
@@ -721,7 +721,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_PQluwOZgEeybgd1DwlK4YQ" name="Catalog">
       <elementImport xmi:id="_VDbrcL7KEe2g9M79Y7jp8Q" importedElement="_8S9CIL7OEe2g9M79Y7jp8Q"/>
       <elementImport xmi:id="_BLLVUL7PEe2g9M79Y7jp8Q">
-        <importedElement xmi:type="uml:Interface" href="agent.uml#_QDLJMAaUEe26esJmMoAMaw"/>
+        <importedElement xmi:type="uml:Interface" href="agent.uml#_X_K3ICzeEfGgHtzHArw2YA"/>
       </elementImport>
       <elementImport xmi:id="_TAwEML7ZEe2g9M79Y7jp8Q" importedElement="_rPH3MOZVEeybgd1DwlK4YQ"/>
       <elementImport xmi:id="_kzaGIL7cEe2g9M79Y7jp8Q" importedElement="_pcawwAaREe26esJmMoAMaw"/>
@@ -733,7 +733,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gt0O8L7KEe2g9M79Y7jp8Q" value="*"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_3gZwwL7cEe2g9M79Y7jp8Q" name="maintainers">
-        <type xmi:type="uml:Interface" href="agent.uml#_QDLJMAaUEe26esJmMoAMaw"/>
+        <type xmi:type="uml:Interface" href="agent.uml#_X_K3ICzeEfGgHtzHArw2YA"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5JhDoL7cEe2g9M79Y7jp8Q"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5jqpAL7cEe2g9M79Y7jp8Q" value="*"/>
       </ownedAttribute>
@@ -748,7 +748,7 @@
       <interfaceRealization xmi:id="_KvlgQL7OEe2g9M79Y7jp8Q" client="_PQluwOZgEeybgd1DwlK4YQ" supplier="_U9L-0OZYEeybgd1DwlK4YQ _8S9CIL7OEe2g9M79Y7jp8Q" contract="_8S9CIL7OEe2g9M79Y7jp8Q"/>
       <ownedOperation xmi:id="_qNb7UL7bEe2g9M79Y7jp8Q" name="Catalog">
         <ownedParameter xmi:id="_Y6olgMiZEe2tet82apP7RQ" name="maintainers">
-          <type xmi:type="uml:Interface" href="agent.uml#_QDLJMAaUEe26esJmMoAMaw"/>
+          <type xmi:type="uml:Interface" href="agent.uml#_X_K3ICzeEfGgHtzHArw2YA"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aCbUAMiZEe2tet82apP7RQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bYl1sMiZEe2tet82apP7RQ" value="*"/>
         </ownedParameter>

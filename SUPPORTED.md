@@ -117,7 +117,6 @@ Here is a list of the DFC features that the model currently supports.
   - [x] endDate
   - [x] fee
   - [x] selectedBy
-- `Enterprise` (deprecated, see Organization)
 - `FunctionalProduct`
   - [ ] name
   - [ ] description
