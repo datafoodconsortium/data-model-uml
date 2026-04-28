@@ -669,7 +669,7 @@
   <datafoodconsortium_connector:setter xmi:id="_33sGgN0bEeynPOxG1VLIQQ" base_Operation="_tzCxwN0bEeynPOxG1VLIQQ"/>
   <datafoodconsortium_connector:setter xmi:id="_4-f9kN0bEeynPOxG1VLIQQ" base_Operation="_uZZAEN0bEeynPOxG1VLIQQ"/>
   <datafoodconsortium_connector:propertyMultiple xmi:id="_qUlTgOBgEeyy8cy9J23hHA"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_sFkI8OBgEeyy8cy9J23hHA" base_Property="_ajs0sOBgEeyy8cy9J23hHA" getter="_ZDwRkNxSEeyr_asPBQgiSQ" adder="_7Y0dQNxSEeyr_asPBQgiSQ" remover="_-KbCMNxSEeyr_asPBQgiSQ"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_sFkI8OBgEeyy8cy9J23hHA" base_Property="_ajs0sOBgEeyy8cy9J23hHA" getter="_ZDwRkNxSEeyr_asPBQgiSQ" setter="_tC4-YEepEfCVX5nhGdowdA" adder="_7Y0dQNxSEeyr_asPBQgiSQ" remover="_-KbCMNxSEeyr_asPBQgiSQ"/>
   <datafoodconsortium_connector:semantic xmi:id="_tX_aIOBgEeyy8cy9J23hHA" map="dfc-b:hasAddress" base_Element="_ajs0sOBgEeyy8cy9J23hHA"/>
   <datafoodconsortium_connector:constructor xmi:id="_wrMQQOBgEeyy8cy9J23hHA" base_Operation="_fT070OBgEeyy8cy9J23hHA"/>
   <datafoodconsortium_connector:initializerParent xmi:id="_y1mSUOBgEeyy8cy9J23hHA" position="1"/>
@@ -765,7 +765,7 @@
   <datafoodconsortium_connector:property xmi:id="_QzLvwGamEe6BBZALe8Relw" base_Property="_-vkZUGalEe6BBZALe8Relw" getter="_tLy94NxSEeyr_asPBQgiSQ" setter="_nGA18NxTEeyr_asPBQgiSQ"/>
   <datafoodconsortium_connector:semantic xmi:id="_WS6u4GamEe6BBZALe8Relw" map="dfc-b:countryCode" base_Element="_-flckGalEe6BBZALe8Relw"/>
   <datafoodconsortium_connector:semantic xmi:id="_YeG0EGamEe6BBZALe8Relw" map="dfc-b:phoneNumber" base_Element="_-vkZUGalEe6BBZALe8Relw"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_DLUrkGapEe6BBZALe8Relw" base_Property="_AmhMgGapEe6BBZALe8Relw" getter="_3rwZ0NxLEeyr_asPBQgiSQ" adder="_Qp3dMNxMEeyr_asPBQgiSQ" remover="_Yg7qoNxNEeyr_asPBQgiSQ"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_DLUrkGapEe6BBZALe8Relw" base_Property="_AmhMgGapEe6BBZALe8Relw" getter="_3rwZ0NxLEeyr_asPBQgiSQ" setter="_8F6HEEeoEfCVX5nhGdowdA" adder="_Qp3dMNxMEeyr_asPBQgiSQ" remover="_Yg7qoNxNEeyr_asPBQgiSQ"/>
   <datafoodconsortium_connector:semantic xmi:id="_DLVSoGapEe6BBZALe8Relw" map="dfc-b:hasPhoneNumber" base_Element="_AmhMgGapEe6BBZALe8Relw"/>
   <datafoodconsortium_connector:propertyMultiple xmi:id="_Hi2oUGawEe6BBZALe8Relw" base_Property="_EmVz4GawEe6BBZALe8Relw" getter="_6A8vkNxLEeyr_asPBQgiSQ" adder="_SXYu8NxMEeyr_asPBQgiSQ" remover="_b-Yo8NxNEeyr_asPBQgiSQ"/>
   <datafoodconsortium_connector:semantic xmi:id="_Hi3PYGawEe6BBZALe8Relw" map="dfc-b:email" base_Element="_EmVz4GawEe6BBZALe8Relw"/>
