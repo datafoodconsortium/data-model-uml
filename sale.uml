@@ -992,9 +992,6 @@
         <importedElement xmi:type="uml:Interface" href="common.uml#_9mm50MrsEe24_rxb3O_v6Q"/>
       </elementImport>
       <elementImport xmi:id="_sFtuYA_YEfCgOoBR6uwQPw" importedElement="_YTySUA7jEfCgCYDrF-CWdA"/>
-      <generalization xmi:id="_w9I-8A7pEfCgCYDrF-CWdA">
-        <general xmi:type="uml:Interface" href="common.uml#_S8hGMNxVEeyr_asPBQgiSQ"/>
-      </generalization>
       <ownedOperation xmi:id="_7rpCMEeCEfCh5Mr5MsA1jg" name="getQuantity">
         <ownedParameter xmi:id="_7rpCMUeCEfCh5Mr5MsA1jg" name="quantity" direction="return">
           <type xmi:type="uml:Interface" href="common.uml#_9mm50MrsEe24_rxb3O_v6Q"/>
