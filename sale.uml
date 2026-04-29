@@ -589,6 +589,7 @@
       <elementImport xmi:id="_P5JE8L7XEe2g9M79Y7jp8Q">
         <importedElement xmi:type="uml:Interface" href="agent.uml#_ljoYEMrjEe24_rxb3O_v6Q"/>
       </elementImport>
+      <elementImport xmi:id="_mAb0kEOqEfGm7NcA66xD4g" importedElement="_AVFHYA7sEfCgCYDrF-CWdA"/>
       <ownedAttribute xmi:id="_PHQ44L7TEe2g9M79Y7jp8Q" name="number">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
@@ -617,6 +618,9 @@
       <ownedAttribute xmi:id="_kQtSALqxEe6BB6ykmH1j4g" name="paymentStatus">
         <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kQtSAbqxEe6BB6ykmH1j4g"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_r8IW8EOqEfGm7NcA66xD4g" name="paymentMethod" type="_AVFHYA7sEfCgCYDrF-CWdA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r8IW8UOqEfGm7NcA66xD4g"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_HgAMkL7TEe2g9M79Y7jp8Q" client="_zp5fkOZfEeybgd1DwlK4YQ" supplier="_AEigkL7TEe2g9M79Y7jp8Q" contract="_AEigkL7TEe2g9M79Y7jp8Q"/>
       <ownedOperation xmi:id="_bYmqgL7aEe2g9M79Y7jp8Q" name="Order">
@@ -651,6 +655,10 @@
           <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9pmXcbqyEe6BB6ykmH1j4g"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9pmXcrqyEe6BB6ykmH1j4g" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_yr3lYEOqEfGm7NcA66xD4g" name="paymentMethod" type="_AVFHYA7sEfCgCYDrF-CWdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yr3lYUOqEfGm7NcA66xD4g"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yr3lYkOqEfGm7NcA66xD4g" value="1"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -2416,4 +2424,7 @@
   <datafoodconsortium_connector:semantic xmi:id="_oylDcFKkEfCPJqIMXx6mBw" base_Element="_xGXhgA7rEfCgCYDrF-CWdA"/>
   <datafoodconsortium_connector:semantic xmi:id="_rHjWwFKkEfCPJqIMXx6mBw" base_Element="_AVFHYA7sEfCgCYDrF-CWdA"/>
   <datafoodconsortium_connector:semantic xmi:id="_tDEoQFKkEfCPJqIMXx6mBw" base_Element="_oFG8YA7rEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:property xmi:id="_r8PEoEOqEfGm7NcA66xD4g" base_Property="_r8IW8EOqEfGm7NcA66xD4g" getter="_13CPwA_eEfCgOoBR6uwQPw" setter="_24SRYA_eEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_r8PEoUOqEfGm7NcA66xD4g" map="dfc-b:hasPaymentMethod" base_Element="_r8IW8EOqEfGm7NcA66xD4g"/>
+  <datafoodconsortium_connector:initializer xmi:id="_yr3lY0OqEfGm7NcA66xD4g" property="_r8IW8EOqEfGm7NcA66xD4g" base_Parameter="_yr3lYEOqEfGm7NcA66xD4g"/>
 </xmi:XMI>
