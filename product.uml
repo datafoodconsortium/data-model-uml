@@ -984,6 +984,9 @@
       <elementImport xmi:id="_Dlbq4EOoEfGm7NcA66xD4g">
         <importedElement xmi:type="uml:Interface" href="common.uml#_ORnSwNxUEeyr_asPBQgiSQ"/>
       </elementImport>
+      <elementImport xmi:id="_6NtBgEPeEfGD98AompaPCA">
+        <importedElement xmi:type="uml:Interface" href="common.uml#_9mm50MrsEe24_rxb3O_v6Q"/>
+      </elementImport>
       <generalization xmi:id="_mT0X8EehEfCVX5nhGdowdA">
         <general xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
       </generalization>
@@ -1098,6 +1101,17 @@
         <ownedParameter xmi:id="_EJ_VGEdjEfCh5Mr5MsA1jg" name="productionFlows" type="_7x6N0S_SEfCIUvhwBYVA_g">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EJ_VGUdjEfCh5Mr5MsA1jg"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EJ_VGkdjEfCh5Mr5MsA1jg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_3q0OAEPeEfGD98AompaPCA" name="getQuantity">
+        <ownedParameter xmi:id="_3q0OAUPeEfGD98AompaPCA" name="quantity" direction="return">
+          <type xmi:type="uml:Interface" href="common.uml#_9mm50MrsEe24_rxb3O_v6Q"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3q0OAkPeEfGD98AompaPCA"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_3q01EEPeEfGD98AompaPCA" name="setQuantity">
+        <ownedParameter xmi:id="_3q01EUPeEfGD98AompaPCA" name="quantity">
+          <type xmi:type="uml:Interface" href="common.uml#_9mm50MrsEe24_rxb3O_v6Q"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -2592,7 +2606,7 @@
     <setter href="common.uml#_ZcvkYFUnEe2_KYs77o2hVQ"/>
   </datafoodconsortium_connector:property>
   <datafoodconsortium_connector:semantic xmi:id="_L1xQ1TFxEfCIUvhwBYVA_g" map="dfc-b:description" base_Element="_L1xQ0TFxEfCIUvhwBYVA_g"/>
-  <datafoodconsortium_connector:property xmi:id="_PMFsYjFxEfCIUvhwBYVA_g" base_Property="_PMFsYDFxEfCIUvhwBYVA_g" getter="_bZAlsEvEEe2LdZJdl4TCHA" setter="_iTeoAEvFEe2LdZJdl4TCHA"/>
+  <datafoodconsortium_connector:property xmi:id="_PMFsYjFxEfCIUvhwBYVA_g" base_Property="_PMFsYDFxEfCIUvhwBYVA_g" getter="_3q0OAEPeEfGD98AompaPCA" setter="_3q01EEPeEfGD98AompaPCA"/>
   <datafoodconsortium_connector:semantic xmi:id="_PMFsYzFxEfCIUvhwBYVA_g" map="dfc-b:hasQuantity" base_Element="_PMFsYDFxEfCIUvhwBYVA_g"/>
   <datafoodconsortium_connector:property xmi:id="_5qQGIDFxEfCIUvhwBYVA_g" base_Property="_5qPfEDFxEfCIUvhwBYVA_g" getter="_mAF8wEd3EfCh5Mr5MsA1jg" setter="_mAF8w0d3EfCh5Mr5MsA1jg"/>
   <datafoodconsortium_connector:semantic xmi:id="_5qQGITFxEfCIUvhwBYVA_g" map="dfc-b:cost" base_Element="_5qPfEDFxEfCIUvhwBYVA_g"/>
@@ -2934,4 +2948,6 @@
   <datafoodconsortium_connector:semantic xmi:id="_GaOlYEO2EfGD98AompaPCA" base_Element="_GTo7MDJdEfGwnMOhDcDDew"/>
   <datafoodconsortium_connector:semantic xmi:id="_GzHUwEPdEfGD98AompaPCA" base_Element="_ksWi4DJZEfGwnMOhDcDDew"/>
   <datafoodconsortium_connector:semantic xmi:id="_H3gJ8EPdEfGD98AompaPCA" base_Element="_fykbYDJXEfGwnMOhDcDDew"/>
+  <datafoodconsortium_connector:getter xmi:id="_3q01EkPeEfGD98AompaPCA" base_Operation="_3q0OAEPeEfGD98AompaPCA"/>
+  <datafoodconsortium_connector:setter xmi:id="_3q1cIEPeEfGD98AompaPCA" base_Operation="_3q01EEPeEfGD98AompaPCA"/>
 </xmi:XMI>
