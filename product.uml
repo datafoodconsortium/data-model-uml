@@ -2209,11 +2209,11 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R41VgDJgEfGwnMOhDcDDew"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R41VgTJgEfGwnMOhDcDDew" value="*"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_AKo7oDm7EfGIYbS_WmPVGw" name="variantCharacteristics">
+        <ownedParameter xmi:id="_AKo7oDm7EfGIYbS_WmPVGw" name="variantCharacteristics" type="_GTo7MDJdEfGwnMOhDcDDew">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BV7DADm7EfGIYbS_WmPVGw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Db_XoDm7EfGIYbS_WmPVGw" value="*"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_DbOtMDm8EfGIYbS_WmPVGw" name="referenceProductOptions">
+        <ownedParameter xmi:id="_DbOtMDm8EfGIYbS_WmPVGw" name="referenceProductOptions" type="_ksWi4DJZEfGwnMOhDcDDew">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DbOtMTm8EfGIYbS_WmPVGw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DbOtMjm8EfGIYbS_WmPVGw" value="*"/>
         </ownedParameter>
@@ -2931,4 +2931,5 @@
   <datafoodconsortium_connector:propertyMultiple xmi:id="_ip8OUEO0EfGD98AompaPCA" base_Property="_bLNL4EO0EfGD98AompaPCA" getter="_Phkf0A_VEfCgOoBR6uwQPw" setter="_UkBtEA_VEfCgOoBR6uwQPw" adder="_RY9fQA_VEfCgOoBR6uwQPw" remover="_SWoBYA_VEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:semantic xmi:id="_ip8OUUO0EfGD98AompaPCA" map="dfc-b:referenceOf" base_Element="_bLNL4EO0EfGD98AompaPCA"/>
   <datafoodconsortium_connector:initializer xmi:id="_znQEAEO0EfGD98AompaPCA" property="_bLNL4EO0EfGD98AompaPCA" base_Parameter="_znPc8EO0EfGD98AompaPCA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_GaOlYEO2EfGD98AompaPCA" base_Element="_GTo7MDJdEfGwnMOhDcDDew"/>
 </xmi:XMI>
