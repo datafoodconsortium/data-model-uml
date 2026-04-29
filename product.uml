@@ -1056,19 +1056,19 @@
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_khjHsEdiEfCh5Mr5MsA1jg" name="getPlannedLocalConsumptionFlows">
-        <ownedParameter xmi:id="_khjHsUdiEfCh5Mr5MsA1jg" name="consumptionFlows" type="_sVAwYL0GEe6FVM3jDRf3Hg" direction="return">
+        <ownedParameter xmi:id="_khjHsUdiEfCh5Mr5MsA1jg" name="consumptionFlows" type="_7x6NyC_SEfCIUvhwBYVA_g" direction="return">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_khjHskdiEfCh5Mr5MsA1jg"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_khjHs0diEfCh5Mr5MsA1jg" value="*"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_khjHtEdiEfCh5Mr5MsA1jg" name="addPlannedLocalConsumptionFlow">
-        <ownedParameter xmi:id="_khjHtUdiEfCh5Mr5MsA1jg" name="consumptionFlow" type="_sVAwYL0GEe6FVM3jDRf3Hg"/>
+        <ownedParameter xmi:id="_khjHtUdiEfCh5Mr5MsA1jg" name="consumptionFlow" type="_7x6NyC_SEfCIUvhwBYVA_g"/>
       </ownedOperation>
       <ownedOperation xmi:id="_khjHtkdiEfCh5Mr5MsA1jg" name="removePlannedLocalConsumptionFlow">
-        <ownedParameter xmi:id="_khjHt0diEfCh5Mr5MsA1jg" name="consumptionFlow" type="_sVAwYL0GEe6FVM3jDRf3Hg"/>
+        <ownedParameter xmi:id="_khjHt0diEfCh5Mr5MsA1jg" name="consumptionFlow" type="_7x6NyC_SEfCIUvhwBYVA_g"/>
       </ownedOperation>
       <ownedOperation xmi:id="_khjHuEdiEfCh5Mr5MsA1jg" name="setPlannedLocalConsumptionFlows">
-        <ownedParameter xmi:id="_khjHuUdiEfCh5Mr5MsA1jg" name="consumptionFlows" type="_sVAwYL0GEe6FVM3jDRf3Hg">
+        <ownedParameter xmi:id="_khjHuUdiEfCh5Mr5MsA1jg" name="consumptionFlows" type="_7x6NyC_SEfCIUvhwBYVA_g">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_khjHukdiEfCh5Mr5MsA1jg"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_khjHu0diEfCh5Mr5MsA1jg" value="*"/>
         </ownedParameter>
