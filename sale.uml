@@ -1576,7 +1576,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EHBtwke9EfCVX5nhGdowdA" value="1"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_gVaEmke8EfCVX5nhGdowdA" client="_gVaEgEe8EfCVX5nhGdowdA" supplier="_AL3y8A7qEfCgCYDrF-CWdA _EC8yMA7qEfCgCYDrF-CWdA _xGXhgA7rEfCgCYDrF-CWdA _Tzw5MA7iEfCgCYDrF-CWdA _YTySUA7jEfCgCYDrF-CWdA _AVFHYA7sEfCgCYDrF-CWdA" contract="_AVFHYA7sEfCgCYDrF-CWdA"/>
-      <ownedOperation xmi:id="_gVaEm0e8EfCVX5nhGdowdA" name="PhysicalPlace">
+      <ownedOperation xmi:id="_gVaEm0e8EfCVX5nhGdowdA" name="PaymentMethod">
         <ownedParameter xmi:id="_gVaEnEe8EfCVX5nhGdowdA" name="name">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gVaEnUe8EfCVX5nhGdowdA"/>
@@ -2300,10 +2300,7 @@
     <remover href="agent.uml#_-KbCMNxSEeyr_asPBQgiSQ"/>
   </datafoodconsortium_connector:propertyMultiple>
   <datafoodconsortium_connector:semantic xmi:id="_gVarnUe8EfCVX5nhGdowdA" map="dfc-b:hasPrice" base_Element="_gVaEkUe8EfCVX5nhGdowdA"/>
-  <datafoodconsortium_connector:property xmi:id="_gVarnke8EfCVX5nhGdowdA" base_Property="_gVaEkUe8EfCVX5nhGdowdA">
-    <getter href="agent.uml#_R2PYIGa6Ee6BBZALe8Relw"/>
-    <setter href="agent.uml#_Pg-7gGa7Ee6BBZALe8Relw"/>
-  </datafoodconsortium_connector:property>
+  <datafoodconsortium_connector:property xmi:id="_gVarnke8EfCVX5nhGdowdA" base_Property="_gVaEkUe8EfCVX5nhGdowdA" getter="_ZLjAMOZZEeybgd1DwlK4YQ" setter="_lUUDsL7wEe2g9M79Y7jp8Q"/>
   <datafoodconsortium_connector:semantic xmi:id="_gVarn0e8EfCVX5nhGdowdA" map="dfc-b:localizes"/>
   <datafoodconsortium_connector:propertyMultiple xmi:id="_gVaroEe8EfCVX5nhGdowdA" getter="_AnszcA_TEfCgOoBR6uwQPw" setter="_AnszfA_TEfCgOoBR6uwQPw" adder="_AnszdA_TEfCgOoBR6uwQPw" remover="_AnszeA_TEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:semantic xmi:id="_gVaroUe8EfCVX5nhGdowdA" map="dfc-b:stores"/>
