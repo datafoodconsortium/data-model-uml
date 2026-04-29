@@ -2,14 +2,32 @@
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datafoodconsortium_connector="https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/connector.profile.uml" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="https://cdn.jsdelivr.net/gh/datafoodconsortium/data-model-uml/connector.profile.uml connector.profile.uml#_q9P7ADhmEe6Bec_m8yNqyw">
   <uml:Package xmi:id="_tbxIoODpEey8JZcrriCc9A" name="org.datafoodconsortium.connector.common">
     <packagedElement xmi:type="uml:Interface" xmi:id="_ORnSwNxUEeyr_asPBQgiSQ" name="Exhibitable">
-      <ownedOperation xmi:id="_ReL8cNxUEeyr_asPBQgiSQ" name="getImage">
+      <ownedOperation xmi:id="_ReL8cNxUEeyr_asPBQgiSQ" name="getImages">
         <ownedParameter xmi:id="_VqryENxUEeyr_asPBQgiSQ" name="image" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rrahwEOnEfGm7NcA66xD4g"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r4HhAEOnEfGm7NcA66xD4g" value="*"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_23M04FdkEe2lYreNEuYUhg" name="setImage">
+      <ownedOperation xmi:id="_23M04FdkEe2lYreNEuYUhg" name="setImages">
         <ownedParameter xmi:id="_23M04VdkEe2lYreNEuYUhg" name="image">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tLw6MEOnEfGm7NcA66xD4g"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tWF64EOnEfGm7NcA66xD4g" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vboEAEOnEfGm7NcA66xD4g" name="addImage">
+        <ownedParameter xmi:id="_vboEAUOnEfGm7NcA66xD4g" name="image">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vboEAkOnEfGm7NcA66xD4g" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vboEA0OnEfGm7NcA66xD4g" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_zVX8wEOnEfGm7NcA66xD4g" name="removeImage">
+        <ownedParameter xmi:id="_zVX8wUOnEfGm7NcA66xD4g" name="image">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zVX8wkOnEfGm7NcA66xD4g" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zVX8w0OnEfGm7NcA66xD4g" value="1"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -855,4 +873,6 @@
   <datafoodconsortium_connector:initializer xmi:id="_muCtIi6QEfG4LKU1i_p3gA" property="_AJ9_0C6PEfG4LKU1i_p3gA" base_Parameter="_muCtIC6QEfG4LKU1i_p3gA"/>
   <datafoodconsortium_connector:getter xmi:id="_UmyqADJYEfGwnMOhDcDDew" base_Operation="_UmyC8TJYEfGwnMOhDcDDew"/>
   <datafoodconsortium_connector:setter xmi:id="_UmyqATJYEfGwnMOhDcDDew" base_Operation="_UmyC8zJYEfGwnMOhDcDDew"/>
+  <datafoodconsortium_connector:adder xmi:id="_1LXOAEOnEfGm7NcA66xD4g" base_Operation="_vboEAEOnEfGm7NcA66xD4g"/>
+  <datafoodconsortium_connector:remover xmi:id="_2A5H0EOnEfGm7NcA66xD4g" base_Operation="_zVX8wEOnEfGm7NcA66xD4g"/>
 </xmi:XMI>
