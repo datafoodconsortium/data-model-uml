@@ -3219,4 +3219,5 @@
   <datafoodconsortium_connector:property xmi:id="_r8PEoEOqEfGm7NcA66xD4g" base_Property="_r8IW8EOqEfGm7NcA66xD4g" getter="_13CPwA_eEfCgOoBR6uwQPw" setter="_24SRYA_eEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:semantic xmi:id="_r8PEoUOqEfGm7NcA66xD4g" map="dfc-b:hasPaymentMethod" base_Element="_r8IW8EOqEfGm7NcA66xD4g"/>
   <datafoodconsortium_connector:initializer xmi:id="_yr3lY0OqEfGm7NcA66xD4g" property="_r8IW8EOqEfGm7NcA66xD4g" base_Parameter="_yr3lYEOqEfGm7NcA66xD4g"/>
+  <datafoodconsortium_connector:semantic xmi:id="_c1cH0EOuEfGD98AompaPCA" base_Element="_Z5uQUDJlEfGwnMOhDcDDew"/>
 </xmi:XMI>
