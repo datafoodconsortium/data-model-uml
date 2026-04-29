@@ -737,7 +737,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S2f6oTm3EfGIYbS_WmPVGw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S2f6ojm3EfGIYbS_WmPVGw" value="*"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_iQ7oUDm3EfGIYbS_WmPVGw" name="referenceProductOptions">
+        <ownedParameter xmi:id="_iQ7oUDm3EfGIYbS_WmPVGw" name="referenceProductOptions" type="_ksWi4DJZEfGwnMOhDcDDew">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iQ7oUTm3EfGIYbS_WmPVGw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iQ7oUjm3EfGIYbS_WmPVGw" value="*"/>
         </ownedParameter>
