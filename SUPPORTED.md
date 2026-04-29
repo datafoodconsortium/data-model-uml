@@ -326,9 +326,8 @@ Here is a list of the DFC features that the model currently supports.
   - [x] image
   - [x] referencedBy
   - [ ] consumedBy
-  - [ ] referenceOf
+  - [x] referenceOf
   - [x] totalTheoreticalStock
-  - [ ] referenceOf
 - `TechnicalProduct`
   - [x] name
   - [x] description
