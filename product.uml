@@ -1669,11 +1669,11 @@
           <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v_0coUd0EfCh5Mr5MsA1jg"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_BjFJ_kdzEfCh5Mr5MsA1jg" name="consumptionFlows" type="_sVAwYL0GEe6FVM3jDRf3Hg">
+        <ownedParameter xmi:id="_BjFJ_kdzEfCh5Mr5MsA1jg" name="consumptionFlows" type="_7x6NyC_SEfCIUvhwBYVA_g">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BjFJ_0dzEfCh5Mr5MsA1jg"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BjFKAEdzEfCh5Mr5MsA1jg" value="*"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_BjFKAUdzEfCh5Mr5MsA1jg" name="productionFlows" type="_skG8UL0GEe6FVM3jDRf3Hg">
+        <ownedParameter xmi:id="_BjFKAUdzEfCh5Mr5MsA1jg" name="productionFlows" type="_7x6N0S_SEfCIUvhwBYVA_g">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BjFKAkdzEfCh5Mr5MsA1jg"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BjFKA0dzEfCh5Mr5MsA1jg" value="*"/>
         </ownedParameter>
