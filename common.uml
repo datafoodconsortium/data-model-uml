@@ -829,7 +829,7 @@
   <datafoodconsortium_connector:property xmi:id="_K7esgC6NEfG4LKU1i_p3gA" base_Property="_zRSIEC6MEfG4LKU1i_p3gA" getter="_cnBhMC6NEfG4LKU1i_p3gA" setter="_npKY8C6NEfG4LKU1i_p3gA"/>
   <datafoodconsortium_connector:semantic xmi:id="_K7fTkC6NEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#dtstart" base_Element="_zRSIEC6MEfG4LKU1i_p3gA"/>
   <datafoodconsortium_connector:property xmi:id="_XPQyUC6NEfG4LKU1i_p3gA" base_Property="_XPQLQC6NEfG4LKU1i_p3gA" getter="_y3X90C6NEfG4LKU1i_p3gA" setter="_y3X90y6NEfG4LKU1i_p3gA"/>
-  <datafoodconsortium_connector:semantic xmi:id="_XPQyUS6NEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#dtstart" base_Element="_XPQLQC6NEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_XPQyUS6NEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#dtend" base_Element="_XPQLQC6NEfG4LKU1i_p3gA"/>
   <datafoodconsortium_connector:getter xmi:id="_cnBhMi6NEfG4LKU1i_p3gA" base_Operation="_cnBhMC6NEfG4LKU1i_p3gA"/>
   <datafoodconsortium_connector:getter xmi:id="_k59AsC6NEfG4LKU1i_p3gA"/>
   <datafoodconsortium_connector:setter xmi:id="_npKY8i6NEfG4LKU1i_p3gA" base_Operation="_npKY8C6NEfG4LKU1i_p3gA"/>
@@ -840,8 +840,8 @@
   <datafoodconsortium_connector:initializer xmi:id="_B_mhRC6OEfG4LKU1i_p3gA" property="_3i7cgLqkEe6LS7Wm0MEjpA"/>
   <datafoodconsortium_connector:initializer xmi:id="_B_mhRS6OEfG4LKU1i_p3gA" property="_A0MzkLqlEe6LS7Wm0MEjpA"/>
   <datafoodconsortium_connector:initializer xmi:id="_B_mhRi6OEfG4LKU1i_p3gA" property="_Bzg7gLqlEe6LS7Wm0MEjpA"/>
-  <datafoodconsortium_connector:property xmi:id="_iO2P4i6OEfG4LKU1i_p3gA" base_Property="_iO2P4C6OEfG4LKU1i_p3gA" getter="_y3X90C6NEfG4LKU1i_p3gA" setter="_y3X90y6NEfG4LKU1i_p3gA"/>
-  <datafoodconsortium_connector:semantic xmi:id="_iO228C6OEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#dtstart" base_Element="_iO2P4C6OEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:property xmi:id="_iO2P4i6OEfG4LKU1i_p3gA" base_Property="_iO2P4C6OEfG4LKU1i_p3gA" getter="_EemoUC6QEfG4LKU1i_p3gA" setter="_EemoUy6QEfG4LKU1i_p3gA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_iO228C6OEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#rrule" base_Element="_iO2P4C6OEfG4LKU1i_p3gA"/>
   <datafoodconsortium_connector:property xmi:id="_0SKrYi6OEfG4LKU1i_p3gA" base_Property="_0SKrYC6OEfG4LKU1i_p3gA" getter="_VdGmQC6PEfG4LKU1i_p3gA" setter="_VdGmQy6PEfG4LKU1i_p3gA"/>
   <datafoodconsortium_connector:semantic xmi:id="_0SLScC6OEfG4LKU1i_p3gA" map="http://www.w3.org/2002/12/cal/icaltzd#byday" base_Element="_0SKrYC6OEfG4LKU1i_p3gA"/>
   <datafoodconsortium_connector:property xmi:id="_6XVS0i6OEfG4LKU1i_p3gA" base_Property="_6XVS0C6OEfG4LKU1i_p3gA" getter="_k2nt8C6PEfG4LKU1i_p3gA" setter="_k2nt8y6PEfG4LKU1i_p3gA"/>
