@@ -2316,9 +2316,9 @@
   <datafoodconsortium_connector:initializer xmi:id="_9lxVG0d0EfCh5Mr5MsA1jg" property="_9lxU-Ed0EfCh5Mr5MsA1jg" base_Parameter="_9lxVAEd0EfCh5Mr5MsA1jg"/>
   <datafoodconsortium_connector:initializer xmi:id="_9lxVHEd0EfCh5Mr5MsA1jg" property="_9lxU-kd0EfCh5Mr5MsA1jg" base_Parameter="_9lxVAUd0EfCh5Mr5MsA1jg"/>
   <datafoodconsortium_connector:semantic xmi:id="_9lxVHUd0EfCh5Mr5MsA1jg" map="dfc-b:AsPlannedLocalProductionFlow" base_Element="_9lxVAkd0EfCh5Mr5MsA1jg"/>
-  <datafoodconsortium_connector:property xmi:id="_9lxVHkd0EfCh5Mr5MsA1jg" base_Property="_9lxVCkd0EfCh5Mr5MsA1jg" getter="_clMzIL0HEe6FVM3jDRf3Hg" setter="_iRoxgL0HEe6FVM3jDRf3Hg"/>
+  <datafoodconsortium_connector:property xmi:id="_9lxVHkd0EfCh5Mr5MsA1jg" base_Property="_9lxVCkd0EfCh5Mr5MsA1jg" getter="_7x6Nwy_SEfCIUvhwBYVA_g" setter="_7x6Nxi_SEfCIUvhwBYVA_g"/>
   <datafoodconsortium_connector:semantic xmi:id="_9lxVH0d0EfCh5Mr5MsA1jg" map="dfc-b:outputOf" base_Element="_9lxVCkd0EfCh5Mr5MsA1jg"/>
-  <datafoodconsortium_connector:property xmi:id="_9lxVIEd0EfCh5Mr5MsA1jg" base_Property="_9lxVDEd0EfCh5Mr5MsA1jg" getter="_H3IzML0IEe6FVM3jDRf3Hg" setter="_LXFE0L0IEe6FVM3jDRf3Hg"/>
+  <datafoodconsortium_connector:property xmi:id="_9lxVIEd0EfCh5Mr5MsA1jg" base_Property="_9lxVDEd0EfCh5Mr5MsA1jg" getter="_7x6N1C_SEfCIUvhwBYVA_g" setter="_7x6N1y_SEfCIUvhwBYVA_g"/>
   <datafoodconsortium_connector:semantic xmi:id="_9lxVIUd0EfCh5Mr5MsA1jg" map="dfc-b:produces" base_Element="_9lxVDEd0EfCh5Mr5MsA1jg"/>
   <datafoodconsortium_connector:constructor xmi:id="_9lxVIkd0EfCh5Mr5MsA1jg" base_Operation="_9lxVEEd0EfCh5Mr5MsA1jg"/>
   <datafoodconsortium_connector:initializerParent xmi:id="_9lxVI0d0EfCh5Mr5MsA1jg" property="_Nqe1YL0JEe6FVM3jDRf3Hg" base_Parameter="_9lxVEUd0EfCh5Mr5MsA1jg"/>
