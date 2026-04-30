@@ -2349,9 +2349,9 @@
   <datafoodconsortium_connector:initializer xmi:id="_2PZIBEd1EfCh5Mr5MsA1jg" property="_2PYgy0d1EfCh5Mr5MsA1jg" base_Parameter="_2PYg10d1EfCh5Mr5MsA1jg"/>
   <datafoodconsortium_connector:initializer xmi:id="_2PZu4Ed1EfCh5Mr5MsA1jg" property="_2PYgzUd1EfCh5Mr5MsA1jg" base_Parameter="_2PYg2kd1EfCh5Mr5MsA1jg"/>
   <datafoodconsortium_connector:semantic xmi:id="_2PZu4Ud1EfCh5Mr5MsA1jg" map="dfc-b:AsRealizedConsumptionFlow" base_Element="_2PZH0Ed1EfCh5Mr5MsA1jg"/>
-  <datafoodconsortium_connector:property xmi:id="_2PZu4kd1EfCh5Mr5MsA1jg" base_Property="_2PZH2Ed1EfCh5Mr5MsA1jg" getter="_clMzIL0HEe6FVM3jDRf3Hg" setter="_iRoxgL0HEe6FVM3jDRf3Hg"/>
+  <datafoodconsortium_connector:property xmi:id="_2PZu4kd1EfCh5Mr5MsA1jg" base_Property="_2PZH2Ed1EfCh5Mr5MsA1jg" getter="_Dg7ICi_TEfCIUvhwBYVA_g" setter="_Dg7IDS_TEfCIUvhwBYVA_g"/>
   <datafoodconsortium_connector:semantic xmi:id="_2PZu40d1EfCh5Mr5MsA1jg" map="dfc-b:inputOf" base_Element="_2PZH2Ed1EfCh5Mr5MsA1jg"/>
-  <datafoodconsortium_connector:property xmi:id="_2PZu5Ed1EfCh5Mr5MsA1jg" base_Property="_2PZH2kd1EfCh5Mr5MsA1jg" getter="_9UBZwL0HEe6FVM3jDRf3Hg" setter="_CzBZEL0IEe6FVM3jDRf3Hg"/>
+  <datafoodconsortium_connector:property xmi:id="_2PZu5Ed1EfCh5Mr5MsA1jg" base_Property="_2PZH2kd1EfCh5Mr5MsA1jg" getter="_Dg7IEy_TEfCIUvhwBYVA_g" setter="_Dg7IFi_TEfCIUvhwBYVA_g"/>
   <datafoodconsortium_connector:semantic xmi:id="_2PZu5Ud1EfCh5Mr5MsA1jg" map="dfc-b:consumes" base_Element="_2PZH2kd1EfCh5Mr5MsA1jg"/>
   <datafoodconsortium_connector:constructor xmi:id="_2PZu5kd1EfCh5Mr5MsA1jg" base_Operation="_2PZH3kd1EfCh5Mr5MsA1jg"/>
   <datafoodconsortium_connector:initializerParent xmi:id="_2PZu50d1EfCh5Mr5MsA1jg" property="_Nqe1YL0JEe6FVM3jDRf3Hg" base_Parameter="_2PZH30d1EfCh5Mr5MsA1jg"/>
