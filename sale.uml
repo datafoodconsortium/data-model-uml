@@ -1988,6 +1988,10 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7rCHUTJoEfGwnMOhDcDDew"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7rCHUjJoEfGwnMOhDcDDew" value="*"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_Rx3fEESSEfGD98AompaPCA" name="date">
+        <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UV6JIESSEfGD98AompaPCA"/>
+      </ownedAttribute>
       <interfaceRealization xmi:id="_kPtFUDJoEfGwnMOhDcDDew" client="_OzWRcDJoEfGwnMOhDcDDew" supplier="_Z5uQUDJlEfGwnMOhDcDDew" contract="_Z5uQUDJlEfGwnMOhDcDDew"/>
       <ownedOperation xmi:id="_xvnnEDJoEfGwnMOhDcDDew" name="TemplateSaleSession">
         <ownedParameter xmi:id="_xvnnGTJoEfGwnMOhDcDDew" name="hostingPlaces" type="_6xwpwA7gEfCgCYDrF-CWdA">
@@ -3210,4 +3214,9 @@
   <datafoodconsortium_connector:semantic xmi:id="_vyqOoESREfGD98AompaPCA" base_Element="_8B3vEDlwEfGll4LYlwGlyg"/>
   <datafoodconsortium_connector:semantic xmi:id="_ypYkIESREfGD98AompaPCA" base_Element="_Ex4hQDlzEfGll4LYlwGlyg"/>
   <datafoodconsortium_connector:semantic xmi:id="_09JWgESREfGD98AompaPCA" base_Element="_odGAgDlzEfGll4LYlwGlyg"/>
+  <datafoodconsortium_connector:property xmi:id="_SxOqUESSEfGD98AompaPCA" base_Property="_Rx3fEESSEfGD98AompaPCA">
+    <getter href="common.uml#_UmyC8TJYEfGwnMOhDcDDew"/>
+    <setter href="common.uml#_UmyC8zJYEfGwnMOhDcDDew"/>
+  </datafoodconsortium_connector:property>
+  <datafoodconsortium_connector:semantic xmi:id="_SxPRYESSEfGD98AompaPCA" map="dfc-b:date" base_Element="_Rx3fEESSEfGD98AompaPCA"/>
 </xmi:XMI>
