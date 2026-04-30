@@ -1394,7 +1394,7 @@
         <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_Ip73HkejEfCVX5nhGdowdA" client="_Ip73EEejEfCVX5nhGdowdA" supplier="_AL3y8A7qEfCgCYDrF-CWdA _EC8yMA7qEfCgCYDrF-CWdA _xGXhgA7rEfCgCYDrF-CWdA" contract="_xGXhgA7rEfCgCYDrF-CWdA"/>
-      <ownedOperation xmi:id="_Ip73H0ejEfCVX5nhGdowdA" name="RealStock">
+      <ownedOperation xmi:id="_Ip73H0ejEfCVX5nhGdowdA" name="ProductBatch">
         <ownedParameter xmi:id="_mLfbAEekEfCVX5nhGdowdA" name="name">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mLfbAUekEfCVX5nhGdowdA"/>
@@ -2172,7 +2172,7 @@
   <datafoodconsortium_connector:initializer xmi:id="_z53PgkekEfCVX5nhGdowdA" property="_RNn58EekEfCVX5nhGdowdA" base_Parameter="_z53PgEekEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:initializer xmi:id="_2IHPwkekEfCVX5nhGdowdA" property="_ZMvFkEekEfCVX5nhGdowdA" base_Parameter="_2IHPwEekEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:semantic xmi:id="_8FYfcUekEfCVX5nhGdowdA" map="dfc-b:identifiedBy" base_Element="_8FYfcEekEfCVX5nhGdowdA"/>
-  <datafoodconsortium_connector:property xmi:id="_8FYfckekEfCVX5nhGdowdA" base_Property="_8FYfcEekEfCVX5nhGdowdA" getter="_hkr1EA_XEfCgOoBR6uwQPw" setter="_hkr1FA_XEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:property xmi:id="_8FYfckekEfCVX5nhGdowdA" base_Property="_8FYfcEekEfCVX5nhGdowdA" getter="_nxPd8A_XEfCgOoBR6uwQPw" setter="_ot0a8A_XEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:initializer xmi:id="_FLyDQkelEfCVX5nhGdowdA" property="_8FYfcEekEfCVX5nhGdowdA" base_Parameter="_FLyDQEelEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:semantic xmi:id="_P2fdH0emEfCVX5nhGdowdA" map="dfc-b:VirtualPlace" base_Element="_P2fdAEemEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:semantic xmi:id="_P2fdIEemEfCVX5nhGdowdA" map="dfc-b:name" base_Element="_P2fdBUemEfCVX5nhGdowdA"/>
