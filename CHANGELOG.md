@@ -362,7 +362,8 @@ Classes:
 - sale.uml
 - skos.uml
 
-[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.1.0...HEAD
+[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.2.0...HEAD
+[3.2.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.1.0...v3.2.0
 [3.1.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.0.0...v3.1.0
 [3.0.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v2.1.0...v3.0.0
 [2.1.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v2.0.0...v2.1.0
