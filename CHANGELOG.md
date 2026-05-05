@@ -10,6 +10,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 TODO:
 - Create top classes `Subject` and `Relation` to be generalized by all DFC subjects and relations.
 
+## [3.2.1] - 2026-05-05
+
+### Fixed
+
+- Wrong method bindings of `AsPlannedLocalTransformation` and `AsRealizedTransformation`.
+
 ## [3.2.0] - 2026-05-05
 
 ### Changed
@@ -362,7 +368,8 @@ Classes:
 - sale.uml
 - skos.uml
 
-[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.2.0...HEAD
+[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.2.1...HEAD
+[3.2.1]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.2.0...v3.2.1
 [3.2.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.1.0...v3.2.0
 [3.1.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.0.0...v3.1.0
 [3.0.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v2.1.0...v3.0.0
