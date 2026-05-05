@@ -10,6 +10,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 TODO:
 - Create top classes `Subject` and `Relation` to be generalized by all DFC subjects and relations.
 
+## [3.2.0] - 2026-05-05
+
+### Changed
+
+Implement missing changes of [ontology v1.11.0](https://github.com/datafoodconsortium/ontology/blob/master/CHANGELOG.md#1110---2024-01-11):
+- Rename `hasIncome` -> `hasInput` and `hasOutcome` -> `hasOutput` in `AsPlannedTransformation`, `AsPlannedLocalTransformation` and `AsRealizedTransformation`.
+- Rename `incomeOf` > `inputOf` in `AsPlannedConsumptionFlow`, `AsPlannedLocalConsumptionFlow` and `AsRealizedConsumptionFlow`.
+- Rename `outcomeOf` -> `outpufOf` in `AsPlannedProductionFlow`, `AsPlannedLocalProductionFlow` and `AsRealizedProductionFlow`.
+
 ## [3.1.0] - 2025-06-26
 
 Add logistic concepts:
