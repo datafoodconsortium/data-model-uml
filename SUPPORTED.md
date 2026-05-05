@@ -18,17 +18,17 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] date
   - [x] quantity
   - [x] consumes
-  - [x] incomeOf
+  - [x] inputOf
 - `AsPlannedLocalConsumptionFlow`
   - [ ] date
   - [x] quantity
   - [x] consumes
-  - [x] incomeOf
+  - [x] inputOf
 - `AsPlannedLocalProductionFlow`
   - [ ] date
   - [x] quantity
   - [x] produces
-  - [x] outcomeOf
+  - [x] outputOf
 - `AsPlannedLocalTransformation`
   - [ ] name
   - [ ] description
@@ -36,39 +36,39 @@ Here is a list of the DFC features that the model currently supports.
   - [x] cost
   - [x] startDate
   - [x] endDate
-  - [x] hasIncome
-  - [x] hasOutcome
+  - [x] hasInput
+  - [x] hasOutput
   - [ ] transformedBy
 - `AsPlannedProductionFlow`
   - [ ] date
   - [x] quantity
   - [x] produces
-  - [x] outcomeOf
+  - [x] outputOf
 - `AsPlannedTransformation`
   - [ ] name
   - [ ] description
   - [ ] date
-  - [x] hasIncome
-  - [x] hasOutcome
+  - [x] hasInput
+  - [x] hasOutput
   - [x] hasTransformationType
 - `AsRealizedConsumptionFlow`
   - [ ] date
   - [x] quantity
   - [x] consumes
-  - [x] incomeOf
+  - [x] inputOf
 - `AsRealizedProductionFlow`
   - [ ] date
   - [x] quantity
   - [x] produces
-  - [x] outcomeOf
+  - [x] outputOf
 - `AsRealizedTransformation`
   - [ ] name
   - [ ] description
   - [ ] date
   - [x] startDate
   - [x] endDate
-  - [x] hasIncome
-  - [x] hasOutcome
+  - [x] hasInput
+  - [x] hasOutput
 - `Brand`
   - [ ] name
   - [ ] description
