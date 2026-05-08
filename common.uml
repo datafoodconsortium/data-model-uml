@@ -685,4 +685,5 @@
   <datafoodconsortium_connector:remover xmi:id="_tZkKoA_SEfCgOoBR6uwQPw" base_Operation="_jD27EA_SEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:adder xmi:id="_1LXOAEOnEfGm7NcA66xD4g" base_Operation="_vboEAEOnEfGm7NcA66xD4g"/>
   <datafoodconsortium_connector:remover xmi:id="_2A5H0EOnEfGm7NcA66xD4g" base_Operation="_zVX8wEOnEfGm7NcA66xD4g"/>
+  <datafoodconsortium_connector:semantic xmi:id="_VTvZIErOEfGng5E5WZc1xg" base_Element="_OGnXAA_QEfCgOoBR6uwQPw"/>
 </xmi:XMI>
