@@ -2413,5 +2413,4 @@
   <datafoodconsortium_connector:semantic xmi:id="_O8aDYUQaEfGD98AompaPCA" map="dfc-b:hasMainContact" base_Element="_a1_lkEeoEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:property xmi:id="_oZm2gEQaEfGD98AompaPCA" base_Property="_X8dMoEeoEfCVX5nhGdowdA" getter="_SXMGIA7lEfCgCYDrF-CWdA" setter="_S5YNMA7lEfCgCYDrF-CWdA"/>
   <datafoodconsortium_connector:semantic xmi:id="_oZm2gUQaEfGD98AompaPCA" map="dfc-b:hasAddress" base_Element="_X8dMoEeoEfCVX5nhGdowdA"/>
-  <datafoodconsortium_connector:semantic xmi:id="_CEdrIEQbEfGD98AompaPCA" base_Element="_716lsDjLEfG0p_Bon9dX0w"/>
 </xmi:XMI>
