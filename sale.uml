@@ -589,6 +589,7 @@
       <elementImport xmi:id="_P5JE8L7XEe2g9M79Y7jp8Q">
         <importedElement xmi:type="uml:Interface" href="agent.uml#_ljoYEMrjEe24_rxb3O_v6Q"/>
       </elementImport>
+      <elementImport xmi:id="_mAb0kEOqEfGm7NcA66xD4g" importedElement="_AVFHYA7sEfCgCYDrF-CWdA"/>
       <ownedAttribute xmi:id="_PHQ44L7TEe2g9M79Y7jp8Q" name="number">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
@@ -617,6 +618,9 @@
       <ownedAttribute xmi:id="_kQtSALqxEe6BB6ykmH1j4g" name="paymentStatus">
         <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kQtSAbqxEe6BB6ykmH1j4g"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_r8IW8EOqEfGm7NcA66xD4g" name="paymentMethod" type="_AVFHYA7sEfCgCYDrF-CWdA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r8IW8UOqEfGm7NcA66xD4g"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_HgAMkL7TEe2g9M79Y7jp8Q" client="_zp5fkOZfEeybgd1DwlK4YQ" supplier="_AEigkL7TEe2g9M79Y7jp8Q" contract="_AEigkL7TEe2g9M79Y7jp8Q"/>
       <ownedOperation xmi:id="_bYmqgL7aEe2g9M79Y7jp8Q" name="Order">
@@ -651,6 +655,10 @@
           <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9pmXcbqyEe6BB6ykmH1j4g"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9pmXcrqyEe6BB6ykmH1j4g" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_yr3lYEOqEfGm7NcA66xD4g" name="paymentMethod" type="_AVFHYA7sEfCgCYDrF-CWdA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yr3lYUOqEfGm7NcA66xD4g"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yr3lYkOqEfGm7NcA66xD4g" value="1"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -716,6 +724,12 @@
       <elementImport xmi:id="_8ZbnYEelEfCVX5nhGdowdA">
         <importedElement xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
       </elementImport>
+      <generalization xmi:id="_Y8W-QErREfGng5E5WZc1xg">
+        <general xmi:type="uml:Interface" href="common.uml#_dM0RUNxVEeyr_asPBQgiSQ"/>
+      </generalization>
+      <generalization xmi:id="_bdmL8ErREfGng5E5WZc1xg">
+        <general xmi:type="uml:Interface" href="common.uml#_furxINxVEeyr_asPBQgiSQ"/>
+      </generalization>
       <ownedOperation xmi:id="_De2VsA7hEfCgCYDrF-CWdA" name="getHostedSaleSessions">
         <ownedParameter xmi:id="_De2VsQ7hEfCgCYDrF-CWdA" name="saleSessions" type="_Kg2aAAadEe26esJmMoAMaw" direction="return">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q4nMIA7hEfCgCYDrF-CWdA"/>
@@ -895,9 +909,6 @@
         <importedElement xmi:type="uml:Interface" href="common.uml#_9mm50MrsEe24_rxb3O_v6Q"/>
       </elementImport>
       <elementImport xmi:id="_sFtuYA_YEfCgOoBR6uwQPw" importedElement="_YTySUA7jEfCgCYDrF-CWdA"/>
-      <generalization xmi:id="_w9I-8A7pEfCgCYDrF-CWdA">
-        <general xmi:type="uml:Interface" href="common.uml#_S8hGMNxVEeyr_asPBQgiSQ"/>
-      </generalization>
       <ownedOperation xmi:id="_7rpCMEeCEfCh5Mr5MsA1jg" name="getQuantity">
         <ownedParameter xmi:id="_7rpCMUeCEfCh5Mr5MsA1jg" name="quantity" direction="return">
           <type xmi:type="uml:Interface" href="common.uml#_9mm50MrsEe24_rxb3O_v6Q"/>
@@ -1389,7 +1400,7 @@
         <type xmi:type="uml:PrimitiveType" href="common.uml#_Px9McA7pEfCgCYDrF-CWdA"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_Ip73HkejEfCVX5nhGdowdA" client="_Ip73EEejEfCVX5nhGdowdA" supplier="_AL3y8A7qEfCgCYDrF-CWdA _EC8yMA7qEfCgCYDrF-CWdA _xGXhgA7rEfCgCYDrF-CWdA" contract="_xGXhgA7rEfCgCYDrF-CWdA"/>
-      <ownedOperation xmi:id="_Ip73H0ejEfCVX5nhGdowdA" name="RealStock">
+      <ownedOperation xmi:id="_Ip73H0ejEfCVX5nhGdowdA" name="ProductBatch">
         <ownedParameter xmi:id="_mLfbAEekEfCVX5nhGdowdA" name="name">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mLfbAUekEfCVX5nhGdowdA"/>
@@ -1485,15 +1496,15 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Pe1gEUeoEfCVX5nhGdowdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Pe1gEkeoEfCVX5nhGdowdA" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_X8dMoEeoEfCVX5nhGdowdA" name="addresses">
+      <ownedAttribute xmi:id="_X8dMoEeoEfCVX5nhGdowdA" name="address">
         <type xmi:type="uml:Interface" href="common.uml#_CPEsAMroEe24_rxb3O_v6Q"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_X8dMoUeoEfCVX5nhGdowdA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X8dMokeoEfCVX5nhGdowdA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_X8dMoUeoEfCVX5nhGdowdA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X8dMokeoEfCVX5nhGdowdA" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_a1_lkEeoEfCVX5nhGdowdA" name="mainContact">
+      <ownedAttribute xmi:id="_a1_lkEeoEfCVX5nhGdowdA" name="mainContacts">
         <type xmi:type="uml:Interface" href="agent.uml#_S7W3QAaUEe26esJmMoAMaw"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a1_lkUeoEfCVX5nhGdowdA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a1_lkkeoEfCVX5nhGdowdA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a1_lkkeoEfCVX5nhGdowdA" value="*"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_fm1eYEeoEfCVX5nhGdowdA" name="theoreticalStocks" type="_AL3y8A7qEfCgCYDrF-CWdA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fm1eYUeoEfCVX5nhGdowdA"/>
@@ -1527,15 +1538,15 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wFf-UUeqEfCVX5nhGdowdA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wFf-UkeqEfCVX5nhGdowdA" value="*"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_-p400EeqEfCVX5nhGdowdA" name="addresses">
+        <ownedParameter xmi:id="_-p400EeqEfCVX5nhGdowdA" name="address">
           <type xmi:type="uml:Interface" href="common.uml#_CPEsAMroEe24_rxb3O_v6Q"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-p400UeqEfCVX5nhGdowdA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-p400keqEfCVX5nhGdowdA" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-p400UeqEfCVX5nhGdowdA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-p400keqEfCVX5nhGdowdA" value="1"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_FQkN4EerEfCVX5nhGdowdA" name="mainContact">
+        <ownedParameter xmi:id="_FQkN4EerEfCVX5nhGdowdA" name="mainContacts">
           <type xmi:type="uml:Interface" href="agent.uml#_S7W3QAaUEe26esJmMoAMaw"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FQkN4UerEfCVX5nhGdowdA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FQkN4kerEfCVX5nhGdowdA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FQkN4kerEfCVX5nhGdowdA" value="*"/>
         </ownedParameter>
         <ownedParameter xmi:id="_Ib8kwEerEfCVX5nhGdowdA" name="theoreticalStocks" type="_AL3y8A7qEfCgCYDrF-CWdA">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ib8kwUerEfCVX5nhGdowdA"/>
@@ -1571,7 +1582,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EHBtwke9EfCVX5nhGdowdA" value="1"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_gVaEmke8EfCVX5nhGdowdA" client="_gVaEgEe8EfCVX5nhGdowdA" supplier="_AL3y8A7qEfCgCYDrF-CWdA _EC8yMA7qEfCgCYDrF-CWdA _xGXhgA7rEfCgCYDrF-CWdA _Tzw5MA7iEfCgCYDrF-CWdA _YTySUA7jEfCgCYDrF-CWdA _AVFHYA7sEfCgCYDrF-CWdA" contract="_AVFHYA7sEfCgCYDrF-CWdA"/>
-      <ownedOperation xmi:id="_gVaEm0e8EfCVX5nhGdowdA" name="PhysicalPlace">
+      <ownedOperation xmi:id="_gVaEm0e8EfCVX5nhGdowdA" name="PaymentMethod">
         <ownedParameter xmi:id="_gVaEnEe8EfCVX5nhGdowdA" name="name">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gVaEnUe8EfCVX5nhGdowdA"/>
@@ -1748,7 +1759,7 @@
       <ownedAttribute xmi:id="_dB-BAEfAEfCVX5nhGdowdA" name="accessibilityInformation">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <interfaceRealization xmi:id="_-8IO1ke_EfCVX5nhGdowdA" client="_-8IO0Ee_EfCVX5nhGdowdA" supplier="_AL3y8A7qEfCgCYDrF-CWdA _EC8yMA7qEfCgCYDrF-CWdA _xGXhgA7rEfCgCYDrF-CWdA _Tzw5MA7iEfCgCYDrF-CWdA _YTySUA7jEfCgCYDrF-CWdA _AVFHYA7sEfCgCYDrF-CWdA _rhVLoA7rEfCgCYDrF-CWdA" contract="_rhVLoA7rEfCgCYDrF-CWdA"/>
+      <interfaceRealization xmi:id="_-8IO1ke_EfCVX5nhGdowdA" client="_-8IO0Ee_EfCVX5nhGdowdA" supplier="_AL3y8A7qEfCgCYDrF-CWdA _EC8yMA7qEfCgCYDrF-CWdA _xGXhgA7rEfCgCYDrF-CWdA _Tzw5MA7iEfCgCYDrF-CWdA _YTySUA7jEfCgCYDrF-CWdA _AVFHYA7sEfCgCYDrF-CWdA _rhVLoA7rEfCgCYDrF-CWdA _to5VEA7rEfCgCYDrF-CWdA" contract="_to5VEA7rEfCgCYDrF-CWdA"/>
       <ownedOperation xmi:id="_-8IO10e_EfCVX5nhGdowdA" name="DeliveryOption">
         <ownedParameter xmi:id="_-8IO2Ee_EfCVX5nhGdowdA" name="name">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -2167,7 +2178,7 @@
   <datafoodconsortium_connector:initializer xmi:id="_z53PgkekEfCVX5nhGdowdA" property="_RNn58EekEfCVX5nhGdowdA" base_Parameter="_z53PgEekEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:initializer xmi:id="_2IHPwkekEfCVX5nhGdowdA" property="_ZMvFkEekEfCVX5nhGdowdA" base_Parameter="_2IHPwEekEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:semantic xmi:id="_8FYfcUekEfCVX5nhGdowdA" map="dfc-b:identifiedBy" base_Element="_8FYfcEekEfCVX5nhGdowdA"/>
-  <datafoodconsortium_connector:property xmi:id="_8FYfckekEfCVX5nhGdowdA" base_Property="_8FYfcEekEfCVX5nhGdowdA" getter="_hkr1EA_XEfCgOoBR6uwQPw" setter="_hkr1FA_XEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:property xmi:id="_8FYfckekEfCVX5nhGdowdA" base_Property="_8FYfcEekEfCVX5nhGdowdA" getter="_nxPd8A_XEfCgOoBR6uwQPw" setter="_ot0a8A_XEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:initializer xmi:id="_FLyDQkelEfCVX5nhGdowdA" property="_8FYfcEekEfCVX5nhGdowdA" base_Parameter="_FLyDQEelEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:semantic xmi:id="_P2fdH0emEfCVX5nhGdowdA" map="dfc-b:VirtualPlace" base_Element="_P2fdAEemEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:semantic xmi:id="_P2fdIEemEfCVX5nhGdowdA" map="dfc-b:name" base_Element="_P2fdBUemEfCVX5nhGdowdA"/>
@@ -2239,22 +2250,10 @@
     <adder href="common.uml#_hnKTkA_SEfCgOoBR6uwQPw"/>
     <remover href="common.uml#_jD27EA_SEfCgOoBR6uwQPw"/>
   </datafoodconsortium_connector:propertyMultiple>
-  <datafoodconsortium_connector:semantic xmi:id="_X8dMo0eoEfCVX5nhGdowdA" map="dfc-b:hasAddress" base_Element="_X8dMoEeoEfCVX5nhGdowdA"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_X8dMpEeoEfCVX5nhGdowdA" base_Property="_X8dMoEeoEfCVX5nhGdowdA">
-    <getter href="agent.uml#_ZDwRkNxSEeyr_asPBQgiSQ"/>
-    <setter href="agent.uml#_tC4-YEepEfCVX5nhGdowdA"/>
-    <adder href="agent.uml#_7Y0dQNxSEeyr_asPBQgiSQ"/>
-    <remover href="agent.uml#_-KbCMNxSEeyr_asPBQgiSQ"/>
-  </datafoodconsortium_connector:propertyMultiple>
-  <datafoodconsortium_connector:semantic xmi:id="_a1_lk0eoEfCVX5nhGdowdA" map="dfc-b:hasMainContact" base_Element="_a1_lkEeoEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:semantic xmi:id="_fm1eY0eoEfCVX5nhGdowdA" map="dfc-b:localizes" base_Element="_fm1eYEeoEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:propertyMultiple xmi:id="_fm1eZEeoEfCVX5nhGdowdA" base_Property="_fm1eYEeoEfCVX5nhGdowdA" getter="_AnszcA_TEfCgOoBR6uwQPw" setter="_AnszfA_TEfCgOoBR6uwQPw" adder="_AnszdA_TEfCgOoBR6uwQPw" remover="_AnszeA_TEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:semantic xmi:id="_kdpcU0eoEfCVX5nhGdowdA" map="dfc-b:stores" base_Element="_kdpcUEeoEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:propertyMultiple xmi:id="_kdpcVEeoEfCVX5nhGdowdA" base_Property="_kdpcUEeoEfCVX5nhGdowdA" getter="_j5no8A_TEfCgOoBR6uwQPw" setter="_j5no_A_TEfCgOoBR6uwQPw" adder="_j5no9A_TEfCgOoBR6uwQPw" remover="_j5no-A_TEfCgOoBR6uwQPw"/>
-  <datafoodconsortium_connector:property xmi:id="_LmLhkEeqEfCVX5nhGdowdA" base_Property="_a1_lkEeoEfCVX5nhGdowdA">
-    <getter href="agent.uml#_R2PYIGa6Ee6BBZALe8Relw"/>
-    <setter href="agent.uml#_Pg-7gGa7Ee6BBZALe8Relw"/>
-  </datafoodconsortium_connector:property>
   <datafoodconsortium_connector:initializer xmi:id="_wFglYEeqEfCVX5nhGdowdA" property="_Pe1gEEeoEfCVX5nhGdowdA" base_Parameter="_wFf-UEeqEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:initializer xmi:id="_-p4000eqEfCVX5nhGdowdA" property="_X8dMoEeoEfCVX5nhGdowdA" base_Parameter="_-p400EeqEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:initializer xmi:id="_FQkN40erEfCVX5nhGdowdA" property="_a1_lkEeoEfCVX5nhGdowdA" base_Parameter="_FQkN4EerEfCVX5nhGdowdA"/>
@@ -2295,10 +2294,7 @@
     <remover href="agent.uml#_-KbCMNxSEeyr_asPBQgiSQ"/>
   </datafoodconsortium_connector:propertyMultiple>
   <datafoodconsortium_connector:semantic xmi:id="_gVarnUe8EfCVX5nhGdowdA" map="dfc-b:hasPrice" base_Element="_gVaEkUe8EfCVX5nhGdowdA"/>
-  <datafoodconsortium_connector:property xmi:id="_gVarnke8EfCVX5nhGdowdA" base_Property="_gVaEkUe8EfCVX5nhGdowdA">
-    <getter href="agent.uml#_R2PYIGa6Ee6BBZALe8Relw"/>
-    <setter href="agent.uml#_Pg-7gGa7Ee6BBZALe8Relw"/>
-  </datafoodconsortium_connector:property>
+  <datafoodconsortium_connector:property xmi:id="_gVarnke8EfCVX5nhGdowdA" base_Property="_gVaEkUe8EfCVX5nhGdowdA" getter="_ZLjAMOZZEeybgd1DwlK4YQ" setter="_lUUDsL7wEe2g9M79Y7jp8Q"/>
   <datafoodconsortium_connector:semantic xmi:id="_gVarn0e8EfCVX5nhGdowdA" map="dfc-b:localizes"/>
   <datafoodconsortium_connector:propertyMultiple xmi:id="_gVaroEe8EfCVX5nhGdowdA" getter="_AnszcA_TEfCgOoBR6uwQPw" setter="_AnszfA_TEfCgOoBR6uwQPw" adder="_AnszdA_TEfCgOoBR6uwQPw" remover="_AnszeA_TEfCgOoBR6uwQPw"/>
   <datafoodconsortium_connector:semantic xmi:id="_gVaroUe8EfCVX5nhGdowdA" map="dfc-b:stores"/>
@@ -2416,4 +2412,11 @@
   <datafoodconsortium_connector:semantic xmi:id="_oylDcFKkEfCPJqIMXx6mBw" base_Element="_xGXhgA7rEfCgCYDrF-CWdA"/>
   <datafoodconsortium_connector:semantic xmi:id="_rHjWwFKkEfCPJqIMXx6mBw" base_Element="_AVFHYA7sEfCgCYDrF-CWdA"/>
   <datafoodconsortium_connector:semantic xmi:id="_tDEoQFKkEfCPJqIMXx6mBw" base_Element="_oFG8YA7rEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:property xmi:id="_r8PEoEOqEfGm7NcA66xD4g" base_Property="_r8IW8EOqEfGm7NcA66xD4g" getter="_13CPwA_eEfCgOoBR6uwQPw" setter="_24SRYA_eEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_r8PEoUOqEfGm7NcA66xD4g" map="dfc-b:hasPaymentMethod" base_Element="_r8IW8EOqEfGm7NcA66xD4g"/>
+  <datafoodconsortium_connector:initializer xmi:id="_yr3lY0OqEfGm7NcA66xD4g" property="_r8IW8EOqEfGm7NcA66xD4g" base_Parameter="_yr3lYEOqEfGm7NcA66xD4g"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_O8aDYEQaEfGD98AompaPCA" base_Property="_a1_lkEeoEfCVX5nhGdowdA" getter="_-GLOkA7lEfCgCYDrF-CWdA" setter="_-GL1oA7lEfCgCYDrF-CWdA" adder="_-GLOlA7lEfCgCYDrF-CWdA" remover="_-GLOmA7lEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_O8aDYUQaEfGD98AompaPCA" map="dfc-b:hasMainContact" base_Element="_a1_lkEeoEfCVX5nhGdowdA"/>
+  <datafoodconsortium_connector:property xmi:id="_oZm2gEQaEfGD98AompaPCA" base_Property="_X8dMoEeoEfCVX5nhGdowdA" getter="_SXMGIA7lEfCgCYDrF-CWdA" setter="_S5YNMA7lEfCgCYDrF-CWdA"/>
+  <datafoodconsortium_connector:semantic xmi:id="_oZm2gUQaEfGD98AompaPCA" map="dfc-b:hasAddress" base_Element="_X8dMoEeoEfCVX5nhGdowdA"/>
 </xmi:XMI>
