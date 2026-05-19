@@ -77,6 +77,13 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
+      <ownedOperation xmi:id="_jAIwAFOHEfG9ufhsfaAzpg" name="setEmails">
+        <ownedParameter xmi:id="_jAIwAVOHEfG9ufhsfaAzpg" name="emailAddresses">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jAIwAlOHEfG9ufhsfaAzpg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jAIwA1OHEfG9ufhsfaAzpg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_WUYGcGaxEe6BBZALe8Relw" name="WebsiteOwner">
       <elementImport xmi:id="_CToisGa2Ee6BBZALe8Relw" importedElement="_GIP2EGaxEe6BBZALe8Relw"/>
@@ -799,7 +806,7 @@
   <datafoodconsortium_connector:semantic xmi:id="_YeG0EGamEe6BBZALe8Relw" map="dfc-b:phoneNumber" base_Element="_-vkZUGalEe6BBZALe8Relw"/>
   <datafoodconsortium_connector:propertyMultiple xmi:id="_DLUrkGapEe6BBZALe8Relw" base_Property="_AmhMgGapEe6BBZALe8Relw" getter="_3rwZ0NxLEeyr_asPBQgiSQ" setter="_8F6HEEeoEfCVX5nhGdowdA" adder="_Qp3dMNxMEeyr_asPBQgiSQ" remover="_Yg7qoNxNEeyr_asPBQgiSQ"/>
   <datafoodconsortium_connector:semantic xmi:id="_DLVSoGapEe6BBZALe8Relw" map="dfc-b:hasPhoneNumber" base_Element="_AmhMgGapEe6BBZALe8Relw"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_Hi2oUGawEe6BBZALe8Relw" base_Property="_EmVz4GawEe6BBZALe8Relw" getter="_6A8vkNxLEeyr_asPBQgiSQ" adder="_SXYu8NxMEeyr_asPBQgiSQ" remover="_b-Yo8NxNEeyr_asPBQgiSQ"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_Hi2oUGawEe6BBZALe8Relw" base_Property="_EmVz4GawEe6BBZALe8Relw" getter="_6A8vkNxLEeyr_asPBQgiSQ" setter="_jAIwAFOHEfG9ufhsfaAzpg" adder="_SXYu8NxMEeyr_asPBQgiSQ" remover="_b-Yo8NxNEeyr_asPBQgiSQ"/>
   <datafoodconsortium_connector:semantic xmi:id="_Hi3PYGawEe6BBZALe8Relw" map="dfc-b:email" base_Element="_EmVz4GawEe6BBZALe8Relw"/>
   <datafoodconsortium_connector:constructor xmi:id="_lvV1EGawEe6BBZALe8Relw" base_Operation="_iSJVcGawEe6BBZALe8Relw"/>
   <datafoodconsortium_connector:initializer xmi:id="_tXwX8GawEe6BBZALe8Relw" property="_-flckGalEe6BBZALe8Relw" base_Parameter="_iSJVcWawEe6BBZALe8Relw"/>
@@ -864,4 +871,5 @@
     <setter href="common.uml#_ZcvkYFUnEe2_KYs77o2hVQ"/>
   </datafoodconsortium_connector:property>
   <datafoodconsortium_connector:semantic xmi:id="_L9jlMVOHEfG9ufhsfaAzpg" map="dfc-b:description" base_Element="_L9i-IFOHEfG9ufhsfaAzpg"/>
+  <datafoodconsortium_connector:setter xmi:id="_kV63MFOHEfG9ufhsfaAzpg" base_Operation="_jAIwAFOHEfG9ufhsfaAzpg"/>
 </xmi:XMI>
