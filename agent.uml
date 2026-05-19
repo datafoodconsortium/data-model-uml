@@ -734,7 +734,9 @@
   <datafoodconsortium_connector:semantic xmi:id="_Tj94YetWEey6f7rgFRym3Q" map="dfc-b:supplies" base_Element="_OTNJYOtWEey6f7rgFRym3Q"/>
   <datafoodconsortium_connector:propertyMultiple xmi:id="_VZVGwPPWEey60OpxS9_JRQ" base_Property="_pdo_EPPVEey60OpxS9_JRQ">
     <getter href="sale.uml#__mBEEPPYEey60OpxS9_JRQ"/>
+    <setter href="sale.uml#_-I-s8FOEEfG9ufhsfaAzpg"/>
     <adder href="sale.uml#_Lx3V4PPZEey60OpxS9_JRQ"/>
+    <remover href="sale.uml#_cbfjgMihEe2tet82apP7RQ"/>
   </datafoodconsortium_connector:propertyMultiple>
   <datafoodconsortium_connector:semantic xmi:id="_VZVGwfPWEey60OpxS9_JRQ" map="dfc-b:manages" base_Element="_pdo_EPPVEey60OpxS9_JRQ"/>
   <datafoodconsortium_connector:semantic xmi:id="_9pmb8EsSEe22e8Z5wgMBmQ" map="dfc-b:Agent" base_Element="_0m9XsOBfEeyy8cy9J23hHA"/>
