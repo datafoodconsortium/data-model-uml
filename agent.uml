@@ -209,7 +209,7 @@
     <packagedElement xmi:type="uml:Interface" xmi:id="_ub0psODkEey8JZcrriCc9A" name="Affiliable">
       <elementImport xmi:id="_bjkfwOr0EeyCuagsnSkUFw" importedElement="_QDLJMAaUEe26esJmMoAMaw"/>
       <ownedOperation xmi:id="_9n3WEODkEey8JZcrriCc9A" name="getAffiliatedOrganizations">
-        <ownedParameter xmi:id="__fQVgODkEey8JZcrriCc9A" name="affiliations" type="_QDLJMAaUEe26esJmMoAMaw" direction="return">
+        <ownedParameter xmi:id="__fQVgODkEey8JZcrriCc9A" name="organizations" type="_QDLJMAaUEe26esJmMoAMaw" direction="return">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AbdfEODlEey8JZcrriCc9A"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BBchAODlEey8JZcrriCc9A" value="*"/>
         </ownedParameter>
@@ -219,6 +219,12 @@
       </ownedOperation>
       <ownedOperation xmi:id="_azRq4ODmEey8JZcrriCc9A" name="leaveAffiliatedOrganization">
         <ownedParameter xmi:id="_jF8EoODmEey8JZcrriCc9A" name="organization" type="_QDLJMAaUEe26esJmMoAMaw"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_0fEhgFOGEfG9ufhsfaAzpg" name="setAffiliatedOrganizations">
+        <ownedParameter xmi:id="_0fEhgVOGEfG9ufhsfaAzpg" name="organizations" type="_QDLJMAaUEe26esJmMoAMaw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0fEhglOGEfG9ufhsfaAzpg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0fEhg1OGEfG9ufhsfaAzpg" value="*"/>
+        </ownedParameter>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_e8-RoOtOEey6f7rgFRym3Q" name="Taxable">
@@ -709,7 +715,7 @@
   <datafoodconsortium_connector:constructor xmi:id="_qy1OYOBjEeyy8cy9J23hHA" base_Operation="_KbQDEOBjEeyy8cy9J23hHA"/>
   <datafoodconsortium_connector:initializerParent xmi:id="_rlwgIOBjEeyy8cy9J23hHA" position="1"/>
   <datafoodconsortium_connector:initializer xmi:id="_v_NzsOBjEeyy8cy9J23hHA"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_ahrzwOBmEeyy8cy9J23hHA" base_Property="_TkYDYOBmEeyy8cy9J23hHA" getter="_9n3WEODkEey8JZcrriCc9A" adder="_mWAWYOBmEeyy8cy9J23hHA" remover="_azRq4ODmEey8JZcrriCc9A"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_ahrzwOBmEeyy8cy9J23hHA" base_Property="_TkYDYOBmEeyy8cy9J23hHA" getter="_9n3WEODkEey8JZcrriCc9A" setter="_0fEhgFOGEfG9ufhsfaAzpg" adder="_mWAWYOBmEeyy8cy9J23hHA" remover="_azRq4ODmEey8JZcrriCc9A"/>
   <datafoodconsortium_connector:semantic xmi:id="_ahrzweBmEeyy8cy9J23hHA" map="dfc-b:affiliates" base_Element="_TkYDYOBmEeyy8cy9J23hHA"/>
   <datafoodconsortium_connector:property xmi:id="_iwAk0ODOEey8JZcrriCc9A" base_Property="_ZhWc4ODOEey8JZcrriCc9A" getter="_cG17YOs1Eey6f7rgFRym3Q" setter="_9NfyUFUkEe2_KYs77o2hVQ"/>
   <datafoodconsortium_connector:semantic xmi:id="_iwEPMODOEey8JZcrriCc9A" map="dfc-b:VATnumber" base_Element="_ZhWc4ODOEey8JZcrriCc9A"/>
@@ -846,4 +852,5 @@
   <datafoodconsortium_connector:remover xmi:id="_tLnz8FOEEfG9ufhsfaAzpg" base_Operation="_iFDIIFOEEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:setter xmi:id="_t9hyAFOEEfG9ufhsfaAzpg" base_Operation="_psOU4FOEEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:setter xmi:id="_ei0FkFOGEfG9ufhsfaAzpg" base_Operation="_bhIdQFOGEfG9ufhsfaAzpg"/>
+  <datafoodconsortium_connector:setter xmi:id="_2YMmUFOGEfG9ufhsfaAzpg" base_Operation="_0fEhgFOGEfG9ufhsfaAzpg"/>
 </xmi:XMI>
