@@ -148,7 +148,7 @@
       </ownedOperation>
       <ownedOperation xmi:id="_WkCjUNxREeyr_asPBQgiSQ" name="getCountry">
         <ownedParameter xmi:id="_opa0UNxREeyr_asPBQgiSQ" name="country" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_85VDMNxREeyr_asPBQgiSQ" name="setStreet">
@@ -168,7 +168,7 @@
       </ownedOperation>
       <ownedOperation xmi:id="_BFyckNxSEeyr_asPBQgiSQ" name="setCountry">
         <ownedParameter xmi:id="_I61tQNxSEeyr_asPBQgiSQ" name="country">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_K2jewLqkEe6LS7Wm0MEjpA" name="getLatitude">
@@ -289,7 +289,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__KENALqkEe6LS7Wm0MEjpA"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_tgfg8NuhEeyR38y4P6cy-Q" name="country">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__hjf8LqkEe6LS7Wm0MEjpA"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_3i7cgLqkEe6LS7Wm0MEjpA" name="latitude">
@@ -323,7 +323,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hHhJ8LqlEe6LS7Wm0MEjpA"/>
         </ownedParameter>
         <ownedParameter xmi:id="_FLXPMNxwEeyr_asPBQgiSQ" name="country">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_haNccLqlEe6LS7Wm0MEjpA"/>
         </ownedParameter>
         <ownedParameter xmi:id="_deAFkLqlEe6LS7Wm0MEjpA" name="latitude">
