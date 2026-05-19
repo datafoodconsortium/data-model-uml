@@ -169,6 +169,13 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bX_oA1OJEfG9ufhsfaAzpg" value="*"/>
         </ownedParameter>
       </ownedOperation>
+      <ownedOperation xmi:id="_nLwJ8FOJEfG9ufhsfaAzpg" name="setPartOrigins">
+        <ownedParameter xmi:id="_nLwJ8VOJEfG9ufhsfaAzpg" name="partOrigin">
+          <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nLwJ8lOJEfG9ufhsfaAzpg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nLwJ81OJEfG9ufhsfaAzpg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_OtRegAaaEe26esJmMoAMaw" name="IDefinedProduct">
       <elementImport xmi:id="_E7pVoOD5Eey8JZcrriCc9A" importedElement="_pR_I0NxUEeyr_asPBQgiSQ"/>
@@ -2007,7 +2014,7 @@
   <datafoodconsortium_connector:semantic xmi:id="_wQVyIU7_Ee2TpoYuSsmzTA" map="dfc-b:hasCertification" base_Element="_k9gL8E7_Ee2TpoYuSsmzTA"/>
   <datafoodconsortium_connector:propertyMultiple xmi:id="_SHrjME8EEe2TpoYuSsmzTA" base_Property="_D6x_oE8EEe2TpoYuSsmzTA" getter="_vmWr4E79Ee2TpoYuSsmzTA" setter="_bX_oAFOJEfG9ufhsfaAzpg" adder="_HISFIE7-Ee2TpoYuSsmzTA" remover="_2Bd_YFdnEe2lYreNEuYUhg"/>
   <datafoodconsortium_connector:semantic xmi:id="_SHsKQE8EEe2TpoYuSsmzTA" map="dfc-b:hasNatureOrigin" base_Element="_D6x_oE8EEe2TpoYuSsmzTA"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_TRwwsE8EEe2TpoYuSsmzTA" base_Property="_FAjU4E8EEe2TpoYuSsmzTA" getter="_wCXScE79Ee2TpoYuSsmzTA" adder="_H7BJoE7-Ee2TpoYuSsmzTA" remover="_2Bd_YldnEe2lYreNEuYUhg"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_TRwwsE8EEe2TpoYuSsmzTA" base_Property="_FAjU4E8EEe2TpoYuSsmzTA" getter="_wCXScE79Ee2TpoYuSsmzTA" setter="_nLwJ8FOJEfG9ufhsfaAzpg" adder="_H7BJoE7-Ee2TpoYuSsmzTA" remover="_2Bd_YldnEe2lYreNEuYUhg"/>
   <datafoodconsortium_connector:semantic xmi:id="_TRwwsU8EEe2TpoYuSsmzTA" map="dfc-b:hasPartOrigin" base_Element="_FAjU4E8EEe2TpoYuSsmzTA"/>
   <datafoodconsortium_connector:getter xmi:id="_3HTOQFOyEe25FchyjWczOg" base_Operation="_qxJw8FOyEe25FchyjWczOg"/>
   <datafoodconsortium_connector:setter xmi:id="_4T8AgFOyEe25FchyjWczOg" base_Operation="_zmcWoFOyEe25FchyjWczOg"/>
@@ -2462,4 +2469,5 @@
   <datafoodconsortium_connector:setter xmi:id="_HMD6MFOJEfG9ufhsfaAzpg" base_Operation="_FsoHwFOJEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:setter xmi:id="_Tnk_sFOJEfG9ufhsfaAzpg" base_Operation="_SM2HEFOJEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:setter xmi:id="_d0I6UFOJEfG9ufhsfaAzpg" base_Operation="_bX_oAFOJEfG9ufhsfaAzpg"/>
+  <datafoodconsortium_connector:setter xmi:id="_orEAkFOJEfG9ufhsfaAzpg" base_Operation="_nLwJ8FOJEfG9ufhsfaAzpg"/>
 </xmi:XMI>
