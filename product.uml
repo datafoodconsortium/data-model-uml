@@ -141,6 +141,13 @@
           <type xmi:type="uml:Interface" href="skos.uml#_r06YgE1mEe2Pq5gmFYw1MQ"/>
         </ownedParameter>
       </ownedOperation>
+      <ownedOperation xmi:id="_iQNScFOIEfG9ufhsfaAzpg" name="setAllergenCharacteristics">
+        <ownedParameter xmi:id="_iQNScVOIEfG9ufhsfaAzpg" name="allergenCharacteristics">
+          <type xmi:type="uml:Interface" href="common.uml#_PWWDoFOcEe25FchyjWczOg"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iQNSclOIEfG9ufhsfaAzpg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iQNSc1OIEfG9ufhsfaAzpg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_OtRegAaaEe26esJmMoAMaw" name="IDefinedProduct">
       <elementImport xmi:id="_E7pVoOD5Eey8JZcrriCc9A" importedElement="_pR_I0NxUEeyr_asPBQgiSQ"/>
@@ -1918,7 +1925,7 @@
   <datafoodconsortium_connector:semantic xmi:id="_XV7DIOD6Eey8JZcrriCc9A" map="dfc-b:hasClaim" base_Element="_SrJykOD5Eey8JZcrriCc9A"/>
   <datafoodconsortium_connector:property xmi:id="_YLmt8OD6Eey8JZcrriCc9A" base_Property="_TKn80OD5Eey8JZcrriCc9A" getter="_TBiToNxWEeyr_asPBQgiSQ" setter="_RI1LEFdkEe2lYreNEuYUhg"/>
   <datafoodconsortium_connector:semantic xmi:id="_YLmt8eD6Eey8JZcrriCc9A" map="dfc-b:usageOrStorageCondition" base_Element="_TKn80OD5Eey8JZcrriCc9A"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_ZUb-QOD6Eey8JZcrriCc9A" base_Property="_TPvGUOD5Eey8JZcrriCc9A" getter="_aq-xQNxWEeyr_asPBQgiSQ" adder="_xPiiUNxhEeyr_asPBQgiSQ" remover="_mxkGsFdnEe2lYreNEuYUhg"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_ZUb-QOD6Eey8JZcrriCc9A" base_Property="_TPvGUOD5Eey8JZcrriCc9A" getter="_aq-xQNxWEeyr_asPBQgiSQ" setter="_iQNScFOIEfG9ufhsfaAzpg" adder="_xPiiUNxhEeyr_asPBQgiSQ" remover="_mxkGsFdnEe2lYreNEuYUhg"/>
   <datafoodconsortium_connector:semantic xmi:id="_ZUb-QeD6Eey8JZcrriCc9A" map="dfc-b:hasAllergenCharacteristic" base_Element="_TPvGUOD5Eey8JZcrriCc9A"/>
   <datafoodconsortium_connector:propertyMultiple xmi:id="_aV-TwOD6Eey8JZcrriCc9A" base_Property="_TURoEOD5Eey8JZcrriCc9A" getter="_dp9q4NxWEeyr_asPBQgiSQ" adder="_2SKusNxhEeyr_asPBQgiSQ" remover="_2BdYUFdnEe2lYreNEuYUhg"/>
   <datafoodconsortium_connector:semantic xmi:id="_aV-TweD6Eey8JZcrriCc9A" map="dfc-b:hasNutrientCharacteristic" base_Element="_TURoEOD5Eey8JZcrriCc9A"/>
@@ -2406,4 +2413,5 @@
   <datafoodconsortium_connector:getter xmi:id="_t2zOokSAEfGD98AompaPCA" base_Operation="_t2ynkUSAEfGD98AompaPCA"/>
   <datafoodconsortium_connector:setter xmi:id="_t2z1sESAEfGD98AompaPCA" base_Operation="_t2zOoESAEfGD98AompaPCA"/>
   <datafoodconsortium_connector:setter xmi:id="_X7COYFOIEfG9ufhsfaAzpg" base_Operation="_WGPP8FOIEfG9ufhsfaAzpg"/>
+  <datafoodconsortium_connector:setter xmi:id="_kCRtAFOIEfG9ufhsfaAzpg" base_Operation="_iQNScFOIEfG9ufhsfaAzpg"/>
 </xmi:XMI>
