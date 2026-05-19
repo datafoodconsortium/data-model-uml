@@ -270,7 +270,7 @@
         <ownedParameter xmi:id="_cbfjgcihEe2tet82apP7RQ" name="catalogItem" type="_pcawwAaREe26esJmMoAMaw"/>
       </ownedOperation>
       <ownedOperation xmi:id="_-I-s8FOEEfG9ufhsfaAzpg" name="setManagedCatalogItems">
-        <ownedParameter xmi:id="_-I-s8VOEEfG9ufhsfaAzpg" name="catalogItems" type="_pcawwAaREe26esJmMoAMaw" direction="return">
+        <ownedParameter xmi:id="_-I-s8VOEEfG9ufhsfaAzpg" name="catalogItems" type="_pcawwAaREe26esJmMoAMaw">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-I-s8lOEEfG9ufhsfaAzpg"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-I-s81OEEfG9ufhsfaAzpg" value="*"/>
         </ownedParameter>
