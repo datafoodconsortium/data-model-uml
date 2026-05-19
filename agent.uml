@@ -115,6 +115,12 @@
       <ownedOperation xmi:id="_MDKtpWa3Ee6BBZALe8Relw" name="removeSocialMedia">
         <ownedParameter xmi:id="_MDKtpma3Ee6BBZALe8Relw" name="socialMedia" type="_4S3d0Ga0Ee6BBZALe8Relw"/>
       </ownedOperation>
+      <ownedOperation xmi:id="_4w34cFOHEfG9ufhsfaAzpg" name="setSocialMedias">
+        <ownedParameter xmi:id="_4w34cVOHEfG9ufhsfaAzpg" name="socialMedias" type="_4S3d0Ga0Ee6BBZALe8Relw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4w34clOHEfG9ufhsfaAzpg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4w34c1OHEfG9ufhsfaAzpg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_CrX40GasEe6BBZALe8Relw" name="ContactableByPhone">
       <elementImport xmi:id="_sEbj0NxrEeyr_asPBQgiSQ" importedElement="_U1dyEGapEe6BBZALe8Relw"/>
@@ -171,7 +177,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_D0FwMGazEe6BBZALe8Relw" name="ContactableBySocialMedia">
       <ownedOperation xmi:id="_D0FwMWazEe6BBZALe8Relw" name="getSocialMedias">
-        <ownedParameter xmi:id="_D0FwMmazEe6BBZALe8Relw" name="emailAddresses" type="_4S3d0Ga0Ee6BBZALe8Relw" direction="return">
+        <ownedParameter xmi:id="_D0FwMmazEe6BBZALe8Relw" name="socialMedias" type="_4S3d0Ga0Ee6BBZALe8Relw" direction="return">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D0FwM2azEe6BBZALe8Relw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D0FwNGazEe6BBZALe8Relw" value="*"/>
         </ownedParameter>
@@ -834,7 +840,7 @@
   <datafoodconsortium_connector:getter xmi:id="_QQrTEGa7Ee6BBZALe8Relw" base_Operation="_R2PYIGa6Ee6BBZALe8Relw"/>
   <datafoodconsortium_connector:setter xmi:id="_V9P0UGa7Ee6BBZALe8Relw" base_Operation="_Pg-7gGa7Ee6BBZALe8Relw"/>
   <datafoodconsortium_connector:initializer xmi:id="_vHf5cGa_Ee6BBZALe8Relw" property="_0JbiQGa_Ee6BBZALe8Relw" base_Parameter="_vHfSYGa_Ee6BBZALe8Relw"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_194icGa_Ee6BBZALe8Relw" base_Property="_0JbiQGa_Ee6BBZALe8Relw" getter="_D0FwMWazEe6BBZALe8Relw" adder="_MDKto2a3Ee6BBZALe8Relw" remover="_MDKtpWa3Ee6BBZALe8Relw"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_194icGa_Ee6BBZALe8Relw" base_Property="_0JbiQGa_Ee6BBZALe8Relw" getter="_D0FwMWazEe6BBZALe8Relw" setter="_4w34cFOHEfG9ufhsfaAzpg" adder="_MDKto2a3Ee6BBZALe8Relw" remover="_MDKtpWa3Ee6BBZALe8Relw"/>
   <datafoodconsortium_connector:semantic xmi:id="_194icWa_Ee6BBZALe8Relw" map="dfc-b:hasSocialMedia" base_Element="_0JbiQGa_Ee6BBZALe8Relw"/>
   <datafoodconsortium_connector:adder xmi:id="_n2IIIGbAEe6BBZALe8Relw" base_Operation="_WUYGcWaxEe6BBZALe8Relw"/>
   <datafoodconsortium_connector:remover xmi:id="_oj5NEGbAEe6BBZALe8Relw" base_Operation="_WUYGc2axEe6BBZALe8Relw"/>
@@ -880,4 +886,5 @@
   <datafoodconsortium_connector:semantic xmi:id="_L9jlMVOHEfG9ufhsfaAzpg" map="dfc-b:description" base_Element="_L9i-IFOHEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:setter xmi:id="_kV63MFOHEfG9ufhsfaAzpg" base_Operation="_jAIwAFOHEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:setter xmi:id="_wA868FOHEfG9ufhsfaAzpg" base_Operation="_unvsUFOHEfG9ufhsfaAzpg"/>
+  <datafoodconsortium_connector:setter xmi:id="_6F1gQFOHEfG9ufhsfaAzpg" base_Operation="_4w34cFOHEfG9ufhsfaAzpg"/>
 </xmi:XMI>
