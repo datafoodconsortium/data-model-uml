@@ -292,6 +292,13 @@
           <type xmi:type="uml:Interface" href="product.uml#_NaLU0MlvEe2sgKS3gBN9sQ"/>
         </ownedParameter>
       </ownedOperation>
+      <ownedOperation xmi:id="_DNHKoFOEEfG9ufhsfaAzpg" name="setSuppliedProducts">
+        <ownedParameter xmi:id="_DNHKoVOEEfG9ufhsfaAzpg" name="suppliedProducts">
+          <type xmi:type="uml:Interface" href="product.uml#_NaLU0MlvEe2sgKS3gBN9sQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DNHKolOEEfG9ufhsfaAzpg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DNHKo1OEEfG9ufhsfaAzpg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_8S9CIL7OEe2g9M79Y7jp8Q" name="ICatalog">
       <elementImport xmi:id="_IIPDgL7OEe2g9M79Y7jp8Q" importedElement="_U9L-0OZYEeybgd1DwlK4YQ"/>
@@ -2419,4 +2426,5 @@
   <datafoodconsortium_connector:semantic xmi:id="_O8aDYUQaEfGD98AompaPCA" map="dfc-b:hasMainContact" base_Element="_a1_lkEeoEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:property xmi:id="_oZm2gEQaEfGD98AompaPCA" base_Property="_X8dMoEeoEfCVX5nhGdowdA" getter="_SXMGIA7lEfCgCYDrF-CWdA" setter="_S5YNMA7lEfCgCYDrF-CWdA"/>
   <datafoodconsortium_connector:semantic xmi:id="_oZm2gUQaEfGD98AompaPCA" map="dfc-b:hasAddress" base_Element="_X8dMoEeoEfCVX5nhGdowdA"/>
+  <datafoodconsortium_connector:setter xmi:id="_GAzaQFOEEfG9ufhsfaAzpg" base_Operation="_DNHKoFOEEfG9ufhsfaAzpg"/>
 </xmi:XMI>
