@@ -196,6 +196,15 @@
       <ownedOperation xmi:id="_snPXUOtQEey6f7rgFRym3Q" name="addCustomerCategory">
         <ownedParameter xmi:id="_-_RekOtQEey6f7rgFRym3Q" name="customerCategory" type="_USLgQAaUEe26esJmMoAMaw"/>
       </ownedOperation>
+      <ownedOperation xmi:id="_iFDIIFOEEfG9ufhsfaAzpg" name="removeCustomerCategory">
+        <ownedParameter xmi:id="_lKrcUFOEEfG9ufhsfaAzpg" name="customerCategory" type="_fjXb4OtREey6f7rgFRym3Q"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_psOU4FOEEfG9ufhsfaAzpg" name="setCustomerCategories">
+        <ownedParameter xmi:id="_psOU4VOEEfG9ufhsfaAzpg" name="customerCategories" type="_fjXb4OtREey6f7rgFRym3Q">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sDo4MFOEEfG9ufhsfaAzpg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sNgl4FOEEfG9ufhsfaAzpg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_ub0psODkEey8JZcrriCc9A" name="Affiliable">
       <elementImport xmi:id="_bjkfwOr0EeyCuagsnSkUFw" importedElement="_QDLJMAaUEe26esJmMoAMaw"/>
@@ -701,7 +710,7 @@
   <datafoodconsortium_connector:getter xmi:id="_ZV_0kODmEey8JZcrriCc9A" base_Operation="_9n3WEODkEey8JZcrriCc9A"/>
   <datafoodconsortium_connector:remover xmi:id="_nn2woODmEey8JZcrriCc9A" base_Operation="_azRq4ODmEey8JZcrriCc9A"/>
   <datafoodconsortium_connector:getter xmi:id="_hWB9EOs1Eey6f7rgFRym3Q" base_Operation="_cG17YOs1Eey6f7rgFRym3Q"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_r3IlgOtPEey6f7rgFRym3Q" base_Property="_aSXuQOtPEey6f7rgFRym3Q" getter="_vUhH0OtOEey6f7rgFRym3Q" adder="_snPXUOtQEey6f7rgFRym3Q"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_r3IlgOtPEey6f7rgFRym3Q" base_Property="_aSXuQOtPEey6f7rgFRym3Q" getter="_vUhH0OtOEey6f7rgFRym3Q" setter="_psOU4FOEEfG9ufhsfaAzpg" adder="_snPXUOtQEey6f7rgFRym3Q" remover="_iFDIIFOEEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:semantic xmi:id="_r3JMkOtPEey6f7rgFRym3Q" map="dfc-b:defines" base_Element="_aSXuQOtPEey6f7rgFRym3Q"/>
   <datafoodconsortium_connector:getter xmi:id="_Uza80OtQEey6f7rgFRym3Q" base_Operation="_vUhH0OtOEey6f7rgFRym3Q"/>
   <datafoodconsortium_connector:semantic xmi:id="_ioTMgOtREey6f7rgFRym3Q" map="dfc-b:CustomerCategory" base_Element="_fjXb4OtREey6f7rgFRym3Q"/>
@@ -825,4 +834,6 @@
   <datafoodconsortium_connector:semantic xmi:id="_g7HMkN1KEe64TOxAhJhbeA" base_Element="_U1dyEGapEe6BBZALe8Relw"/>
   <datafoodconsortium_connector:setter xmi:id="_9owZ4EeoEfCVX5nhGdowdA" base_Operation="_8F6HEEeoEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:setter xmi:id="_w5I3MEepEfCVX5nhGdowdA" base_Operation="_tC4-YEepEfCVX5nhGdowdA"/>
+  <datafoodconsortium_connector:remover xmi:id="_tLnz8FOEEfG9ufhsfaAzpg" base_Operation="_iFDIIFOEEfG9ufhsfaAzpg"/>
+  <datafoodconsortium_connector:setter xmi:id="_t9hyAFOEEfG9ufhsfaAzpg" base_Operation="_psOU4FOEEfG9ufhsfaAzpg"/>
 </xmi:XMI>
