@@ -242,6 +242,18 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j-7gw77SEe2g9M79Y7jp8Q" value="1"/>
         </ownedParameter>
       </ownedOperation>
+      <ownedOperation xmi:id="_VMfdIFOLEfG9ufhsfaAzpg" name="removeOffer">
+        <ownedParameter xmi:id="_VMfdIVOLEfG9ufhsfaAzpg" name="offer" type="_G94CgAadEe26esJmMoAMaw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VMfdIlOLEfG9ufhsfaAzpg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VMfdI1OLEfG9ufhsfaAzpg" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_YUuZYFOLEfG9ufhsfaAzpg" name="setOffers">
+        <ownedParameter xmi:id="_YUuZYVOLEfG9ufhsfaAzpg" name="offers" type="_G94CgAadEe26esJmMoAMaw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YUuZYlOLEfG9ufhsfaAzpg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YUuZY1OLEfG9ufhsfaAzpg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_Mdu6wLBBEe2nsoIM8Z6iaQ" name="IPrice">
       <elementImport xmi:id="_2irQwLwJEe2Lyp3hOvoKhw">
@@ -1940,7 +1952,7 @@
   <datafoodconsortium_connector:semantic xmi:id="__GNXcb7PEe2g9M79Y7jp8Q" map="dfc-b:endDate" base_Element="_ve0L0L7PEe2g9M79Y7jp8Q"/>
   <datafoodconsortium_connector:property xmi:id="_APPcEL7QEe2g9M79Y7jp8Q" base_Property="_xirhAL7PEe2g9M79Y7jp8Q" getter="_jcDSoL7REe2g9M79Y7jp8Q" setter="_6lMYcL7REe2g9M79Y7jp8Q"/>
   <datafoodconsortium_connector:semantic xmi:id="_APPcEb7QEe2g9M79Y7jp8Q" map="dfc-b:quantity" base_Element="_xirhAL7PEe2g9M79Y7jp8Q"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_BYgxQL7QEe2g9M79Y7jp8Q" base_Property="_5LzOgL7PEe2g9M79Y7jp8Q" getter="_dpHOML7SEe2g9M79Y7jp8Q" adder="_j-7gwL7SEe2g9M79Y7jp8Q"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_BYgxQL7QEe2g9M79Y7jp8Q" base_Property="_5LzOgL7PEe2g9M79Y7jp8Q" getter="_dpHOML7SEe2g9M79Y7jp8Q" setter="_YUuZYFOLEfG9ufhsfaAzpg" adder="_j-7gwL7SEe2g9M79Y7jp8Q" remover="_VMfdIFOLEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:semantic xmi:id="_BYgxQb7QEe2g9M79Y7jp8Q" map="dfc-b:lists" base_Element="_5LzOgL7PEe2g9M79Y7jp8Q"/>
   <datafoodconsortium_connector:getter xmi:id="_94q7YL7REe2g9M79Y7jp8Q" base_Operation="_jcDSoL7REe2g9M79Y7jp8Q"/>
   <datafoodconsortium_connector:setter xmi:id="_-zK0wL7REe2g9M79Y7jp8Q" base_Operation="_6lMYcL7REe2g9M79Y7jp8Q"/>
@@ -2459,4 +2471,6 @@
   <datafoodconsortium_connector:setter xmi:id="_oz9BYFOKEfG9ufhsfaAzpg" base_Operation="_nbHmMFOKEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:remover xmi:id="_BJZiQFOLEfG9ufhsfaAzpg" base_Operation="__TzSkFOKEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:setter xmi:id="_E5skEFOLEfG9ufhsfaAzpg" base_Operation="_DZc5UFOLEfG9ufhsfaAzpg"/>
+  <datafoodconsortium_connector:remover xmi:id="_WrUyoFOLEfG9ufhsfaAzpg" base_Operation="_VMfdIFOLEfG9ufhsfaAzpg"/>
+  <datafoodconsortium_connector:setter xmi:id="_ZypI4FOLEfG9ufhsfaAzpg" base_Operation="_YUuZYFOLEfG9ufhsfaAzpg"/>
 </xmi:XMI>
