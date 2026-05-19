@@ -449,6 +449,15 @@
       <ownedOperation xmi:id="_24SRYA_eEfCgOoBR6uwQPw" name="setPaymentMethod">
         <ownedParameter xmi:id="_24SRYQ_eEfCgOoBR6uwQPw" name="paymentMethod" type="_AVFHYA7sEfCgCYDrF-CWdA"/>
       </ownedOperation>
+      <ownedOperation xmi:id="_piOAIFOLEfG9ufhsfaAzpg" name="removeLine">
+        <ownedParameter xmi:id="_piOAIVOLEfG9ufhsfaAzpg" name="line" type="_97fegL7UEe2g9M79Y7jp8Q"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_s__HgFOLEfG9ufhsfaAzpg" name="setLines">
+        <ownedParameter xmi:id="_s__HgVOLEfG9ufhsfaAzpg" name="lines" type="_97fegL7UEe2g9M79Y7jp8Q">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_s__HglOLEfG9ufhsfaAzpg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s__Hg1OLEfG9ufhsfaAzpg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_97fegL7UEe2g9M79Y7jp8Q" name="IOrderLine">
       <elementImport xmi:id="_glo3cL7XEe2g9M79Y7jp8Q" importedElement="_Mdu6wLBBEe2nsoIM8Z6iaQ"/>
@@ -1964,7 +1973,7 @@
   <datafoodconsortium_connector:semantic xmi:id="_jE_Lkb7TEe2g9M79Y7jp8Q" map="dfc-b:date" base_Element="_RdqIgL7TEe2g9M79Y7jp8Q"/>
   <datafoodconsortium_connector:property xmi:id="_j_7J0L7TEe2g9M79Y7jp8Q" base_Property="_T5tUML7TEe2g9M79Y7jp8Q" getter="_R1QTsL7UEe2g9M79Y7jp8Q" setter="_XLhNwL7UEe2g9M79Y7jp8Q"/>
   <datafoodconsortium_connector:semantic xmi:id="_j_7w4L7TEe2g9M79Y7jp8Q" map="dfc-b:belongsTo" base_Element="_T5tUML7TEe2g9M79Y7jp8Q"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_lEnhAL7TEe2g9M79Y7jp8Q" base_Property="_WEyEoL7TEe2g9M79Y7jp8Q" getter="_rPItEL7UEe2g9M79Y7jp8Q" adder="_I6wL8L7WEe2g9M79Y7jp8Q"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_lEnhAL7TEe2g9M79Y7jp8Q" base_Property="_WEyEoL7TEe2g9M79Y7jp8Q" getter="_rPItEL7UEe2g9M79Y7jp8Q" setter="_s__HgFOLEfG9ufhsfaAzpg" adder="_I6wL8L7WEe2g9M79Y7jp8Q" remover="_piOAIFOLEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:semantic xmi:id="_lEnhAb7TEe2g9M79Y7jp8Q" map="dfc-b:hasPart" base_Element="_WEyEoL7TEe2g9M79Y7jp8Q"/>
   <datafoodconsortium_connector:property xmi:id="_l_q0AL7TEe2g9M79Y7jp8Q" base_Property="_W5dC0L7TEe2g9M79Y7jp8Q" getter="_fc2KwL7UEe2g9M79Y7jp8Q" setter="_lEfIsL7UEe2g9M79Y7jp8Q"/>
   <datafoodconsortium_connector:semantic xmi:id="_l_q0Ab7TEe2g9M79Y7jp8Q" map="dfc-b:orderedBy" base_Element="_W5dC0L7TEe2g9M79Y7jp8Q"/>
@@ -2473,4 +2482,6 @@
   <datafoodconsortium_connector:setter xmi:id="_E5skEFOLEfG9ufhsfaAzpg" base_Operation="_DZc5UFOLEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:remover xmi:id="_WrUyoFOLEfG9ufhsfaAzpg" base_Operation="_VMfdIFOLEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:setter xmi:id="_ZypI4FOLEfG9ufhsfaAzpg" base_Operation="_YUuZYFOLEfG9ufhsfaAzpg"/>
+  <datafoodconsortium_connector:remover xmi:id="_rMhl0FOLEfG9ufhsfaAzpg" base_Operation="_piOAIFOLEfG9ufhsfaAzpg"/>
+  <datafoodconsortium_connector:setter xmi:id="_uY5bMFOLEfG9ufhsfaAzpg" base_Operation="_s__HgFOLEfG9ufhsfaAzpg"/>
 </xmi:XMI>
