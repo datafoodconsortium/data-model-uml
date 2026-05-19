@@ -217,10 +217,10 @@
         <ownedParameter xmi:id="_-_RekOtQEey6f7rgFRym3Q" name="customerCategory" type="_USLgQAaUEe26esJmMoAMaw"/>
       </ownedOperation>
       <ownedOperation xmi:id="_iFDIIFOEEfG9ufhsfaAzpg" name="removeCustomerCategory">
-        <ownedParameter xmi:id="_lKrcUFOEEfG9ufhsfaAzpg" name="customerCategory" type="_fjXb4OtREey6f7rgFRym3Q"/>
+        <ownedParameter xmi:id="_lKrcUFOEEfG9ufhsfaAzpg" name="customerCategory" type="_USLgQAaUEe26esJmMoAMaw"/>
       </ownedOperation>
       <ownedOperation xmi:id="_psOU4FOEEfG9ufhsfaAzpg" name="setCustomerCategories">
-        <ownedParameter xmi:id="_psOU4VOEEfG9ufhsfaAzpg" name="customerCategories" type="_fjXb4OtREey6f7rgFRym3Q">
+        <ownedParameter xmi:id="_psOU4VOEEfG9ufhsfaAzpg" name="customerCategories" type="_USLgQAaUEe26esJmMoAMaw">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sDo4MFOEEfG9ufhsfaAzpg"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sNgl4FOEEfG9ufhsfaAzpg" value="*"/>
         </ownedParameter>
