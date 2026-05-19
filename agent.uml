@@ -260,6 +260,13 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZMvj88lvEe2sgKS3gBN9sQ" value="1"/>
         </ownedParameter>
       </ownedOperation>
+      <ownedOperation xmi:id="_bhIdQFOGEfG9ufhsfaAzpg" name="setProposedTechnicalProducts">
+        <ownedParameter xmi:id="_bhIdQVOGEfG9ufhsfaAzpg" name="technicalProducts">
+          <type xmi:type="uml:Interface" href="product.uml#_zm0rgMluEe2sgKS3gBN9sQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bhIdQlOGEfG9ufhsfaAzpg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bhIdQ1OGEfG9ufhsfaAzpg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_OXNFcGa6Ee6BBZALe8Relw" name="ManagedByMainContact">
       <elementImport xmi:id="_cvSv4Ga7Ee6BBZALe8Relw" importedElement="_S7W3QAaUEe26esJmMoAMaw"/>
@@ -761,7 +768,7 @@
     <remover href="sale.uml#_8yLkoMlqEe2sgKS3gBN9sQ"/>
   </datafoodconsortium_connector:propertyMultiple>
   <datafoodconsortium_connector:semantic xmi:id="_o8mr8cinEe2tet82apP7RQ" map="dfc-b:maintains" base_Element="_lcCIMMinEe2tet82apP7RQ"/>
-  <datafoodconsortium_connector:propertyMultiple xmi:id="_sgEgsMltEe2sgKS3gBN9sQ" base_Property="_SzM54MltEe2sgKS3gBN9sQ" getter="_PTomQMluEe2sgKS3gBN9sQ" adder="_WXmYQMluEe2sgKS3gBN9sQ" remover="_ZMvj8MlvEe2sgKS3gBN9sQ"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_sgEgsMltEe2sgKS3gBN9sQ" base_Property="_SzM54MltEe2sgKS3gBN9sQ" getter="_PTomQMluEe2sgKS3gBN9sQ" setter="_bhIdQFOGEfG9ufhsfaAzpg" adder="_WXmYQMluEe2sgKS3gBN9sQ" remover="_ZMvj8MlvEe2sgKS3gBN9sQ"/>
   <datafoodconsortium_connector:semantic xmi:id="_sgEgscltEe2sgKS3gBN9sQ" map="dfc-b:proposes" base_Element="_SzM54MltEe2sgKS3gBN9sQ"/>
   <datafoodconsortium_connector:getter xmi:id="_bS5_MMlvEe2sgKS3gBN9sQ" base_Operation="_PTomQMluEe2sgKS3gBN9sQ"/>
   <datafoodconsortium_connector:adder xmi:id="_c2mmkMlvEe2sgKS3gBN9sQ" base_Operation="_WXmYQMluEe2sgKS3gBN9sQ"/>
@@ -838,4 +845,5 @@
   <datafoodconsortium_connector:setter xmi:id="_w5I3MEepEfCVX5nhGdowdA" base_Operation="_tC4-YEepEfCVX5nhGdowdA"/>
   <datafoodconsortium_connector:remover xmi:id="_tLnz8FOEEfG9ufhsfaAzpg" base_Operation="_iFDIIFOEEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:setter xmi:id="_t9hyAFOEEfG9ufhsfaAzpg" base_Operation="_psOU4FOEEfG9ufhsfaAzpg"/>
+  <datafoodconsortium_connector:setter xmi:id="_ei0FkFOGEfG9ufhsfaAzpg" base_Operation="_bhIdQFOGEfG9ufhsfaAzpg"/>
 </xmi:XMI>
