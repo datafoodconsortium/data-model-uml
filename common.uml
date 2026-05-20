@@ -534,6 +534,27 @@
         <ownedParameter xmi:id="_9M-D4w_QEfCgOoBR6uwQPw" name="closes" type="_uIDTMA_QEfCgOoBR6uwQPw"/>
       </ownedOperation>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UEiy0FQpEfGA7IhKxiaFmw" name="OpeningHoursSpecification">
+      <elementImport xmi:id="_bS4BwFQpEfGA7IhKxiaFmw" importedElement="_OGnXAA_QEfCgOoBR6uwQPw"/>
+      <ownedAttribute xmi:id="_kAkxsFQpEfGA7IhKxiaFmw" name="dayOfWeek">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mIAYQFQpEfGA7IhKxiaFmw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xLU7wFQpEfGA7IhKxiaFmw" name="opens" type="_uIDTMA_QEfCgOoBR6uwQPw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xLU7wVQpEfGA7IhKxiaFmw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_5KP6IFQpEfGA7IhKxiaFmw" name="closes" type="_uIDTMA_QEfCgOoBR6uwQPw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5KP6IVQpEfGA7IhKxiaFmw" value="1"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_b8hbsFQpEfGA7IhKxiaFmw" client="_UEiy0FQpEfGA7IhKxiaFmw" supplier="_OGnXAA_QEfCgOoBR6uwQPw" contract="_OGnXAA_QEfCgOoBR6uwQPw"/>
+      <ownedOperation xmi:id="_GlGVsFQqEfGA7IhKxiaFmw" name="OpeningHoursSpecification">
+        <ownedParameter xmi:id="_J_TLsFQqEfGA7IhKxiaFmw" name="dayOfWeek">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_PrRQAFQqEfGA7IhKxiaFmw" name="opens" type="_uIDTMA_QEfCgOoBR6uwQPw"/>
+        <ownedParameter xmi:id="_SbTHoFQqEfGA7IhKxiaFmw" name="closes" type="_uIDTMA_QEfCgOoBR6uwQPw"/>
+      </ownedOperation>
+    </packagedElement>
     <profileApplication xmi:id="_vcEZ8OjgEey9aasgGgoaNw">
       <eAnnotations xmi:id="_vcIEUOjgEey9aasgGgoaNw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="connector.profile.uml#_q9P7ADhmEe6Bec_m8yNqyw"/>
@@ -686,4 +707,15 @@
   <datafoodconsortium_connector:adder xmi:id="_1LXOAEOnEfGm7NcA66xD4g" base_Operation="_vboEAEOnEfGm7NcA66xD4g"/>
   <datafoodconsortium_connector:remover xmi:id="_2A5H0EOnEfGm7NcA66xD4g" base_Operation="_zVX8wEOnEfGm7NcA66xD4g"/>
   <datafoodconsortium_connector:semantic xmi:id="_VTvZIErOEfGng5E5WZc1xg" base_Element="_OGnXAA_QEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_XjhbIFQpEfGA7IhKxiaFmw" map="https://schema.org/OpeningHoursSpecification" base_Element="_UEiy0FQpEfGA7IhKxiaFmw"/>
+  <datafoodconsortium_connector:property xmi:id="_pj3bIFQpEfGA7IhKxiaFmw" base_Property="_kAkxsFQpEfGA7IhKxiaFmw" getter="_XaFGcA_QEfCgOoBR6uwQPw" setter="_YvezIA_QEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_pj4CMFQpEfGA7IhKxiaFmw" map="https://schema.org/dayOfWeek" base_Element="_kAkxsFQpEfGA7IhKxiaFmw"/>
+  <datafoodconsortium_connector:property xmi:id="_xLVi0FQpEfGA7IhKxiaFmw" base_Property="_xLU7wFQpEfGA7IhKxiaFmw" getter="_8p6aIA_QEfCgOoBR6uwQPw" setter="_8p6aIg_QEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_xLVi0VQpEfGA7IhKxiaFmw" map="https://schema.org/opens" base_Element="_xLU7wFQpEfGA7IhKxiaFmw"/>
+  <datafoodconsortium_connector:property xmi:id="_5KQhMFQpEfGA7IhKxiaFmw" base_Property="_5KP6IFQpEfGA7IhKxiaFmw" getter="_9M-D4A_QEfCgOoBR6uwQPw" setter="_9M-D4g_QEfCgOoBR6uwQPw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_5KQhMVQpEfGA7IhKxiaFmw" map="https://schema.org/closes" base_Element="_5KP6IFQpEfGA7IhKxiaFmw"/>
+  <datafoodconsortium_connector:constructor xmi:id="_JJNRMFQqEfGA7IhKxiaFmw" base_Operation="_GlGVsFQqEfGA7IhKxiaFmw"/>
+  <datafoodconsortium_connector:initializer xmi:id="_soWDUFQqEfGA7IhKxiaFmw" property="_kAkxsFQpEfGA7IhKxiaFmw" base_Parameter="_J_TLsFQqEfGA7IhKxiaFmw"/>
+  <datafoodconsortium_connector:initializer xmi:id="_tWBBoFQqEfGA7IhKxiaFmw" property="_xLU7wFQpEfGA7IhKxiaFmw" base_Parameter="_PrRQAFQqEfGA7IhKxiaFmw"/>
+  <datafoodconsortium_connector:initializer xmi:id="_uN8IIFQqEfGA7IhKxiaFmw" property="_5KP6IFQpEfGA7IhKxiaFmw" base_Parameter="_SbTHoFQqEfGA7IhKxiaFmw"/>
 </xmi:XMI>
