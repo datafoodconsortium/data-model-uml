@@ -14,6 +14,10 @@ Here is a list of the DFC features that the model currently supports.
   - [x] longitude
   - [x] region
   - [ ] addressOf
+- `AllergenCharacteristic`
+  - [x] hasAllergenDimension
+  - [x] hasUnit
+  - [x] value
 - `AsPlannedConsumptionFlow`
   - [ ] date
   - [x] quantity
@@ -171,6 +175,10 @@ Here is a list of the DFC features that the model currently supports.
   - [x] hasReference
   - [x] representedBy
   - [x] constitutedBy
+- `NutrientCharacteristic`
+  - [x] hasNutrientDimension
+  - [x] hasUnit
+  - [x] value
 - `Offer`
   - [ ] date
   - [ ] discount
@@ -180,6 +188,10 @@ Here is a list of the DFC features that the model currently supports.
   - [x] hasPrice (offeredFor)
   - [ ] listedIn
   - [x] offers
+- `OpeningHoursSpecification`
+  - [x] closes
+  - [x] dayOfWeek
+  - [x] opens
 - `Order`
   - [x] belongsTo
   - [x] date
@@ -232,6 +244,10 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] date
   - [x] countryCode
   - [x] phoneNumber
+- `PhysicalCharacteristic`
+  - [x] hasPhysicalDimension
+  - [x] hasUnit
+  - [x] value
 - `PhysicalPlace`
   - [x] name
   - [x] description
@@ -243,6 +259,7 @@ Here is a list of the DFC features that the model currently supports.
 - `PhysicalProduct`
   - [x] name
   - [x] description
+  - [x] cost
   - [ ] date
   - [x] represents
   - [x] constitutedBy
@@ -253,8 +270,8 @@ Here is a list of the DFC features that the model currently supports.
   - [x] consumedBy
   - [ ] containedIn
   - [ ] fulfills
-  - [ ] hasQuantity
-  - [ ] image
+  - [x] hasQuantity
+  - [x] image
 - `PickupOption`
   - [x] name
   - [x] description
@@ -266,6 +283,10 @@ Here is a list of the DFC features that the model currently supports.
   - [x] beginDate
   - [x] endDate
   - [x] pickedUpAt
+- `Price`
+  - [x] hasUnit
+  - [x] value
+  - [x] vatRate
 - `ProductBatch`
   - [x] name
   - [x] description
@@ -276,6 +297,9 @@ Here is a list of the DFC features that the model currently supports.
   - [x] bestBeforeDate
   - [x] expirationDate
   - [x] productionDate
+- `Quantity`
+  - [x] hasUnit
+  - [x] value
 - `RealStock`
   - [ ] date
   - [x] availabilityDate
