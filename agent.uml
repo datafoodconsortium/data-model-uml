@@ -647,7 +647,10 @@
       </ownedAttribute>
       <interfaceRealization xmi:id="_uGLlEOtREey6f7rgFRym3Q" client="_fjXb4OtREey6f7rgFRym3Q" supplier="__TWjEOtOEey6f7rgFRym3Q _USLgQAaUEe26esJmMoAMaw" contract="_USLgQAaUEe26esJmMoAMaw"/>
       <ownedOperation xmi:id="_TlVHIOtSEey6f7rgFRym3Q" name="CustomerCategory">
-        <ownedParameter xmi:id="_XCRvIOtSEey6f7rgFRym3Q" name="description">
+        <ownedParameter xmi:id="_XCRvIOtSEey6f7rgFRym3Q" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_KLzcMFRiEfGzv7UwDz2lBg" name="description">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
@@ -887,4 +890,5 @@
   <datafoodconsortium_connector:setter xmi:id="_kV63MFOHEfG9ufhsfaAzpg" base_Operation="_jAIwAFOHEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:setter xmi:id="_wA868FOHEfG9ufhsfaAzpg" base_Operation="_unvsUFOHEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:setter xmi:id="_6F1gQFOHEfG9ufhsfaAzpg" base_Operation="_4w34cFOHEfG9ufhsfaAzpg"/>
+  <datafoodconsortium_connector:initializer xmi:id="_KMWOwFRiEfGzv7UwDz2lBg" property="_L9i-IFOHEfG9ufhsfaAzpg" base_Parameter="_KLzcMFRiEfGzv7UwDz2lBg"/>
 </xmi:XMI>
