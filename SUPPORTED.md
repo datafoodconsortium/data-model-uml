@@ -97,7 +97,7 @@ Here is a list of the DFC features that the model currently supports.
   - [ ] hasObject
   - [ ] marginPercent
 - `CustomerCategory`
-  - [ ] name
+  - [x] name
   - [x] description
   - [ ] date
   - [ ] definedBy
@@ -297,7 +297,7 @@ Here is a list of the DFC features that the model currently supports.
   - [x] bestBeforeDate
   - [x] expirationDate
   - [x] productionDate
-- `Quantity`
+- `QuantitativeValue`
   - [x] hasUnit
   - [x] value
 - `RealStock`

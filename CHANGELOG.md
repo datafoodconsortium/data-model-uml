@@ -11,6 +11,26 @@ TODO:
 - Create top classes `Subject` and `Relation` to be generalized by all DFC subjects and relations.
 - Rename IQuantity to IQuantitativeValue (**Breaking change**).
 
+## [3.4.0] - 2026-05-21
+
+This version was created from the [PR#34](https://github.com/datafoodconsortium/data-model-uml/pull/34).
+
+### Added
+
+- Add the `name` property to `CustomerCategory`.
+
+### Changed
+
+- The `QuantitativeValue` class now implements `IQuantity` to be semanticable. We did't do it with the `Quantifiable` interface to let a generic layer.
+
+### Fixed
+
+- Fix `CustomerCategory` description wrong constructor binding.
+
+### Removed
+
+- Remove the `Quantity` class as there is no Quantity class in the ontology. We should use `QuantitativeValue`.
+
 ## [3.3.0] - 2026-05-20
 
 This version was created from the [PR#33](https://github.com/datafoodconsortium/data-model-uml/pull/33).
@@ -432,7 +452,8 @@ Classes:
 - sale.uml
 - skos.uml
 
-[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.3.0...HEAD
+[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.4.0...HEAD
+[3.4.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.3.0...v3.4.0
 [3.3.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.2.1...v3.3.0
 [3.2.1]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.2.0...v3.2.1
 [3.2.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.1.0...v3.2.0
