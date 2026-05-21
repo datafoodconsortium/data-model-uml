@@ -25,7 +25,7 @@ This version was created from the [PR#34](https://github.com/datafoodconsortium/
 
 ### Fixed
 
-- Fix `CustomerCategory` description wrong constructor binding.
+- Fix `CustomerCategory:description` wrong constructor binding.
 
 ### Removed
 
