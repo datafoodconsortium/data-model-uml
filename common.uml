@@ -646,7 +646,6 @@
   <datafoodconsortium_connector:skosBroader xmi:id="_rCKe8DhgEe6Bec_m8yNqyw" map="dfc-m:NutrientDimension" base_Property="_F3fNdlOlEe25FchyjWczOg"/>
   <datafoodconsortium_connector:skosBroader xmi:id="_6aqdgDhhEe6Bec_m8yNqyw" map="dfc-m:Unit" base_Property="_yh-9wOmrEeyc2oibQ8qwAA"/>
   <datafoodconsortium_connector:skosBroader xmi:id="_zQ5wEDhiEe6Bec_m8yNqyw" map="dfc-m:PhysicalDimension" base_Property="_kP6H9lOmEe25FchyjWczOg"/>
-  <datafoodconsortium_connector:semantic xmi:id="_VYXMuTinEe6Bec_m8yNqyw" map="dfc-b:Quantity"/>
   <datafoodconsortium_connector:blankNode xmi:id="_VYXMujinEe6Bec_m8yNqyw"/>
   <datafoodconsortium_connector:property xmi:id="_VYXMuzinEe6Bec_m8yNqyw" getter="_lpNj8NxXEeyr_asPBQgiSQ" setter="_V8bdIOmsEeyc2oibQ8qwAA"/>
   <datafoodconsortium_connector:semantic xmi:id="_VYXMvDinEe6Bec_m8yNqyw" map="dfc-b:hasUnit"/>
