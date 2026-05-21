@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 TODO:
 - Create top classes `Subject` and `Relation` to be generalized by all DFC subjects and relations.
+- Rename IQuantity to IQuantitativeValue (**Breaking change**).
 
 ## [3.3.0] - 2026-05-20
 
@@ -68,6 +69,10 @@ This version was created from the [PR#33](https://github.com/datafoodconsortium/
 - Fix `Enterprise:customerCategories` setter and remover wrong parameter type.
 - Fix `LocalizedProduct:plannedLocalProductionFlow` wrong setter.
 - Fix `CatalogItemManager` setter wrong parameter.
+
+### Removed
+
+- Remove `Quantity` class to keep `QuantitativeValue` instead (there is no Quantity class in the ontology).
 
 ## [3.2.1] - 2026-05-05
 
