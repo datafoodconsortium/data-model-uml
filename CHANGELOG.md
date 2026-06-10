@@ -11,7 +11,7 @@ TODO:
 - Create top classes `Subject` and `Relation` to be generalized by all DFC subjects and relations.
 - Rename IQuantity to IQuantitativeValue (**Breaking change**).
 
-## [3.5.0] - 2026-06-10
+## [4.0.0] - 2026-06-10
 
 This major version implements the ontology version 2 changes. It introduces several breaking changes in the generated code.
 
@@ -474,8 +474,8 @@ Classes:
 - sale.uml
 - skos.uml
 
-[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.5.0...HEAD
-[3.5.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.4.0...v3.5.0
+[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v4.0.0...HEAD
+[4.0.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.4.0...v4.0.0
 [3.4.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.3.0...v3.4.0
 [3.3.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.2.1...v3.3.0
 [3.2.1]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.2.0...v3.2.1
