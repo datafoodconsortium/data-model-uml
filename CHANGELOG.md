@@ -9,10 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 TODO:
 - Create top classes `Subject` and `Relation` to be generalized by all DFC subjects and relations.
+- Rename IQuantity to IQuantitativeValue (**Breaking change**).
 
-## [4.0.0]
+## [3.5.0] - 2026-06-10
 
-This major version implements the ontology version 2 changes. It introduces several breaking changes.
+This major version implements the ontology version 2 changes. It introduces several breaking changes in the generated code.
 
 ### Added
 
@@ -31,6 +32,89 @@ This major version implements the ontology version 2 changes. It introduces seve
 ### Removed
 
 - The `Enterprise` class has been replaced by `Organization` (**BREAKING CHANGE**).
+
+## [3.4.0] - 2026-05-21
+
+This version was created from the [PR#34](https://github.com/datafoodconsortium/data-model-uml/pull/34).
+
+### Added
+
+- Add the `name` property to `CustomerCategory`.
+
+### Changed
+
+- The `QuantitativeValue` class now implements `IQuantity` to be semanticable. We did't do it with the `Quantifiable` interface to let a generic layer.
+
+### Fixed
+
+- Fix `CustomerCategory:description` wrong constructor binding.
+
+### Removed
+
+- Remove the `Quantity` class as there is no Quantity class in the ontology. We should use `QuantitativeValue`.
+
+## [3.3.0] - 2026-05-20
+
+This version was created from the [PR#33](https://github.com/datafoodconsortium/data-model-uml/pull/33).
+
+### Added
+
+- Add `SuppliedProduct` referenceOf.
+- Add `OpeningHoursSpecification` class.
+- Add `Catalog` missing `maintainers` setter and remover bindings.
+- Add `Catalog` missing `items` setter binding.
+- Add `Order` missing `lines` setter and remover bindings.
+- Add `SaleSession` missing `offers` setter and remover bindings.
+- Add `CatalogItem` missing `catalogs` setter and wrong remover bindings.
+- Add `CatalogItem` missing `offers` setter and remover bindings.
+- Add `DefinedProduct` missing `partOrigin` setter binding.
+- Add `DefinedProduct` missing `natureOrigin` setter binding.
+- Add `DefinedProduct` missing `certifications` setter binding.
+- Add `DefinedProduct` missing `catalogItems` setter and remover bindings.
+- Add `DefinedProduct` missing `physicalCharacteristics` setter binding.
+- Add `DefinedProduct` missing `nutrientCharacteristics` setter binding.
+- Add `DefinedProduct` missing `allergenCharacteristics` setter binding.
+- Add `DefinedProduct` missing `claims` setter binding.
+- Add `Agent` missing `socialMedias` setter binding.
+- Add `Agent` missing `websites` setter binding.
+- Add `Agent` missing `emails` setter binding.
+- Add `CustomerCategory` name.
+- Add `Person` missing `affiliatedOrgs` setter binding.
+- Add `Enterprise` missing `technicalProducts` setter and remover bindings.
+- Add `Enterprise` missing `catalogItems` setter and remover bindings.
+- Add `Enterprise` missing `customerCategories` setter and remover bindings.
+- Add `Enterprise` missing `suppliedProducts` setter and remover bindings.
+
+### Fixed
+
+- Fix `Agent` setters for `localizations` and phone numbers.
+- Fix `ILocalizedProduct` consumptionFlow -> localConsumptionFlow.
+- `Exhibitable` now has adder and remover, image -> images.
+- `LocalizedProduct` is now an `Exhibitable`.
+- `DefinedProduct` and subclasses are now `Exhibitable`.
+- Fix `Order` paymentMethod.
+- Fix `PlannedLocalTransformation` bad outcome and associated constructor param types.
+- Fix `RealStock` quantity.
+- Fix `DeliveryOption` wrong interface realization.
+- Fix `LocalizedProduct` quantity getter and setter.
+- Fix `PaymentMethod` price getter and setter.
+- Fix `PhysicalPlace`, add semantic stereotype to `IGeoJsonFeature`.
+- Fix `PhysicalProduct` `quantity` and `images` properties.
+- Fix `PlannedLocalConsumptionFlow` wrong method bindings.
+- Fix `PlannedLocalProductionFlow` wrong method bindings.
+- Fix `ProductBatch` wrong method bindings.
+- Fix `RealizedConsumptionFlow` wrong method bindings.
+- Fix `RealizedProductionFlow` wrong method bindings.
+- Fix `IOpeningHoursSpecification`: Add semantic stereotype.
+- Fix `IPlace`: add `Nameable` and `Describable` generalization.
+- Fix `Address:country type` -> now a `SkosConcept`.
+- Fix `Enterprise:customerCategories` setter and remover wrong parameter type.
+- Fix `LocalizedProduct:plannedLocalProductionFlow` wrong setter.
+- Fix `CatalogItemManager` setter wrong parameter.
+
+### Removed
+
+- Remove `Quantity` class to keep `QuantitativeValue` instead (there is no Quantity class in the ontology).
 
 ## [3.2.1] - 2026-05-05
 
@@ -390,7 +474,10 @@ Classes:
 - sale.uml
 - skos.uml
 
-[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.2.1...HEAD
+[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.5.0...HEAD
+[3.5.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.4.0...v3.5.0
+[3.4.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.3.0...v3.4.0
+[3.3.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.2.1...v3.3.0
 [3.2.1]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.2.0...v3.2.1
 [3.2.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.1.0...v3.2.0
 [3.1.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.0.0...v3.1.0
