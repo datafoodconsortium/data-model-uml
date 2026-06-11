@@ -145,14 +145,14 @@
       </ownedOperation>
       <ownedOperation xmi:id="_N6y7sFOMEfG9ufhsfaAzpg" name="removeMaintainer">
         <ownedParameter xmi:id="_N6y7sVOMEfG9ufhsfaAzpg" name="maintainer">
-          <type xmi:type="uml:Interface" href="agent.uml#_QDLJMAaUEe26esJmMoAMaw"/>
+          <type xmi:type="uml:Interface" href="agent.uml#_X_K3ICzeEfGgHtzHArw2YA"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N6y7slOMEfG9ufhsfaAzpg" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N6y7s1OMEfG9ufhsfaAzpg" value="1"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_Q79moFOMEfG9ufhsfaAzpg" name="setMaintainers">
         <ownedParameter xmi:id="_Q79moVOMEfG9ufhsfaAzpg" name="maintainers">
-          <type xmi:type="uml:Interface" href="agent.uml#_QDLJMAaUEe26esJmMoAMaw"/>
+          <type xmi:type="uml:Interface" href="agent.uml#_X_K3ICzeEfGgHtzHArw2YA"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q79molOMEfG9ufhsfaAzpg"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Q79mo1OMEfG9ufhsfaAzpg" value="*"/>
         </ownedParameter>
