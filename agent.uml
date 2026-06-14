@@ -497,6 +497,7 @@
         <importedElement xmi:type="uml:Interface" href="product.uml#_zm0rgMluEe2sgKS3gBN9sQ"/>
       </elementImport>
       <elementImport xmi:id="_W2WcAGa6Ee6BBZALe8Relw" importedElement="_OXNFcGa6Ee6BBZALe8Relw"/>
+      <elementImport xmi:id="_zXLwgGfLEfGbVfEAqgdTpw" importedElement="_ljoYEMrjEe24_rxb3O_v6Q"/>
       <generalization xmi:id="_lgQW8OBiEeyy8cy9J23hHA" general="_0m9XsOBfEeyy8cy9J23hHA"/>
       <ownedAttribute xmi:id="_gFHCAHF4Ee6fwJ_a8evYQw" name="name">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -533,6 +534,10 @@
       </ownedAttribute>
       <ownedAttribute xmi:id="_FCmjAGa5Ee6BBZALe8Relw" name="mainContact" type="_S7W3QAaUEe26esJmMoAMaw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oyeqYGa6Ee6BBZALe8Relw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_2cy2kGfLEfGbVfEAqgdTpw" name="agents" type="_ljoYEMrjEe24_rxb3O_v6Q">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4sTbEGfLEfGbVfEAqgdTpw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5EAJYGfLEfGbVfEAqgdTpw" value="*"/>
       </ownedAttribute>
       <interfaceRealization xmi:id="_JfJmEAaVEe26esJmMoAMaw" client="_b08PkOBfEeyy8cy9J23hHA" supplier="_QDLJMAaUEe26esJmMoAMaw" contract="_QDLJMAaUEe26esJmMoAMaw"/>
       <interfaceRealization xmi:id="_bBet4JDNEe2fF8bbmiDNRw" client="_b08PkOBfEeyy8cy9J23hHA">
@@ -891,4 +896,6 @@
   <datafoodconsortium_connector:setter xmi:id="_wA868FOHEfG9ufhsfaAzpg" base_Operation="_unvsUFOHEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:setter xmi:id="_6F1gQFOHEfG9ufhsfaAzpg" base_Operation="_4w34cFOHEfG9ufhsfaAzpg"/>
   <datafoodconsortium_connector:initializer xmi:id="_KMWOwFRiEfGzv7UwDz2lBg" property="_L9i-IFOHEfG9ufhsfaAzpg" base_Parameter="_KLzcMFRiEfGzv7UwDz2lBg"/>
+  <datafoodconsortium_connector:propertyMultiple xmi:id="_-ID5IGfLEfGbVfEAqgdTpw" base_Property="_2cy2kGfLEfGbVfEAqgdTpw"/>
+  <datafoodconsortium_connector:semantic xmi:id="_-IFuUGfLEfGbVfEAqgdTpw" map="dfc-b:affiliates" base_Element="_2cy2kGfLEfGbVfEAqgdTpw"/>
 </xmi:XMI>
