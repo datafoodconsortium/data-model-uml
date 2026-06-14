@@ -1558,7 +1558,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5qPfETFxEfCIUvhwBYVA_g"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_S6P0ijCSEfCIUvhwBYVA_g" name="theoreticalStocks">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        <type xmi:type="uml:Interface" href="sale.uml#_AL3y8A7qEfCgCYDrF-CWdA"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AcjgYDFyEfCIUvhwBYVA_g"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BLK54DFyEfCIUvhwBYVA_g" value="*"/>
       </ownedAttribute>
