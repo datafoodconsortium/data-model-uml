@@ -11,6 +11,28 @@ TODO:
 - Create top classes `Subject` and `Relation` to be generalized by all DFC subjects and relations.
 - Rename IQuantity to IQuantitativeValue (**Breaking change**).
 
+## [4.0.0] - 2026-06-10
+
+This major version implements the ontology version 2 changes. It introduces several breaking changes in the generated code.
+
+### Added
+
+- `SuppliedProduct:constructor` variants parameter
+- `TechnicalProduct:constructor` variants parameter
+
+### Changed
+
+- Domain : isVariantOf, DefinedProduct -> Variant (**BREAKING CHANGE**)
+- Constraint 1:1 for Stock:availabilityDate (**BREAKING CHANGE**)
+- Constraint 1:1 for PaymentMethod:paymentMethodProvider (**BREAKING CHANGE**)
+- Constraint 1:1 for PaymentMethod:paymentMethodType (**BREAKING CHANGE**)
+- Domain : beginDate, (AsPlannedLocalTransformation | AsRealizedTransformation | SaleSession | Shipment | Shipping option) -> (AsPlannedTransformation | AsRealizedTransformation | Catalog | SaleSession | Shipment | Shipping option)
+- Domain : endDate, (AsPlannedLocalTransformation | AsRealizedTransformation | SaleSession | Shipment | Shipping option) -> (AsPlannedTransformation | AsRealizedTransformation | Catalog | SaleSession | Shipment | Shipping option)
+
+### Removed
+
+- The `Enterprise` class has been replaced by `Organization` (**BREAKING CHANGE**).
+
 ## [3.5.0] - 2026-06-15
 
 ### Added
@@ -464,7 +486,8 @@ Classes:
 - sale.uml
 - skos.uml
 
-[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.5.0...HEAD
+[unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v4.0.0...HEAD
+[4.0.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.5.0...v4.0.0
 [3.5.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.4.0...v3.5.0
 [3.4.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.3.0...v3.4.0
 [3.3.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.2.1...v3.3.0
