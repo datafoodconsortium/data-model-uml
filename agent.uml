@@ -226,22 +226,22 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_48sDoGfPEfGbVfEAqgdTpw" name="AgentEmployer">
-      <elementImport xmi:id="_NZI5sGfQEfGbVfEAqgdTpw" importedElement="_ljoYEMrjEe24_rxb3O_v6Q"/>
-      <ownedOperation xmi:id="_NZI5sWfQEfGbVfEAqgdTpw" name="getAffiliatedAgents">
-        <ownedParameter xmi:id="_NZI5smfQEfGbVfEAqgdTpw" name="agents" type="_ljoYEMrjEe24_rxb3O_v6Q" direction="return">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_48sDoGfPEfGbVfEAqgdTpw" name="Employer">
+      <elementImport xmi:id="_NZI5sGfQEfGbVfEAqgdTpw" importedElement="_S7W3QAaUEe26esJmMoAMaw"/>
+      <ownedOperation xmi:id="_NZI5sWfQEfGbVfEAqgdTpw" name="getAffiliates">
+        <ownedParameter xmi:id="_NZI5smfQEfGbVfEAqgdTpw" name="affiliates" type="_S7W3QAaUEe26esJmMoAMaw" direction="return">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NZI5s2fQEfGbVfEAqgdTpw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NZI5tGfQEfGbVfEAqgdTpw" value="*"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_NZI5tWfQEfGbVfEAqgdTpw" name="addAffiliatedAgent">
-        <ownedParameter xmi:id="_NZI5tmfQEfGbVfEAqgdTpw" name="agent" type="_ljoYEMrjEe24_rxb3O_v6Q"/>
+      <ownedOperation xmi:id="_NZI5tWfQEfGbVfEAqgdTpw" name="addAffiliate">
+        <ownedParameter xmi:id="_NZI5tmfQEfGbVfEAqgdTpw" name="affiliate" type="_S7W3QAaUEe26esJmMoAMaw"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_NZI5t2fQEfGbVfEAqgdTpw" name="removeAffiliatedAgent">
-        <ownedParameter xmi:id="_NZI5uGfQEfGbVfEAqgdTpw" name="agent" type="_ljoYEMrjEe24_rxb3O_v6Q"/>
+      <ownedOperation xmi:id="_NZI5t2fQEfGbVfEAqgdTpw" name="removeAffiliate">
+        <ownedParameter xmi:id="_NZI5uGfQEfGbVfEAqgdTpw" name="affiliate" type="_S7W3QAaUEe26esJmMoAMaw"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_NZI5uWfQEfGbVfEAqgdTpw" name="setAffiliatedAgents">
-        <ownedParameter xmi:id="_NZI5umfQEfGbVfEAqgdTpw" name="agents" type="_ljoYEMrjEe24_rxb3O_v6Q">
+      <ownedOperation xmi:id="_NZI5uWfQEfGbVfEAqgdTpw" name="setAffiliates">
+        <ownedParameter xmi:id="_NZI5umfQEfGbVfEAqgdTpw" name="affiliates" type="_S7W3QAaUEe26esJmMoAMaw">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NZI5u2fQEfGbVfEAqgdTpw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NZI5vGfQEfGbVfEAqgdTpw" value="*"/>
         </ownedParameter>
@@ -520,7 +520,7 @@
         <importedElement xmi:type="uml:Interface" href="product.uml#_zm0rgMluEe2sgKS3gBN9sQ"/>
       </elementImport>
       <elementImport xmi:id="_W2WcAGa6Ee6BBZALe8Relw" importedElement="_OXNFcGa6Ee6BBZALe8Relw"/>
-      <elementImport xmi:id="_zXLwgGfLEfGbVfEAqgdTpw" importedElement="_ljoYEMrjEe24_rxb3O_v6Q"/>
+      <elementImport xmi:id="_zXLwgGfLEfGbVfEAqgdTpw" importedElement="_S7W3QAaUEe26esJmMoAMaw"/>
       <generalization xmi:id="_lgQW8OBiEeyy8cy9J23hHA" general="_0m9XsOBfEeyy8cy9J23hHA"/>
       <ownedAttribute xmi:id="_gFHCAHF4Ee6fwJ_a8evYQw" name="name">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -558,7 +558,7 @@
       <ownedAttribute xmi:id="_FCmjAGa5Ee6BBZALe8Relw" name="mainContact" type="_S7W3QAaUEe26esJmMoAMaw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oyeqYGa6Ee6BBZALe8Relw"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_2cy2kGfLEfGbVfEAqgdTpw" name="agents" type="_ljoYEMrjEe24_rxb3O_v6Q">
+      <ownedAttribute xmi:id="_2cy2kGfLEfGbVfEAqgdTpw" name="affiliates" type="_S7W3QAaUEe26esJmMoAMaw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4sTbEGfLEfGbVfEAqgdTpw"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5EAJYGfLEfGbVfEAqgdTpw" value="*"/>
       </ownedAttribute>
@@ -618,7 +618,7 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o4ewoLn8Ee6BZsWClGUxSQ"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_M370oGfREfGbVfEAqgdTpw" name="affiliatedAgents" type="_ljoYEMrjEe24_rxb3O_v6Q">
+        <ownedParameter xmi:id="_M370oGfREfGbVfEAqgdTpw" name="affiliates" type="_S7W3QAaUEe26esJmMoAMaw">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M370oWfREfGbVfEAqgdTpw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QW_8gGfREfGbVfEAqgdTpw" value="*"/>
         </ownedParameter>
