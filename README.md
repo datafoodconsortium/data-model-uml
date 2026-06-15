@@ -9,7 +9,7 @@ To edit these `.uml` files you can use Eclipse with the `Eclipse Modeling Tools`
 ## Overview
 
 The model is divided into several files containing concepts:
-  - agent.uml: `Agent`, `Enterprise`, `Person` and `CustomerCategory`.
+  - agent.uml: `Agent`, `Organization`, `Person` and `CustomerCategory`.
   - common.uml: `Address`, `QuantitativeValue`, measures and facets objects. 
   - connector.uml: the main package that contains all the others.
   - product.uml: `DefinedProduct` and `SuppliedProduct`.

@@ -33,6 +33,18 @@ This major version implements the ontology version 2 changes. It introduces seve
 
 - The `Enterprise` class has been replaced by `Organization` (**BREAKING CHANGE**).
 
+## [3.5.0] - 2026-06-15
+
+### Added
+
+- Add the `Employer` interface.
+- Add `Enterprise:affiliates` property.
+- `Enterprise` implements the `Employer` interface.
+
+### Fixed
+
+- Fix `LocalizedProduct:theoreticalStock` wrong type (Real -> ITheoreticalStock).
+
 ## [3.4.0] - 2026-05-21
 
 This version was created from the [PR#34](https://github.com/datafoodconsortium/data-model-uml/pull/34).
@@ -475,7 +487,8 @@ Classes:
 - skos.uml
 
 [unreleased]: https://github.com/datafoodconsortium/data-model-uml/compare/v4.0.0...HEAD
-[4.0.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.4.0...v4.0.0
+[4.0.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.5.0...v4.0.0
+[3.5.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.4.0...v3.5.0
 [3.4.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.3.0...v3.4.0
 [3.3.0]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.2.1...v3.3.0
 [3.2.1]: https://github.com/datafoodconsortium/data-model-uml/compare/v3.2.0...v3.2.1
